@@ -1,0 +1,3361 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Cloth_Purchase_Return_GST
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle141 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle150 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle142 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle143 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle144 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle145 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle146 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle147 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle148 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle149 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle151 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle159 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle152 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle153 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle154 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle155 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle156 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle157 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle158 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle160 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle170 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle161 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle162 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle163 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle164 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle165 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle166 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle167 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle168 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle169 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle171 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle172 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle173 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle174 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle175 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle176 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle177 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle183 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle178 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle179 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle180 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle181 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle182 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle184 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle188 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle185 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle186 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle187 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle189 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle199 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle190 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle191 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle192 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle193 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle194 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle195 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle196 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle197 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle198 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle200 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle210 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle201 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle202 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle203 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle204 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle205 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle206 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle207 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle208 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle209 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.btn_SaveAll = New System.Windows.Forms.Button()
+        Me.msk_date = New System.Windows.Forms.MaskedTextBox()
+        Me.pnl_Back = New System.Windows.Forms.Panel()
+        Me.btn_UserModification = New System.Windows.Forms.Button()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Cbo_BillMeter = New System.Windows.Forms.ComboBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label96 = New System.Windows.Forms.Label()
+        Me.Label97 = New System.Windows.Forms.Label()
+        Me.lbl_SGST_Amount = New System.Windows.Forms.Label()
+        Me.lbl_IGST_Amount = New System.Windows.Forms.Label()
+        Me.lbl_RoundOff = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.lbl_CGST_Amount = New System.Windows.Forms.Label()
+        Me.Label98 = New System.Windows.Forms.Label()
+        Me.btn_Tax = New System.Windows.Forms.Button()
+        Me.txt_AssessableValue = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.cbo_TaxType = New System.Windows.Forms.ComboBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.btn_ReceiptSelection = New System.Windows.Forms.Button()
+        Me.lbl_TotalMeters = New System.Windows.Forms.Label()
+        Me.lbl_ReceiptCode = New System.Windows.Forms.Label()
+        Me.txt_Note = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.chk_No_Folding = New System.Windows.Forms.CheckBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.lbl_Net_Amt = New System.Windows.Forms.Label()
+        Me.lbl_Cash_Disc_Perc = New System.Windows.Forms.Label()
+        Me.lbl_Trade_Disc_Perc = New System.Windows.Forms.Label()
+        Me.txt_ReturnMeters = New System.Windows.Forms.TextBox()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.txt_Packing_Name = New System.Windows.Forms.TextBox()
+        Me.txt_CashDic_Name = New System.Windows.Forms.TextBox()
+        Me.txt_CommAmt = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.txt_Packing = New System.Windows.Forms.TextBox()
+        Me.txt_Cash_Disc = New System.Windows.Forms.TextBox()
+        Me.txt_Trade_Disc = New System.Windows.Forms.TextBox()
+        Me.txt_Freight_Name = New System.Windows.Forms.TextBox()
+        Me.txt_Insurance_Name = New System.Windows.Forms.TextBox()
+        Me.txt_TradeDic_Name = New System.Windows.Forms.TextBox()
+        Me.txt_Vechile = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.cbo_PurchaseAc = New System.Windows.Forms.ComboBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.txt_ReceiptMeters = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.txt_RecDate = New System.Windows.Forms.TextBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.txt_RecNo = New System.Windows.Forms.TextBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.cbo_Com_Type = New System.Windows.Forms.ComboBox()
+        Me.txt_com_per = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.txt_Freight = New System.Windows.Forms.TextBox()
+        Me.cbo_Type = New System.Windows.Forms.ComboBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.txt_Pcs = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.txt_Bundles = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.btn_Print = New System.Windows.Forms.Button()
+        Me.btn_close = New System.Windows.Forms.Button()
+        Me.btn_save = New System.Windows.Forms.Button()
+        Me.txt_Insurance = New System.Windows.Forms.TextBox()
+        Me.cbo_Grid_Clothtype = New System.Windows.Forms.ComboBox()
+        Me.cbo_Grid_ClothName = New System.Windows.Forms.ComboBox()
+        Me.dgv_Details = New System.Windows.Forms.DataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column22 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column23 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column24 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column26 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column27 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column28 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column37 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column38 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column39 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column40 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column41 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column52 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column53 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgv_Details_Total = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column30 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column31 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column32 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column33 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column34 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column35 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column36 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.txt_ExcShtMeters = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txt_BillNo = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cbo_Transport = New System.Windows.Forms.ComboBox()
+        Me.cbo_Agent = New System.Windows.Forms.ComboBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.lbl_RefNo = New System.Windows.Forms.Label()
+        Me.cbo_PartyName = New System.Windows.Forms.ComboBox()
+        Me.dtp_Date = New System.Windows.Forms.DateTimePicker()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.pnl_Order_Selection = New System.Windows.Forms.Panel()
+        Me.btn_Close_order_Selection = New System.Windows.Forms.Button()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.dgv_Order_Selection = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column42 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column43 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column44 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column45 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column46 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column47 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column48 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column49 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column50 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column51 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.cbo_Filter_PartyName = New System.Windows.Forms.ComboBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.dtp_Filter_ToDate = New System.Windows.Forms.DateTimePicker()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.lbl_UserName = New System.Windows.Forms.Label()
+        Me.dtp_Filter_Fromdate = New System.Windows.Forms.DateTimePicker()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column29 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PrintDocument2 = New System.Drawing.Printing.PrintDocument()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
+        Me.lbl_Company = New System.Windows.Forms.Label()
+        Me.lbl_Heading_Selection = New System.Windows.Forms.Label()
+        Me.pnl_Selection = New System.Windows.Forms.Panel()
+        Me.btn_Close_Selection = New System.Windows.Forms.Button()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.dgv_Selection = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn34 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column25 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn40 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn41 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn42 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.cbo_Filter_ClothName = New System.Windows.Forms.ComboBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.btn_Filter_Close = New System.Windows.Forms.Button()
+        Me.pnl_Filter = New System.Windows.Forms.Panel()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.btn_Filter_Show = New System.Windows.Forms.Button()
+        Me.dgv_Filter_Details = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.pnl_Print = New System.Windows.Forms.Panel()
+        Me.btn_Print_ReverseCharge = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btn_Print_Cancel = New System.Windows.Forms.Button()
+        Me.btn_Print_Receipt = New System.Windows.Forms.Button()
+        Me.Label103 = New System.Windows.Forms.Label()
+        Me.btn_Close_Print = New System.Windows.Forms.Button()
+        Me.Label104 = New System.Windows.Forms.Label()
+        Me.pnl_Tax = New System.Windows.Forms.Panel()
+        Me.btn_Tax_Close = New System.Windows.Forms.Button()
+        Me.Label102 = New System.Windows.Forms.Label()
+        Me.dgv_Tax_Details = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn68 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn69 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn70 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn71 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn72 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn73 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column74 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column75 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column76 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgv_Tax_Total_Details = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn74 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn75 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn76 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn77 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn78 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn79 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column77 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column78 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column79 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btn_EDIT_TCS_TaxableValue = New System.Windows.Forms.Button()
+        Me.txt_TcsPerc = New System.Windows.Forms.TextBox()
+        Me.chk_TCSAmount_RoundOff_STS = New System.Windows.Forms.CheckBox()
+        Me.txt_TCS_TaxableValue = New System.Windows.Forms.TextBox()
+        Me.lbl_TcsAmount = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.txt_Tcs_Name = New System.Windows.Forms.TextBox()
+        Me.chk_TCS_Tax = New System.Windows.Forms.CheckBox()
+        Me.pnl_Back.SuspendLayout()
+        CType(Me.dgv_Details, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_Details_Total, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnl_Order_Selection.SuspendLayout()
+        CType(Me.dgv_Order_Selection, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnl_Selection.SuspendLayout()
+        CType(Me.dgv_Selection, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnl_Filter.SuspendLayout()
+        CType(Me.dgv_Filter_Details, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnl_Print.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnl_Tax.SuspendLayout()
+        CType(Me.dgv_Tax_Details, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_Tax_Total_Details, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'btn_SaveAll
+        '
+        Me.btn_SaveAll.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.btn_SaveAll.ForeColor = System.Drawing.Color.White
+        Me.btn_SaveAll.Location = New System.Drawing.Point(623, 448)
+        Me.btn_SaveAll.Name = "btn_SaveAll"
+        Me.btn_SaveAll.Size = New System.Drawing.Size(68, 28)
+        Me.btn_SaveAll.TabIndex = 275
+        Me.btn_SaveAll.TabStop = False
+        Me.btn_SaveAll.Text = "&SAVE ALL"
+        Me.btn_SaveAll.UseVisualStyleBackColor = False
+        '
+        'msk_date
+        '
+        Me.msk_date.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.msk_date.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Overwrite
+        Me.msk_date.Location = New System.Drawing.Point(214, 4)
+        Me.msk_date.Mask = "00-00-0000"
+        Me.msk_date.Name = "msk_date"
+        Me.msk_date.PromptChar = Global.Microsoft.VisualBasic.ChrW(32)
+        Me.msk_date.Size = New System.Drawing.Size(100, 22)
+        Me.msk_date.TabIndex = 0
+        '
+        'pnl_Back
+        '
+        Me.pnl_Back.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.pnl_Back.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Back.Controls.Add(Me.btn_EDIT_TCS_TaxableValue)
+        Me.pnl_Back.Controls.Add(Me.txt_TcsPerc)
+        Me.pnl_Back.Controls.Add(Me.chk_TCSAmount_RoundOff_STS)
+        Me.pnl_Back.Controls.Add(Me.txt_TCS_TaxableValue)
+        Me.pnl_Back.Controls.Add(Me.lbl_TcsAmount)
+        Me.pnl_Back.Controls.Add(Me.Label46)
+        Me.pnl_Back.Controls.Add(Me.txt_Tcs_Name)
+        Me.pnl_Back.Controls.Add(Me.btn_UserModification)
+        Me.pnl_Back.Controls.Add(Me.Label41)
+        Me.pnl_Back.Controls.Add(Me.Label40)
+        Me.pnl_Back.Controls.Add(Me.Label39)
+        Me.pnl_Back.Controls.Add(Me.Cbo_BillMeter)
+        Me.pnl_Back.Controls.Add(Me.Label27)
+        Me.pnl_Back.Controls.Add(Me.Label96)
+        Me.pnl_Back.Controls.Add(Me.Label97)
+        Me.pnl_Back.Controls.Add(Me.lbl_SGST_Amount)
+        Me.pnl_Back.Controls.Add(Me.lbl_IGST_Amount)
+        Me.pnl_Back.Controls.Add(Me.lbl_RoundOff)
+        Me.pnl_Back.Controls.Add(Me.Label37)
+        Me.pnl_Back.Controls.Add(Me.lbl_CGST_Amount)
+        Me.pnl_Back.Controls.Add(Me.Label98)
+        Me.pnl_Back.Controls.Add(Me.btn_Tax)
+        Me.pnl_Back.Controls.Add(Me.txt_AssessableValue)
+        Me.pnl_Back.Controls.Add(Me.Label23)
+        Me.pnl_Back.Controls.Add(Me.cbo_TaxType)
+        Me.pnl_Back.Controls.Add(Me.Label12)
+        Me.pnl_Back.Controls.Add(Me.btn_SaveAll)
+        Me.pnl_Back.Controls.Add(Me.msk_date)
+        Me.pnl_Back.Controls.Add(Me.Label6)
+        Me.pnl_Back.Controls.Add(Me.btn_ReceiptSelection)
+        Me.pnl_Back.Controls.Add(Me.lbl_TotalMeters)
+        Me.pnl_Back.Controls.Add(Me.txt_Note)
+        Me.pnl_Back.Controls.Add(Me.Label3)
+        Me.pnl_Back.Controls.Add(Me.chk_No_Folding)
+        Me.pnl_Back.Controls.Add(Me.Label33)
+        Me.pnl_Back.Controls.Add(Me.Label28)
+        Me.pnl_Back.Controls.Add(Me.lbl_Net_Amt)
+        Me.pnl_Back.Controls.Add(Me.lbl_Cash_Disc_Perc)
+        Me.pnl_Back.Controls.Add(Me.lbl_Trade_Disc_Perc)
+        Me.pnl_Back.Controls.Add(Me.txt_ReturnMeters)
+        Me.pnl_Back.Controls.Add(Me.Label26)
+        Me.pnl_Back.Controls.Add(Me.txt_Packing_Name)
+        Me.pnl_Back.Controls.Add(Me.txt_CashDic_Name)
+        Me.pnl_Back.Controls.Add(Me.txt_CommAmt)
+        Me.pnl_Back.Controls.Add(Me.Label9)
+        Me.pnl_Back.Controls.Add(Me.Label15)
+        Me.pnl_Back.Controls.Add(Me.txt_Packing)
+        Me.pnl_Back.Controls.Add(Me.txt_Cash_Disc)
+        Me.pnl_Back.Controls.Add(Me.txt_Trade_Disc)
+        Me.pnl_Back.Controls.Add(Me.txt_Freight_Name)
+        Me.pnl_Back.Controls.Add(Me.txt_Insurance_Name)
+        Me.pnl_Back.Controls.Add(Me.txt_TradeDic_Name)
+        Me.pnl_Back.Controls.Add(Me.txt_Vechile)
+        Me.pnl_Back.Controls.Add(Me.Label24)
+        Me.pnl_Back.Controls.Add(Me.Label25)
+        Me.pnl_Back.Controls.Add(Me.cbo_PurchaseAc)
+        Me.pnl_Back.Controls.Add(Me.Label22)
+        Me.pnl_Back.Controls.Add(Me.Label20)
+        Me.pnl_Back.Controls.Add(Me.txt_ReceiptMeters)
+        Me.pnl_Back.Controls.Add(Me.Label21)
+        Me.pnl_Back.Controls.Add(Me.txt_RecDate)
+        Me.pnl_Back.Controls.Add(Me.Label19)
+        Me.pnl_Back.Controls.Add(Me.txt_RecNo)
+        Me.pnl_Back.Controls.Add(Me.Label18)
+        Me.pnl_Back.Controls.Add(Me.cbo_Com_Type)
+        Me.pnl_Back.Controls.Add(Me.txt_com_per)
+        Me.pnl_Back.Controls.Add(Me.Label17)
+        Me.pnl_Back.Controls.Add(Me.txt_Freight)
+        Me.pnl_Back.Controls.Add(Me.cbo_Type)
+        Me.pnl_Back.Controls.Add(Me.Label14)
+        Me.pnl_Back.Controls.Add(Me.txt_Pcs)
+        Me.pnl_Back.Controls.Add(Me.Label13)
+        Me.pnl_Back.Controls.Add(Me.txt_Bundles)
+        Me.pnl_Back.Controls.Add(Me.Label11)
+        Me.pnl_Back.Controls.Add(Me.btn_Print)
+        Me.pnl_Back.Controls.Add(Me.btn_close)
+        Me.pnl_Back.Controls.Add(Me.btn_save)
+        Me.pnl_Back.Controls.Add(Me.txt_Insurance)
+        Me.pnl_Back.Controls.Add(Me.cbo_Grid_Clothtype)
+        Me.pnl_Back.Controls.Add(Me.cbo_Grid_ClothName)
+        Me.pnl_Back.Controls.Add(Me.dgv_Details)
+        Me.pnl_Back.Controls.Add(Me.dgv_Details_Total)
+        Me.pnl_Back.Controls.Add(Me.txt_ExcShtMeters)
+        Me.pnl_Back.Controls.Add(Me.Label8)
+        Me.pnl_Back.Controls.Add(Me.txt_BillNo)
+        Me.pnl_Back.Controls.Add(Me.Label7)
+        Me.pnl_Back.Controls.Add(Me.cbo_Transport)
+        Me.pnl_Back.Controls.Add(Me.cbo_Agent)
+        Me.pnl_Back.Controls.Add(Me.Label16)
+        Me.pnl_Back.Controls.Add(Me.lbl_RefNo)
+        Me.pnl_Back.Controls.Add(Me.cbo_PartyName)
+        Me.pnl_Back.Controls.Add(Me.dtp_Date)
+        Me.pnl_Back.Controls.Add(Me.Label4)
+        Me.pnl_Back.Controls.Add(Me.Label5)
+        Me.pnl_Back.Controls.Add(Me.Label2)
+        Me.pnl_Back.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pnl_Back.Location = New System.Drawing.Point(6, 42)
+        Me.pnl_Back.Name = "pnl_Back"
+        Me.pnl_Back.Size = New System.Drawing.Size(955, 485)
+        Me.pnl_Back.TabIndex = 270
+        '
+        'btn_UserModification
+        '
+        Me.btn_UserModification.BackColor = System.Drawing.Color.OrangeRed
+        Me.btn_UserModification.ForeColor = System.Drawing.Color.White
+        Me.btn_UserModification.Location = New System.Drawing.Point(491, 453)
+        Me.btn_UserModification.Name = "btn_UserModification"
+        Me.btn_UserModification.Size = New System.Drawing.Size(103, 25)
+        Me.btn_UserModification.TabIndex = 1162
+        Me.btn_UserModification.TabStop = False
+        Me.btn_UserModification.Text = "MODIFICATION"
+        Me.btn_UserModification.UseVisualStyleBackColor = False
+        Me.btn_UserModification.Visible = False
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.Red
+        Me.Label41.Location = New System.Drawing.Point(47, 38)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(13, 15)
+        Me.Label41.TabIndex = 309
+        Me.Label41.Text = "*"
+        Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.Color.Red
+        Me.Label40.Location = New System.Drawing.Point(398, 9)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(13, 15)
+        Me.Label40.TabIndex = 309
+        Me.Label40.Text = "*"
+        Me.Label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.ForeColor = System.Drawing.Color.Red
+        Me.Label39.Location = New System.Drawing.Point(199, 8)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(13, 15)
+        Me.Label39.TabIndex = 309
+        Me.Label39.Text = "*"
+        Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Cbo_BillMeter
+        '
+        Me.Cbo_BillMeter.DropDownHeight = 150
+        Me.Cbo_BillMeter.FormattingEnabled = True
+        Me.Cbo_BillMeter.IntegralHeight = False
+        Me.Cbo_BillMeter.Location = New System.Drawing.Point(748, 64)
+        Me.Cbo_BillMeter.Name = "Cbo_BillMeter"
+        Me.Cbo_BillMeter.Size = New System.Drawing.Size(186, 23)
+        Me.Cbo_BillMeter.Sorted = True
+        Me.Cbo_BillMeter.TabIndex = 14
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.Blue
+        Me.Label27.Location = New System.Drawing.Point(683, 67)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(61, 15)
+        Me.Label27.TabIndex = 1153
+        Me.Label27.Text = "Bill Meter"
+        '
+        'Label96
+        '
+        Me.Label96.BackColor = System.Drawing.Color.Transparent
+        Me.Label96.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label96.ForeColor = System.Drawing.Color.Blue
+        Me.Label96.Location = New System.Drawing.Point(366, 368)
+        Me.Label96.Name = "Label96"
+        Me.Label96.Size = New System.Drawing.Size(71, 22)
+        Me.Label96.TabIndex = 1151
+        Me.Label96.Text = "IGST  Value"
+        Me.Label96.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label97
+        '
+        Me.Label97.BackColor = System.Drawing.Color.Transparent
+        Me.Label97.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label97.ForeColor = System.Drawing.Color.Blue
+        Me.Label97.Location = New System.Drawing.Point(208, 368)
+        Me.Label97.Name = "Label97"
+        Me.Label97.Size = New System.Drawing.Size(43, 21)
+        Me.Label97.TabIndex = 1150
+        Me.Label97.Text = "SGST "
+        Me.Label97.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lbl_SGST_Amount
+        '
+        Me.lbl_SGST_Amount.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lbl_SGST_Amount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_SGST_Amount.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_SGST_Amount.Location = New System.Drawing.Point(257, 366)
+        Me.lbl_SGST_Amount.Name = "lbl_SGST_Amount"
+        Me.lbl_SGST_Amount.Size = New System.Drawing.Size(88, 23)
+        Me.lbl_SGST_Amount.TabIndex = 1149
+        Me.lbl_SGST_Amount.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl_IGST_Amount
+        '
+        Me.lbl_IGST_Amount.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lbl_IGST_Amount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_IGST_Amount.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_IGST_Amount.Location = New System.Drawing.Point(449, 366)
+        Me.lbl_IGST_Amount.Name = "lbl_IGST_Amount"
+        Me.lbl_IGST_Amount.Size = New System.Drawing.Size(175, 23)
+        Me.lbl_IGST_Amount.TabIndex = 1148
+        Me.lbl_IGST_Amount.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl_RoundOff
+        '
+        Me.lbl_RoundOff.BackColor = System.Drawing.Color.White
+        Me.lbl_RoundOff.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_RoundOff.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_RoundOff.Location = New System.Drawing.Point(699, 397)
+        Me.lbl_RoundOff.Name = "lbl_RoundOff"
+        Me.lbl_RoundOff.Size = New System.Drawing.Size(124, 23)
+        Me.lbl_RoundOff.TabIndex = 1145
+        Me.lbl_RoundOff.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.lbl_RoundOff.Visible = False
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.Blue
+        Me.Label37.Location = New System.Drawing.Point(628, 401)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(62, 15)
+        Me.Label37.TabIndex = 1144
+        Me.Label37.Text = "Round Off"
+        Me.Label37.Visible = False
+        '
+        'lbl_CGST_Amount
+        '
+        Me.lbl_CGST_Amount.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lbl_CGST_Amount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_CGST_Amount.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_CGST_Amount.Location = New System.Drawing.Point(113, 366)
+        Me.lbl_CGST_Amount.Name = "lbl_CGST_Amount"
+        Me.lbl_CGST_Amount.Size = New System.Drawing.Size(89, 23)
+        Me.lbl_CGST_Amount.TabIndex = 1143
+        Me.lbl_CGST_Amount.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label98
+        '
+        Me.Label98.BackColor = System.Drawing.Color.Transparent
+        Me.Label98.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label98.ForeColor = System.Drawing.Color.Blue
+        Me.Label98.Location = New System.Drawing.Point(14, 368)
+        Me.Label98.Name = "Label98"
+        Me.Label98.Size = New System.Drawing.Size(92, 21)
+        Me.Label98.TabIndex = 1142
+        Me.Label98.Text = "CGST  Value"
+        Me.Label98.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'btn_Tax
+        '
+        Me.btn_Tax.BackColor = System.Drawing.Color.Purple
+        Me.btn_Tax.ForeColor = System.Drawing.Color.White
+        Me.btn_Tax.Location = New System.Drawing.Point(902, 335)
+        Me.btn_Tax.Name = "btn_Tax"
+        Me.btn_Tax.Size = New System.Drawing.Size(36, 26)
+        Me.btn_Tax.TabIndex = 1141
+        Me.btn_Tax.TabStop = False
+        Me.btn_Tax.Text = "&TAX"
+        Me.btn_Tax.UseVisualStyleBackColor = False
+        '
+        'txt_AssessableValue
+        '
+        Me.txt_AssessableValue.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.txt_AssessableValue.Enabled = False
+        Me.txt_AssessableValue.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_AssessableValue.Location = New System.Drawing.Point(747, 336)
+        Me.txt_AssessableValue.MaxLength = 11
+        Me.txt_AssessableValue.Name = "txt_AssessableValue"
+        Me.txt_AssessableValue.Size = New System.Drawing.Size(149, 23)
+        Me.txt_AssessableValue.TabIndex = 1140
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.Blue
+        Me.Label23.Location = New System.Drawing.Point(639, 340)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(80, 15)
+        Me.Label23.TabIndex = 1139
+        Me.Label23.Text = "Taxable Value"
+        '
+        'cbo_TaxType
+        '
+        Me.cbo_TaxType.DropDownHeight = 150
+        Me.cbo_TaxType.FormattingEnabled = True
+        Me.cbo_TaxType.IntegralHeight = False
+        Me.cbo_TaxType.Location = New System.Drawing.Point(225, 34)
+        Me.cbo_TaxType.Name = "cbo_TaxType"
+        Me.cbo_TaxType.Size = New System.Drawing.Size(101, 23)
+        Me.cbo_TaxType.Sorted = True
+        Me.cbo_TaxType.TabIndex = 4
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Blue
+        Me.Label12.Location = New System.Drawing.Point(167, 38)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(53, 15)
+        Me.Label12.TabIndex = 277
+        Me.Label12.Text = "Tax Type"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Blue
+        Me.Label6.Location = New System.Drawing.Point(642, 370)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(81, 15)
+        Me.Label6.TabIndex = 258
+        Me.Label6.Text = "Total Amount"
+        '
+        'btn_ReceiptSelection
+        '
+        Me.btn_ReceiptSelection.BackColor = System.Drawing.Color.MediumVioletRed
+        Me.btn_ReceiptSelection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_ReceiptSelection.Location = New System.Drawing.Point(909, 4)
+        Me.btn_ReceiptSelection.Name = "btn_ReceiptSelection"
+        Me.btn_ReceiptSelection.Size = New System.Drawing.Size(26, 23)
+        Me.btn_ReceiptSelection.TabIndex = 2
+        Me.btn_ReceiptSelection.TabStop = False
+        Me.btn_ReceiptSelection.Text = "..."
+        Me.btn_ReceiptSelection.UseVisualStyleBackColor = False
+        '
+        'lbl_TotalMeters
+        '
+        Me.lbl_TotalMeters.BackColor = System.Drawing.Color.White
+        Me.lbl_TotalMeters.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_TotalMeters.Location = New System.Drawing.Point(748, 276)
+        Me.lbl_TotalMeters.Name = "lbl_TotalMeters"
+        Me.lbl_TotalMeters.Size = New System.Drawing.Size(187, 23)
+        Me.lbl_TotalMeters.TabIndex = 257
+        Me.lbl_TotalMeters.Text = "lbl_TotalMeters"
+        Me.lbl_TotalMeters.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lbl_ReceiptCode
+        '
+        Me.lbl_ReceiptCode.AutoSize = True
+        Me.lbl_ReceiptCode.BackColor = System.Drawing.Color.Red
+        Me.lbl_ReceiptCode.Location = New System.Drawing.Point(653, 7)
+        Me.lbl_ReceiptCode.Name = "lbl_ReceiptCode"
+        Me.lbl_ReceiptCode.Size = New System.Drawing.Size(95, 15)
+        Me.lbl_ReceiptCode.TabIndex = 1
+        Me.lbl_ReceiptCode.Text = "lbl_ReceiptCode"
+        Me.lbl_ReceiptCode.Visible = False
+        '
+        'txt_Note
+        '
+        Me.txt_Note.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Note.Location = New System.Drawing.Point(449, 398)
+        Me.txt_Note.MaxLength = 50
+        Me.txt_Note.Name = "txt_Note"
+        Me.txt_Note.Size = New System.Drawing.Size(177, 23)
+        Me.txt_Note.TabIndex = 25
+        Me.txt_Note.Text = "txt_Note"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Blue
+        Me.Label3.Location = New System.Drawing.Point(386, 406)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(35, 15)
+        Me.Label3.TabIndex = 256
+        Me.Label3.Text = "Note"
+        '
+        'chk_No_Folding
+        '
+        Me.chk_No_Folding.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chk_No_Folding.ForeColor = System.Drawing.Color.Black
+        Me.chk_No_Folding.Location = New System.Drawing.Point(829, 398)
+        Me.chk_No_Folding.Name = "chk_No_Folding"
+        Me.chk_No_Folding.Size = New System.Drawing.Size(112, 24)
+        Me.chk_No_Folding.TabIndex = 253
+        Me.chk_No_Folding.TabStop = False
+        Me.chk_No_Folding.Text = "&No Folding Rate"
+        Me.chk_No_Folding.UseVisualStyleBackColor = True
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.MediumBlue
+        Me.Label33.Location = New System.Drawing.Point(867, 38)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(17, 19)
+        Me.Label33.TabIndex = 209
+        Me.Label33.Text = "="
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.MediumBlue
+        Me.Label28.Location = New System.Drawing.Point(797, 38)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(16, 19)
+        Me.Label28.TabIndex = 208
+        Me.Label28.Text = "/"
+        '
+        'lbl_Net_Amt
+        '
+        Me.lbl_Net_Amt.BackColor = System.Drawing.Color.White
+        Me.lbl_Net_Amt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_Net_Amt.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Net_Amt.Location = New System.Drawing.Point(748, 366)
+        Me.lbl_Net_Amt.Name = "lbl_Net_Amt"
+        Me.lbl_Net_Amt.Size = New System.Drawing.Size(187, 23)
+        Me.lbl_Net_Amt.TabIndex = 207
+        Me.lbl_Net_Amt.Text = "lbl_Net_Amt"
+        Me.lbl_Net_Amt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lbl_Cash_Disc_Perc
+        '
+        Me.lbl_Cash_Disc_Perc.BackColor = System.Drawing.Color.White
+        Me.lbl_Cash_Disc_Perc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_Cash_Disc_Perc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Cash_Disc_Perc.Location = New System.Drawing.Point(257, 336)
+        Me.lbl_Cash_Disc_Perc.Name = "lbl_Cash_Disc_Perc"
+        Me.lbl_Cash_Disc_Perc.Size = New System.Drawing.Size(88, 23)
+        Me.lbl_Cash_Disc_Perc.TabIndex = 33
+        Me.lbl_Cash_Disc_Perc.Text = "lbl_Cash_Disc_Perc"
+        Me.lbl_Cash_Disc_Perc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lbl_Trade_Disc_Perc
+        '
+        Me.lbl_Trade_Disc_Perc.BackColor = System.Drawing.Color.White
+        Me.lbl_Trade_Disc_Perc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_Trade_Disc_Perc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Trade_Disc_Perc.Location = New System.Drawing.Point(257, 306)
+        Me.lbl_Trade_Disc_Perc.Name = "lbl_Trade_Disc_Perc"
+        Me.lbl_Trade_Disc_Perc.Size = New System.Drawing.Size(88, 23)
+        Me.lbl_Trade_Disc_Perc.TabIndex = 21
+        Me.lbl_Trade_Disc_Perc.Text = "lbl_Trade_Disc_Perc"
+        Me.lbl_Trade_Disc_Perc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'txt_ReturnMeters
+        '
+        Me.txt_ReturnMeters.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_ReturnMeters.Location = New System.Drawing.Point(113, 276)
+        Me.txt_ReturnMeters.MaxLength = 12
+        Me.txt_ReturnMeters.Name = "txt_ReturnMeters"
+        Me.txt_ReturnMeters.Size = New System.Drawing.Size(232, 23)
+        Me.txt_ReturnMeters.TabIndex = 18
+        Me.txt_ReturnMeters.Text = "txt_ReturnMeters"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.Blue
+        Me.Label26.Location = New System.Drawing.Point(12, 280)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(77, 15)
+        Me.Label26.TabIndex = 204
+        Me.Label26.Text = "Return .Mtrs"
+        '
+        'txt_Packing_Name
+        '
+        Me.txt_Packing_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_Packing_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_Packing_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Packing_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_Packing_Name.Location = New System.Drawing.Point(645, 310)
+        Me.txt_Packing_Name.MaxLength = 20
+        Me.txt_Packing_Name.Name = "txt_Packing_Name"
+        Me.txt_Packing_Name.Size = New System.Drawing.Size(92, 16)
+        Me.txt_Packing_Name.TabIndex = 38
+        Me.txt_Packing_Name.TabStop = False
+        Me.txt_Packing_Name.Text = "Packing"
+        '
+        'txt_CashDic_Name
+        '
+        Me.txt_CashDic_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_CashDic_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_CashDic_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_CashDic_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_CashDic_Name.Location = New System.Drawing.Point(14, 340)
+        Me.txt_CashDic_Name.MaxLength = 20
+        Me.txt_CashDic_Name.Name = "txt_CashDic_Name"
+        Me.txt_CashDic_Name.Size = New System.Drawing.Size(93, 16)
+        Me.txt_CashDic_Name.TabIndex = 31
+        Me.txt_CashDic_Name.TabStop = False
+        Me.txt_CashDic_Name.Text = "Cash Discount"
+        '
+        'txt_CommAmt
+        '
+        Me.txt_CommAmt.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_CommAmt.Location = New System.Drawing.Point(885, 34)
+        Me.txt_CommAmt.MaxLength = 5
+        Me.txt_CommAmt.Name = "txt_CommAmt"
+        Me.txt_CommAmt.Size = New System.Drawing.Size(51, 23)
+        Me.txt_CommAmt.TabIndex = 8
+        Me.txt_CommAmt.TabStop = False
+        Me.txt_CommAmt.Text = "txt_CommAmt"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Label9.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Blue
+        Me.Label9.Location = New System.Drawing.Point(226, 310)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(16, 15)
+        Me.Label9.TabIndex = 202
+        Me.Label9.Text = "%"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Label15.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Blue
+        Me.Label15.Location = New System.Drawing.Point(226, 340)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(16, 15)
+        Me.Label15.TabIndex = 201
+        Me.Label15.Text = "%"
+        '
+        'txt_Packing
+        '
+        Me.txt_Packing.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Packing.Location = New System.Drawing.Point(748, 306)
+        Me.txt_Packing.MaxLength = 20
+        Me.txt_Packing.Name = "txt_Packing"
+        Me.txt_Packing.Size = New System.Drawing.Size(188, 23)
+        Me.txt_Packing.TabIndex = 22
+        Me.txt_Packing.Text = "txt_Packing"
+        '
+        'txt_Cash_Disc
+        '
+        Me.txt_Cash_Disc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Cash_Disc.Location = New System.Drawing.Point(113, 336)
+        Me.txt_Cash_Disc.MaxLength = 20
+        Me.txt_Cash_Disc.Name = "txt_Cash_Disc"
+        Me.txt_Cash_Disc.Size = New System.Drawing.Size(89, 23)
+        Me.txt_Cash_Disc.TabIndex = 23
+        Me.txt_Cash_Disc.Text = "txt_Cash_Disc"
+        '
+        'txt_Trade_Disc
+        '
+        Me.txt_Trade_Disc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Trade_Disc.Location = New System.Drawing.Point(112, 306)
+        Me.txt_Trade_Disc.MaxLength = 20
+        Me.txt_Trade_Disc.Name = "txt_Trade_Disc"
+        Me.txt_Trade_Disc.Size = New System.Drawing.Size(88, 23)
+        Me.txt_Trade_Disc.TabIndex = 20
+        Me.txt_Trade_Disc.Text = "txt_Trade_Disc"
+        '
+        'txt_Freight_Name
+        '
+        Me.txt_Freight_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_Freight_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_Freight_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Freight_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_Freight_Name.Location = New System.Drawing.Point(369, 310)
+        Me.txt_Freight_Name.MaxLength = 20
+        Me.txt_Freight_Name.Name = "txt_Freight_Name"
+        Me.txt_Freight_Name.Size = New System.Drawing.Size(74, 16)
+        Me.txt_Freight_Name.TabIndex = 34
+        Me.txt_Freight_Name.TabStop = False
+        Me.txt_Freight_Name.Text = "Freight"
+        '
+        'txt_Insurance_Name
+        '
+        Me.txt_Insurance_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_Insurance_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_Insurance_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Insurance_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_Insurance_Name.Location = New System.Drawing.Point(369, 340)
+        Me.txt_Insurance_Name.MaxLength = 20
+        Me.txt_Insurance_Name.Name = "txt_Insurance_Name"
+        Me.txt_Insurance_Name.Size = New System.Drawing.Size(74, 16)
+        Me.txt_Insurance_Name.TabIndex = 36
+        Me.txt_Insurance_Name.TabStop = False
+        Me.txt_Insurance_Name.Text = "Insurance"
+        '
+        'txt_TradeDic_Name
+        '
+        Me.txt_TradeDic_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_TradeDic_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_TradeDic_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_TradeDic_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_TradeDic_Name.Location = New System.Drawing.Point(14, 310)
+        Me.txt_TradeDic_Name.MaxLength = 20
+        Me.txt_TradeDic_Name.Name = "txt_TradeDic_Name"
+        Me.txt_TradeDic_Name.Size = New System.Drawing.Size(93, 16)
+        Me.txt_TradeDic_Name.TabIndex = 28
+        Me.txt_TradeDic_Name.TabStop = False
+        Me.txt_TradeDic_Name.Text = "Trade Discount"
+        '
+        'txt_Vechile
+        '
+        Me.txt_Vechile.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Vechile.Location = New System.Drawing.Point(748, 94)
+        Me.txt_Vechile.MaxLength = 30
+        Me.txt_Vechile.Name = "txt_Vechile"
+        Me.txt_Vechile.Size = New System.Drawing.Size(187, 23)
+        Me.txt_Vechile.TabIndex = 17
+        Me.txt_Vechile.Text = "txt_Vechile"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Blue
+        Me.Label24.Location = New System.Drawing.Point(683, 98)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(46, 15)
+        Me.Label24.TabIndex = 188
+        Me.Label24.Text = "Vechile"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.ForeColor = System.Drawing.Color.Blue
+        Me.Label25.Location = New System.Drawing.Point(329, 98)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(59, 15)
+        Me.Label25.TabIndex = 187
+        Me.Label25.Text = "Transport"
+        '
+        'cbo_PurchaseAc
+        '
+        Me.cbo_PurchaseAc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_PurchaseAc.FormattingEnabled = True
+        Me.cbo_PurchaseAc.Location = New System.Drawing.Point(82, 94)
+        Me.cbo_PurchaseAc.MaxDropDownItems = 15
+        Me.cbo_PurchaseAc.MaxLength = 50
+        Me.cbo_PurchaseAc.Name = "cbo_PurchaseAc"
+        Me.cbo_PurchaseAc.Size = New System.Drawing.Size(244, 23)
+        Me.cbo_PurchaseAc.Sorted = True
+        Me.cbo_PurchaseAc.TabIndex = 15
+        Me.cbo_PurchaseAc.Text = "cbo_PurchaseAc"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Blue
+        Me.Label22.Location = New System.Drawing.Point(3, 98)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(78, 15)
+        Me.Label22.TabIndex = 182
+        Me.Label22.Text = "Purchase A/c"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Blue
+        Me.Label20.Location = New System.Drawing.Point(642, 280)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(76, 15)
+        Me.Label20.TabIndex = 180
+        Me.Label20.Text = "Total Meters"
+        '
+        'txt_ReceiptMeters
+        '
+        Me.txt_ReceiptMeters.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_ReceiptMeters.Location = New System.Drawing.Point(593, 63)
+        Me.txt_ReceiptMeters.MaxLength = 10
+        Me.txt_ReceiptMeters.Name = "txt_ReceiptMeters"
+        Me.txt_ReceiptMeters.Size = New System.Drawing.Size(84, 23)
+        Me.txt_ReceiptMeters.TabIndex = 13
+        Me.txt_ReceiptMeters.Text = "txt_ReceiptMeters"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Blue
+        Me.Label21.Location = New System.Drawing.Point(539, 68)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(55, 15)
+        Me.Label21.TabIndex = 178
+        Me.Label21.Text = "Rec Mtrs"
+        '
+        'txt_RecDate
+        '
+        Me.txt_RecDate.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_RecDate.Location = New System.Drawing.Point(225, 64)
+        Me.txt_RecDate.MaxLength = 10
+        Me.txt_RecDate.Name = "txt_RecDate"
+        Me.txt_RecDate.Size = New System.Drawing.Size(101, 23)
+        Me.txt_RecDate.TabIndex = 10
+        Me.txt_RecDate.Text = "txt_RecDate"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Blue
+        Me.Label19.Location = New System.Drawing.Point(167, 68)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(55, 15)
+        Me.Label19.TabIndex = 176
+        Me.Label19.Text = "Rec Date"
+        '
+        'txt_RecNo
+        '
+        Me.txt_RecNo.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_RecNo.Location = New System.Drawing.Point(82, 64)
+        Me.txt_RecNo.MaxLength = 10
+        Me.txt_RecNo.Name = "txt_RecNo"
+        Me.txt_RecNo.Size = New System.Drawing.Size(84, 23)
+        Me.txt_RecNo.TabIndex = 9
+        Me.txt_RecNo.Text = "txt_RecNo"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.Blue
+        Me.Label18.Location = New System.Drawing.Point(6, 68)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(45, 15)
+        Me.Label18.TabIndex = 174
+        Me.Label18.Text = "Rec No"
+        '
+        'cbo_Com_Type
+        '
+        Me.cbo_Com_Type.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Com_Type.FormattingEnabled = True
+        Me.cbo_Com_Type.Location = New System.Drawing.Point(816, 34)
+        Me.cbo_Com_Type.MaxDropDownItems = 15
+        Me.cbo_Com_Type.MaxLength = 50
+        Me.cbo_Com_Type.Name = "cbo_Com_Type"
+        Me.cbo_Com_Type.Size = New System.Drawing.Size(45, 23)
+        Me.cbo_Com_Type.Sorted = True
+        Me.cbo_Com_Type.TabIndex = 7
+        Me.cbo_Com_Type.TabStop = False
+        Me.cbo_Com_Type.Text = "cbo_Com_Type"
+        '
+        'txt_com_per
+        '
+        Me.txt_com_per.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_com_per.Location = New System.Drawing.Point(749, 34)
+        Me.txt_com_per.MaxLength = 5
+        Me.txt_com_per.Name = "txt_com_per"
+        Me.txt_com_per.Size = New System.Drawing.Size(43, 23)
+        Me.txt_com_per.TabIndex = 6
+        Me.txt_com_per.Text = "txt_com_per"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.MediumBlue
+        Me.Label17.Location = New System.Drawing.Point(683, 38)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(43, 15)
+        Me.Label17.TabIndex = 172
+        Me.Label17.Text = "Comm"
+        '
+        'txt_Freight
+        '
+        Me.txt_Freight.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Freight.Location = New System.Drawing.Point(449, 306)
+        Me.txt_Freight.MaxLength = 20
+        Me.txt_Freight.Name = "txt_Freight"
+        Me.txt_Freight.Size = New System.Drawing.Size(175, 23)
+        Me.txt_Freight.TabIndex = 21
+        Me.txt_Freight.Text = "txt_Freight"
+        '
+        'cbo_Type
+        '
+        Me.cbo_Type.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Type.FormattingEnabled = True
+        Me.cbo_Type.Location = New System.Drawing.Point(749, 4)
+        Me.cbo_Type.Name = "cbo_Type"
+        Me.cbo_Type.Size = New System.Drawing.Size(155, 23)
+        Me.cbo_Type.TabIndex = 2
+        Me.cbo_Type.Text = "cbo_Type"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.Color.Blue
+        Me.Label14.Location = New System.Drawing.Point(683, 8)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(33, 15)
+        Me.Label14.TabIndex = 166
+        Me.Label14.Text = "Type"
+        '
+        'txt_Pcs
+        '
+        Me.txt_Pcs.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Pcs.Location = New System.Drawing.Point(486, 64)
+        Me.txt_Pcs.MaxLength = 10
+        Me.txt_Pcs.Name = "txt_Pcs"
+        Me.txt_Pcs.Size = New System.Drawing.Size(51, 23)
+        Me.txt_Pcs.TabIndex = 12
+        Me.txt_Pcs.Text = "txt_Pcs"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Blue
+        Me.Label13.Location = New System.Drawing.Point(463, 68)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(24, 15)
+        Me.Label13.TabIndex = 164
+        Me.Label13.Text = "Pcs"
+        '
+        'txt_Bundles
+        '
+        Me.txt_Bundles.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Bundles.Location = New System.Drawing.Point(414, 64)
+        Me.txt_Bundles.MaxLength = 10
+        Me.txt_Bundles.Name = "txt_Bundles"
+        Me.txt_Bundles.Size = New System.Drawing.Size(46, 23)
+        Me.txt_Bundles.TabIndex = 11
+        Me.txt_Bundles.Text = "txt_Bundles"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(329, 68)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(50, 15)
+        Me.Label11.TabIndex = 160
+        Me.Label11.Text = "Bundles"
+        '
+        'btn_Print
+        '
+        Me.btn_Print.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.btn_Print.ForeColor = System.Drawing.Color.White
+        Me.btn_Print.Location = New System.Drawing.Point(783, 448)
+        Me.btn_Print.Name = "btn_Print"
+        Me.btn_Print.Size = New System.Drawing.Size(73, 30)
+        Me.btn_Print.TabIndex = 27
+        Me.btn_Print.TabStop = False
+        Me.btn_Print.Text = "&PRINT"
+        Me.btn_Print.UseVisualStyleBackColor = False
+        '
+        'btn_close
+        '
+        Me.btn_close.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.btn_close.ForeColor = System.Drawing.Color.White
+        Me.btn_close.Location = New System.Drawing.Point(865, 448)
+        Me.btn_close.Name = "btn_close"
+        Me.btn_close.Size = New System.Drawing.Size(73, 30)
+        Me.btn_close.TabIndex = 28
+        Me.btn_close.TabStop = False
+        Me.btn_close.Text = "&CLOSE"
+        Me.btn_close.UseVisualStyleBackColor = False
+        '
+        'btn_save
+        '
+        Me.btn_save.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.btn_save.ForeColor = System.Drawing.Color.White
+        Me.btn_save.Location = New System.Drawing.Point(701, 448)
+        Me.btn_save.Name = "btn_save"
+        Me.btn_save.Size = New System.Drawing.Size(73, 30)
+        Me.btn_save.TabIndex = 26
+        Me.btn_save.TabStop = False
+        Me.btn_save.Text = "&SAVE"
+        Me.btn_save.UseVisualStyleBackColor = False
+        '
+        'txt_Insurance
+        '
+        Me.txt_Insurance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Insurance.Location = New System.Drawing.Point(449, 336)
+        Me.txt_Insurance.MaxLength = 20
+        Me.txt_Insurance.Name = "txt_Insurance"
+        Me.txt_Insurance.Size = New System.Drawing.Size(175, 23)
+        Me.txt_Insurance.TabIndex = 24
+        Me.txt_Insurance.Text = "txt_Insurance"
+        '
+        'cbo_Grid_Clothtype
+        '
+        Me.cbo_Grid_Clothtype.FormattingEnabled = True
+        Me.cbo_Grid_Clothtype.Location = New System.Drawing.Point(301, 198)
+        Me.cbo_Grid_Clothtype.Name = "cbo_Grid_Clothtype"
+        Me.cbo_Grid_Clothtype.Size = New System.Drawing.Size(131, 23)
+        Me.cbo_Grid_Clothtype.TabIndex = 27
+        Me.cbo_Grid_Clothtype.TabStop = False
+        Me.cbo_Grid_Clothtype.Text = "cbo_Grid_Clothtype"
+        '
+        'cbo_Grid_ClothName
+        '
+        Me.cbo_Grid_ClothName.FormattingEnabled = True
+        Me.cbo_Grid_ClothName.Location = New System.Drawing.Point(52, 198)
+        Me.cbo_Grid_ClothName.Name = "cbo_Grid_ClothName"
+        Me.cbo_Grid_ClothName.Size = New System.Drawing.Size(190, 23)
+        Me.cbo_Grid_ClothName.TabIndex = 26
+        Me.cbo_Grid_ClothName.TabStop = False
+        Me.cbo_Grid_ClothName.Text = "cbo_Grid_ClothName"
+        '
+        'dgv_Details
+        '
+        Me.dgv_Details.AllowUserToResizeColumns = False
+        Me.dgv_Details.AllowUserToResizeRows = False
+        Me.dgv_Details.BackgroundColor = System.Drawing.Color.White
+        Me.dgv_Details.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText
+        DataGridViewCellStyle141.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle141.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(85, Byte), Integer))
+        DataGridViewCellStyle141.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle141.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle141.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle141.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle141.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Details.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle141
+        Me.dgv_Details.ColumnHeadersHeight = 34
+        Me.dgv_Details.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Details.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column19, Me.Column21, Me.Column7, Me.Column9, Me.Column12, Me.Column13, Me.Column16, Me.Column22, Me.Column23, Me.Column24, Me.Column26, Me.Column27, Me.Column28, Me.Column37, Me.Column38, Me.Column39, Me.Column40, Me.Column41, Me.Column52, Me.Column53})
+        DataGridViewCellStyle150.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle150.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle150.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle150.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle150.SelectionBackColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle150.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle150.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Details.DefaultCellStyle = DataGridViewCellStyle150
+        Me.dgv_Details.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter
+        Me.dgv_Details.EnableHeadersVisualStyles = False
+        Me.dgv_Details.Location = New System.Drawing.Point(9, 123)
+        Me.dgv_Details.MultiSelect = False
+        Me.dgv_Details.Name = "dgv_Details"
+        Me.dgv_Details.RowHeadersVisible = False
+        Me.dgv_Details.RowHeadersWidth = 15
+        Me.dgv_Details.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Details.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Details.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
+        Me.dgv_Details.Size = New System.Drawing.Size(927, 126)
+        Me.dgv_Details.TabIndex = 16
+        '
+        'Column1
+        '
+        DataGridViewCellStyle142.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle142.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle142
+        Me.Column1.Frozen = True
+        Me.Column1.HeaderText = "S.NO"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Width = 45
+        '
+        'Column2
+        '
+        DataGridViewCellStyle143.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle143
+        Me.Column2.HeaderText = "CLOTH  NAME"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.Width = 250
+        '
+        'Column19
+        '
+        DataGridViewCellStyle144.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column19.DefaultCellStyle = DataGridViewCellStyle144
+        Me.Column19.HeaderText = "TYPE"
+        Me.Column19.Name = "Column19"
+        Me.Column19.ReadOnly = True
+        Me.Column19.Width = 80
+        '
+        'Column21
+        '
+        DataGridViewCellStyle145.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column21.DefaultCellStyle = DataGridViewCellStyle145
+        Me.Column21.HeaderText = "FOLD%"
+        Me.Column21.Name = "Column21"
+        Me.Column21.Width = 70
+        '
+        'Column7
+        '
+        DataGridViewCellStyle146.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle146.NullValue = Nothing
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle146
+        Me.Column7.HeaderText = "PCS"
+        Me.Column7.Name = "Column7"
+        Me.Column7.Width = 80
+        '
+        'Column9
+        '
+        DataGridViewCellStyle147.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle147.NullValue = Nothing
+        Me.Column9.DefaultCellStyle = DataGridViewCellStyle147
+        Me.Column9.HeaderText = "METERS"
+        Me.Column9.Name = "Column9"
+        '
+        'Column12
+        '
+        DataGridViewCellStyle148.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle148.Format = "N2"
+        DataGridViewCellStyle148.NullValue = Nothing
+        Me.Column12.DefaultCellStyle = DataGridViewCellStyle148
+        Me.Column12.HeaderText = "RATE"
+        Me.Column12.Name = "Column12"
+        '
+        'Column13
+        '
+        DataGridViewCellStyle149.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle149.Format = "N2"
+        DataGridViewCellStyle149.NullValue = Nothing
+        Me.Column13.DefaultCellStyle = DataGridViewCellStyle149
+        Me.Column13.HeaderText = "AMOUNT"
+        Me.Column13.Name = "Column13"
+        Me.Column13.ReadOnly = True
+        Me.Column13.Width = 120
+        '
+        'Column16
+        '
+        Me.Column16.HeaderText = "Trade_Disc%"
+        Me.Column16.Name = "Column16"
+        Me.Column16.Visible = False
+        '
+        'Column22
+        '
+        Me.Column22.HeaderText = "Trade_Disc_Value"
+        Me.Column22.Name = "Column22"
+        Me.Column22.Visible = False
+        '
+        'Column23
+        '
+        Me.Column23.HeaderText = "Cash_Disc%"
+        Me.Column23.Name = "Column23"
+        Me.Column23.Visible = False
+        '
+        'Column24
+        '
+        Me.Column24.HeaderText = "Cash_Disc_Value"
+        Me.Column24.Name = "Column24"
+        Me.Column24.Visible = False
+        '
+        'Column26
+        '
+        Me.Column26.HeaderText = "Taxable_Value"
+        Me.Column26.Name = "Column26"
+        Me.Column26.Visible = False
+        '
+        'Column27
+        '
+        Me.Column27.HeaderText = "Gst %"
+        Me.Column27.Name = "Column27"
+        Me.Column27.Visible = False
+        '
+        'Column28
+        '
+        Me.Column28.HeaderText = "HSN _Code"
+        Me.Column28.Name = "Column28"
+        Me.Column28.Visible = False
+        '
+        'Column37
+        '
+        Me.Column37.HeaderText = "Folding_Meters"
+        Me.Column37.Name = "Column37"
+        Me.Column37.ReadOnly = True
+        Me.Column37.Visible = False
+        '
+        'Column38
+        '
+        Me.Column38.HeaderText = "Net_Meters"
+        Me.Column38.Name = "Column38"
+        Me.Column38.ReadOnly = True
+        Me.Column38.Visible = False
+        '
+        'Column39
+        '
+        Me.Column39.HeaderText = "ORDER NO"
+        Me.Column39.Name = "Column39"
+        Me.Column39.Width = 60
+        '
+        'Column40
+        '
+        Me.Column40.HeaderText = "ClothPurchase_Order_Code"
+        Me.Column40.Name = "Column40"
+        Me.Column40.Visible = False
+        '
+        'Column41
+        '
+        Me.Column41.HeaderText = "ClothPurchase_Order_Slno"
+        Me.Column41.Name = "Column41"
+        Me.Column41.Visible = False
+        '
+        'Column52
+        '
+        Me.Column52.HeaderText = "ClothPurchase_Deatils_Slno"
+        Me.Column52.Name = "Column52"
+        Me.Column52.Visible = False
+        '
+        'Column53
+        '
+        Me.Column53.HeaderText = "Invoice_Meters"
+        Me.Column53.Name = "Column53"
+        Me.Column53.Visible = False
+        '
+        'dgv_Details_Total
+        '
+        Me.dgv_Details_Total.AllowUserToAddRows = False
+        Me.dgv_Details_Total.AllowUserToDeleteRows = False
+        Me.dgv_Details_Total.AllowUserToResizeColumns = False
+        Me.dgv_Details_Total.AllowUserToResizeRows = False
+        Me.dgv_Details_Total.BackgroundColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle151.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle151.BackColor = System.Drawing.Color.SaddleBrown
+        DataGridViewCellStyle151.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle151.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle151.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle151.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle151.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Details_Total.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle151
+        Me.dgv_Details_Total.ColumnHeadersHeight = 34
+        Me.dgv_Details_Total.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Details_Total.ColumnHeadersVisible = False
+        Me.dgv_Details_Total.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.Column3, Me.DataGridViewTextBoxColumn12, Me.Column14, Me.Column15, Me.Column30, Me.Column31, Me.Column32, Me.Column33, Me.Column34, Me.Column35, Me.Column36})
+        DataGridViewCellStyle159.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle159.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle159.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle159.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle159.SelectionBackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle159.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle159.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Details_Total.DefaultCellStyle = DataGridViewCellStyle159
+        Me.dgv_Details_Total.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Details_Total.Enabled = False
+        Me.dgv_Details_Total.EnableHeadersVisualStyles = False
+        Me.dgv_Details_Total.Location = New System.Drawing.Point(9, 248)
+        Me.dgv_Details_Total.MultiSelect = False
+        Me.dgv_Details_Total.Name = "dgv_Details_Total"
+        Me.dgv_Details_Total.ReadOnly = True
+        Me.dgv_Details_Total.RowHeadersVisible = False
+        Me.dgv_Details_Total.RowHeadersWidth = 15
+        Me.dgv_Details_Total.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Details_Total.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Details_Total.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
+        Me.dgv_Details_Total.Size = New System.Drawing.Size(927, 25)
+        Me.dgv_Details_Total.TabIndex = 156
+        Me.dgv_Details_Total.TabStop = False
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        DataGridViewCellStyle152.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle152.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle152
+        Me.DataGridViewTextBoxColumn4.Frozen = True
+        Me.DataGridViewTextBoxColumn4.HeaderText = "NO"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.ReadOnly = True
+        Me.DataGridViewTextBoxColumn4.Width = 45
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        DataGridViewCellStyle153.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle153
+        Me.DataGridViewTextBoxColumn5.HeaderText = "CLOTH NAME"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.ReadOnly = True
+        Me.DataGridViewTextBoxColumn5.Width = 250
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        DataGridViewCellStyle154.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle154
+        Me.DataGridViewTextBoxColumn6.HeaderText = "TYPE"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.ReadOnly = True
+        Me.DataGridViewTextBoxColumn6.Width = 80
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        DataGridViewCellStyle155.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle155
+        Me.DataGridViewTextBoxColumn7.HeaderText = "FOLD%"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.ReadOnly = True
+        Me.DataGridViewTextBoxColumn7.Width = 70
+        '
+        'Column3
+        '
+        DataGridViewCellStyle156.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle156
+        Me.Column3.HeaderText = "PCS"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.Width = 80
+        '
+        'DataGridViewTextBoxColumn12
+        '
+        DataGridViewCellStyle157.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle157.Format = "N2"
+        DataGridViewCellStyle157.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn12.DefaultCellStyle = DataGridViewCellStyle157
+        Me.DataGridViewTextBoxColumn12.HeaderText = "METERS"
+        Me.DataGridViewTextBoxColumn12.Name = "DataGridViewTextBoxColumn12"
+        Me.DataGridViewTextBoxColumn12.ReadOnly = True
+        '
+        'Column14
+        '
+        Me.Column14.HeaderText = "RATE"
+        Me.Column14.Name = "Column14"
+        Me.Column14.ReadOnly = True
+        '
+        'Column15
+        '
+        DataGridViewCellStyle158.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle158.Format = "N2"
+        DataGridViewCellStyle158.NullValue = Nothing
+        Me.Column15.DefaultCellStyle = DataGridViewCellStyle158
+        Me.Column15.HeaderText = "AMOUNT"
+        Me.Column15.Name = "Column15"
+        Me.Column15.ReadOnly = True
+        Me.Column15.Width = 120
+        '
+        'Column30
+        '
+        Me.Column30.HeaderText = "Trade_Disc%"
+        Me.Column30.Name = "Column30"
+        Me.Column30.ReadOnly = True
+        Me.Column30.Visible = False
+        '
+        'Column31
+        '
+        Me.Column31.HeaderText = "Trade_Disc_Value"
+        Me.Column31.Name = "Column31"
+        Me.Column31.ReadOnly = True
+        Me.Column31.Visible = False
+        '
+        'Column32
+        '
+        Me.Column32.HeaderText = "Cash_Disc%"
+        Me.Column32.Name = "Column32"
+        Me.Column32.ReadOnly = True
+        Me.Column32.Visible = False
+        '
+        'Column33
+        '
+        Me.Column33.HeaderText = "Cash_Disc_Value"
+        Me.Column33.Name = "Column33"
+        Me.Column33.ReadOnly = True
+        Me.Column33.Visible = False
+        '
+        'Column34
+        '
+        Me.Column34.HeaderText = "Taxable_Value"
+        Me.Column34.Name = "Column34"
+        Me.Column34.ReadOnly = True
+        Me.Column34.Visible = False
+        '
+        'Column35
+        '
+        Me.Column35.HeaderText = "GST %"
+        Me.Column35.Name = "Column35"
+        Me.Column35.ReadOnly = True
+        Me.Column35.Visible = False
+        '
+        'Column36
+        '
+        Me.Column36.HeaderText = "HSN_Code"
+        Me.Column36.Name = "Column36"
+        Me.Column36.ReadOnly = True
+        Me.Column36.Visible = False
+        '
+        'txt_ExcShtMeters
+        '
+        Me.txt_ExcShtMeters.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_ExcShtMeters.Location = New System.Drawing.Point(449, 276)
+        Me.txt_ExcShtMeters.MaxLength = 10
+        Me.txt_ExcShtMeters.Name = "txt_ExcShtMeters"
+        Me.txt_ExcShtMeters.Size = New System.Drawing.Size(175, 23)
+        Me.txt_ExcShtMeters.TabIndex = 19
+        Me.txt_ExcShtMeters.Text = "txt_ExcSht Meters"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Blue
+        Me.Label8.Location = New System.Drawing.Point(366, 280)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(77, 15)
+        Me.Label8.TabIndex = 151
+        Me.Label8.Text = "Exc/Sht Mtrs"
+        '
+        'txt_BillNo
+        '
+        Me.txt_BillNo.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_BillNo.Location = New System.Drawing.Point(82, 34)
+        Me.txt_BillNo.MaxLength = 10
+        Me.txt_BillNo.Name = "txt_BillNo"
+        Me.txt_BillNo.Size = New System.Drawing.Size(84, 23)
+        Me.txt_BillNo.TabIndex = 3
+        Me.txt_BillNo.Text = "txt_BillNo"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Blue
+        Me.Label7.Location = New System.Drawing.Point(6, 38)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(42, 15)
+        Me.Label7.TabIndex = 3
+        Me.Label7.Text = "Bill No"
+        '
+        'cbo_Transport
+        '
+        Me.cbo_Transport.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Transport.FormattingEnabled = True
+        Me.cbo_Transport.Location = New System.Drawing.Point(414, 94)
+        Me.cbo_Transport.Name = "cbo_Transport"
+        Me.cbo_Transport.Size = New System.Drawing.Size(263, 23)
+        Me.cbo_Transport.TabIndex = 16
+        Me.cbo_Transport.Text = "cbo_Transport"
+        '
+        'cbo_Agent
+        '
+        Me.cbo_Agent.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Agent.FormattingEnabled = True
+        Me.cbo_Agent.Location = New System.Drawing.Point(414, 34)
+        Me.cbo_Agent.MaxDropDownItems = 15
+        Me.cbo_Agent.MaxLength = 50
+        Me.cbo_Agent.Name = "cbo_Agent"
+        Me.cbo_Agent.Size = New System.Drawing.Size(263, 23)
+        Me.cbo_Agent.Sorted = True
+        Me.cbo_Agent.TabIndex = 5
+        Me.cbo_Agent.Text = "cbo_Agent"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.Color.Blue
+        Me.Label16.Location = New System.Drawing.Point(329, 38)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(40, 15)
+        Me.Label16.TabIndex = 122
+        Me.Label16.Text = "Agent"
+        '
+        'lbl_RefNo
+        '
+        Me.lbl_RefNo.BackColor = System.Drawing.Color.White
+        Me.lbl_RefNo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbl_RefNo.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_RefNo.Location = New System.Drawing.Point(82, 4)
+        Me.lbl_RefNo.Name = "lbl_RefNo"
+        Me.lbl_RefNo.Size = New System.Drawing.Size(84, 23)
+        Me.lbl_RefNo.TabIndex = 120
+        Me.lbl_RefNo.Text = "lbl_RefNo"
+        Me.lbl_RefNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'cbo_PartyName
+        '
+        Me.cbo_PartyName.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_PartyName.FormattingEnabled = True
+        Me.cbo_PartyName.Location = New System.Drawing.Point(414, 4)
+        Me.cbo_PartyName.MaxDropDownItems = 15
+        Me.cbo_PartyName.MaxLength = 50
+        Me.cbo_PartyName.Name = "cbo_PartyName"
+        Me.cbo_PartyName.Size = New System.Drawing.Size(263, 23)
+        Me.cbo_PartyName.Sorted = True
+        Me.cbo_PartyName.TabIndex = 1
+        Me.cbo_PartyName.Text = "cbo_PartyName"
+        '
+        'dtp_Date
+        '
+        Me.dtp_Date.Font = New System.Drawing.Font("Calibri", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dtp_Date.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtp_Date.Location = New System.Drawing.Point(311, 4)
+        Me.dtp_Date.Name = "dtp_Date"
+        Me.dtp_Date.Size = New System.Drawing.Size(15, 22)
+        Me.dtp_Date.TabIndex = 0
+        Me.dtp_Date.TabStop = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Blue
+        Me.Label4.Location = New System.Drawing.Point(167, 8)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(36, 15)
+        Me.Label4.TabIndex = 119
+        Me.Label4.Text = " Date"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Blue
+        Me.Label5.Location = New System.Drawing.Point(329, 8)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(72, 15)
+        Me.Label5.TabIndex = 116
+        Me.Label5.Text = "Party Name"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Blue
+        Me.Label2.Location = New System.Drawing.Point(6, 8)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 15)
+        Me.Label2.TabIndex = 117
+        Me.Label2.Text = "Ref No"
+        '
+        'pnl_Order_Selection
+        '
+        Me.pnl_Order_Selection.BackColor = System.Drawing.Color.White
+        Me.pnl_Order_Selection.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Order_Selection.Controls.Add(Me.btn_Close_order_Selection)
+        Me.pnl_Order_Selection.Controls.Add(Me.Label36)
+        Me.pnl_Order_Selection.Controls.Add(Me.dgv_Order_Selection)
+        Me.pnl_Order_Selection.Controls.Add(Me.Label38)
+        Me.pnl_Order_Selection.Location = New System.Drawing.Point(1044, 450)
+        Me.pnl_Order_Selection.Margin = New System.Windows.Forms.Padding(0)
+        Me.pnl_Order_Selection.Name = "pnl_Order_Selection"
+        Me.pnl_Order_Selection.Size = New System.Drawing.Size(835, 384)
+        Me.pnl_Order_Selection.TabIndex = 308
+        Me.pnl_Order_Selection.Visible = False
+        '
+        'btn_Close_order_Selection
+        '
+        Me.btn_Close_order_Selection.BackColor = System.Drawing.Color.White
+        Me.btn_Close_order_Selection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Close_order_Selection.FlatAppearance.BorderSize = 0
+        Me.btn_Close_order_Selection.Image = Global.Textile.My.Resources.Resources.Delete2
+        Me.btn_Close_order_Selection.Location = New System.Drawing.Point(807, -1)
+        Me.btn_Close_order_Selection.Name = "btn_Close_order_Selection"
+        Me.btn_Close_order_Selection.Size = New System.Drawing.Size(27, 25)
+        Me.btn_Close_order_Selection.TabIndex = 40
+        Me.btn_Close_order_Selection.TabStop = False
+        Me.btn_Close_order_Selection.UseVisualStyleBackColor = True
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Purple
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.White
+        Me.Label36.Location = New System.Drawing.Point(402, -36)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(71, 20)
+        Me.Label36.TabIndex = 37
+        Me.Label36.Text = "FILTER"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'dgv_Order_Selection
+        '
+        Me.dgv_Order_Selection.AllowUserToAddRows = False
+        Me.dgv_Order_Selection.AllowUserToDeleteRows = False
+        Me.dgv_Order_Selection.AllowUserToResizeColumns = False
+        Me.dgv_Order_Selection.AllowUserToResizeRows = False
+        Me.dgv_Order_Selection.BackgroundColor = System.Drawing.Color.White
+        DataGridViewCellStyle160.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle160.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle160.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle160.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle160.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle160.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle160.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Order_Selection.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle160
+        Me.dgv_Order_Selection.ColumnHeadersHeight = 35
+        Me.dgv_Order_Selection.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Order_Selection.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11, Me.DataGridViewTextBoxColumn13, Me.Column42, Me.Column43, Me.Column44, Me.Column45, Me.Column46, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18, Me.Column47, Me.Column48, Me.Column49, Me.Column50, Me.Column51})
+        DataGridViewCellStyle170.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle170.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle170.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle170.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle170.SelectionBackColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle170.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle170.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Order_Selection.DefaultCellStyle = DataGridViewCellStyle170
+        Me.dgv_Order_Selection.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.dgv_Order_Selection.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Order_Selection.Location = New System.Drawing.Point(0, 31)
+        Me.dgv_Order_Selection.MultiSelect = False
+        Me.dgv_Order_Selection.Name = "dgv_Order_Selection"
+        Me.dgv_Order_Selection.ReadOnly = True
+        Me.dgv_Order_Selection.RowHeadersVisible = False
+        Me.dgv_Order_Selection.RowHeadersWidth = 15
+        Me.dgv_Order_Selection.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Order_Selection.RowTemplate.Height = 25
+        Me.dgv_Order_Selection.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Order_Selection.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_Order_Selection.Size = New System.Drawing.Size(833, 351)
+        Me.dgv_Order_Selection.TabIndex = 32
+        Me.dgv_Order_Selection.TabStop = False
+        '
+        'DataGridViewTextBoxColumn8
+        '
+        DataGridViewCellStyle161.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle161
+        Me.DataGridViewTextBoxColumn8.Frozen = True
+        Me.DataGridViewTextBoxColumn8.HeaderText = "S.NO"
+        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
+        Me.DataGridViewTextBoxColumn8.ReadOnly = True
+        Me.DataGridViewTextBoxColumn8.Width = 35
+        '
+        'DataGridViewTextBoxColumn9
+        '
+        Me.DataGridViewTextBoxColumn9.HeaderText = "ORDER.NO"
+        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
+        Me.DataGridViewTextBoxColumn9.ReadOnly = True
+        Me.DataGridViewTextBoxColumn9.Width = 70
+        '
+        'DataGridViewTextBoxColumn10
+        '
+        DataGridViewCellStyle162.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn10.DefaultCellStyle = DataGridViewCellStyle162
+        Me.DataGridViewTextBoxColumn10.HeaderText = "ORDER DATE"
+        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
+        Me.DataGridViewTextBoxColumn10.ReadOnly = True
+        Me.DataGridViewTextBoxColumn10.Width = 85
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        DataGridViewCellStyle163.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle163.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle163
+        Me.DataGridViewTextBoxColumn11.HeaderText = "CLOTH NAME"
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        Me.DataGridViewTextBoxColumn11.ReadOnly = True
+        Me.DataGridViewTextBoxColumn11.Width = 160
+        '
+        'DataGridViewTextBoxColumn13
+        '
+        DataGridViewCellStyle164.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle164
+        Me.DataGridViewTextBoxColumn13.HeaderText = "CLOTH TYPE"
+        Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
+        Me.DataGridViewTextBoxColumn13.ReadOnly = True
+        Me.DataGridViewTextBoxColumn13.Width = 80
+        '
+        'Column42
+        '
+        DataGridViewCellStyle165.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column42.DefaultCellStyle = DataGridViewCellStyle165
+        Me.Column42.HeaderText = "FOLD %"
+        Me.Column42.Name = "Column42"
+        Me.Column42.ReadOnly = True
+        Me.Column42.Width = 75
+        '
+        'Column43
+        '
+        DataGridViewCellStyle166.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column43.DefaultCellStyle = DataGridViewCellStyle166
+        Me.Column43.HeaderText = "PCS"
+        Me.Column43.Name = "Column43"
+        Me.Column43.ReadOnly = True
+        Me.Column43.Width = 75
+        '
+        'Column44
+        '
+        DataGridViewCellStyle167.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column44.DefaultCellStyle = DataGridViewCellStyle167
+        Me.Column44.HeaderText = "METERS"
+        Me.Column44.Name = "Column44"
+        Me.Column44.ReadOnly = True
+        Me.Column44.Width = 90
+        '
+        'Column45
+        '
+        DataGridViewCellStyle168.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column45.DefaultCellStyle = DataGridViewCellStyle168
+        Me.Column45.HeaderText = "RATE"
+        Me.Column45.Name = "Column45"
+        Me.Column45.ReadOnly = True
+        Me.Column45.Width = 90
+        '
+        'Column46
+        '
+        DataGridViewCellStyle169.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column46.DefaultCellStyle = DataGridViewCellStyle169
+        Me.Column46.HeaderText = "STS"
+        Me.Column46.Name = "Column46"
+        Me.Column46.ReadOnly = True
+        Me.Column46.Width = 40
+        '
+        'DataGridViewTextBoxColumn15
+        '
+        Me.DataGridViewTextBoxColumn15.HeaderText = "Agent"
+        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
+        Me.DataGridViewTextBoxColumn15.ReadOnly = True
+        Me.DataGridViewTextBoxColumn15.Visible = False
+        '
+        'DataGridViewTextBoxColumn16
+        '
+        Me.DataGridViewTextBoxColumn16.HeaderText = "Transport"
+        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
+        Me.DataGridViewTextBoxColumn16.ReadOnly = True
+        Me.DataGridViewTextBoxColumn16.Visible = False
+        '
+        'DataGridViewTextBoxColumn17
+        '
+        Me.DataGridViewTextBoxColumn17.HeaderText = "com%"
+        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
+        Me.DataGridViewTextBoxColumn17.ReadOnly = True
+        Me.DataGridViewTextBoxColumn17.Visible = False
+        '
+        'DataGridViewTextBoxColumn18
+        '
+        Me.DataGridViewTextBoxColumn18.HeaderText = "Com_TYpe"
+        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
+        Me.DataGridViewTextBoxColumn18.ReadOnly = True
+        Me.DataGridViewTextBoxColumn18.Visible = False
+        '
+        'Column47
+        '
+        Me.Column47.HeaderText = "Order_Code"
+        Me.Column47.Name = "Column47"
+        Me.Column47.ReadOnly = True
+        Me.Column47.Visible = False
+        '
+        'Column48
+        '
+        Me.Column48.HeaderText = "Order_Slno"
+        Me.Column48.Name = "Column48"
+        Me.Column48.ReadOnly = True
+        Me.Column48.Visible = False
+        '
+        'Column49
+        '
+        Me.Column49.HeaderText = "Ent_Pcs"
+        Me.Column49.Name = "Column49"
+        Me.Column49.ReadOnly = True
+        Me.Column49.Visible = False
+        '
+        'Column50
+        '
+        Me.Column50.HeaderText = "Ent_Mtrs"
+        Me.Column50.Name = "Column50"
+        Me.Column50.ReadOnly = True
+        Me.Column50.Visible = False
+        '
+        'Column51
+        '
+        Me.Column51.HeaderText = "Ent_Rate"
+        Me.Column51.Name = "Column51"
+        Me.Column51.ReadOnly = True
+        Me.Column51.Visible = False
+        '
+        'Label38
+        '
+        Me.Label38.BackColor = System.Drawing.Color.Purple
+        Me.Label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label38.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label38.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.White
+        Me.Label38.Location = New System.Drawing.Point(0, 0)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(833, 25)
+        Me.Label38.TabIndex = 41
+        Me.Label38.Text = "CLOTH PURCHASE ORDER SELECTION"
+        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'cbo_Filter_PartyName
+        '
+        Me.cbo_Filter_PartyName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.cbo_Filter_PartyName.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Filter_PartyName.FormattingEnabled = True
+        Me.cbo_Filter_PartyName.ImeMode = System.Windows.Forms.ImeMode.[On]
+        Me.cbo_Filter_PartyName.Location = New System.Drawing.Point(102, 71)
+        Me.cbo_Filter_PartyName.MaxDropDownItems = 15
+        Me.cbo_Filter_PartyName.Name = "cbo_Filter_PartyName"
+        Me.cbo_Filter_PartyName.Size = New System.Drawing.Size(646, 23)
+        Me.cbo_Filter_PartyName.Sorted = True
+        Me.cbo_Filter_PartyName.TabIndex = 19
+        Me.cbo_Filter_PartyName.Text = "cbo_Filter_PartyName"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.Blue
+        Me.Label32.Location = New System.Drawing.Point(13, 75)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(72, 13)
+        Me.Label32.TabIndex = 30
+        Me.Label32.Text = "Party Name"
+        '
+        'dtp_Filter_ToDate
+        '
+        Me.dtp_Filter_ToDate.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dtp_Filter_ToDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtp_Filter_ToDate.Location = New System.Drawing.Point(457, 36)
+        Me.dtp_Filter_ToDate.Name = "dtp_Filter_ToDate"
+        Me.dtp_Filter_ToDate.Size = New System.Drawing.Size(291, 23)
+        Me.dtp_Filter_ToDate.TabIndex = 18
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.Blue
+        Me.Label31.Location = New System.Drawing.Point(407, 43)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(22, 13)
+        Me.Label31.TabIndex = 29
+        Me.Label31.Text = "To"
+        '
+        'lbl_UserName
+        '
+        Me.lbl_UserName.AutoSize = True
+        Me.lbl_UserName.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.lbl_UserName.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_UserName.ForeColor = System.Drawing.Color.White
+        Me.lbl_UserName.Location = New System.Drawing.Point(780, 7)
+        Me.lbl_UserName.Name = "lbl_UserName"
+        Me.lbl_UserName.Size = New System.Drawing.Size(105, 19)
+        Me.lbl_UserName.TabIndex = 275
+        Me.lbl_UserName.Text = "USER : ADMIN"
+        '
+        'dtp_Filter_Fromdate
+        '
+        Me.dtp_Filter_Fromdate.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dtp_Filter_Fromdate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtp_Filter_Fromdate.Location = New System.Drawing.Point(102, 38)
+        Me.dtp_Filter_Fromdate.Name = "dtp_Filter_Fromdate"
+        Me.dtp_Filter_Fromdate.Size = New System.Drawing.Size(287, 23)
+        Me.dtp_Filter_Fromdate.TabIndex = 17
+        '
+        'Label34
+        '
+        Me.Label34.BackColor = System.Drawing.Color.Indigo
+        Me.Label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label34.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label34.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.White
+        Me.Label34.Location = New System.Drawing.Point(0, 0)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(861, 25)
+        Me.Label34.TabIndex = 41
+        Me.Label34.Text = "FILTER"
+        Me.Label34.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Column10
+        '
+        DataGridViewCellStyle171.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column10.DefaultCellStyle = DataGridViewCellStyle171
+        Me.Column10.HeaderText = "CLOTH NAME"
+        Me.Column10.Name = "Column10"
+        Me.Column10.ReadOnly = True
+        Me.Column10.Width = 110
+        '
+        'Column17
+        '
+        DataGridViewCellStyle172.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle172.Format = "N2"
+        DataGridViewCellStyle172.NullValue = Nothing
+        Me.Column17.DefaultCellStyle = DataGridViewCellStyle172
+        Me.Column17.HeaderText = "AMOUNT"
+        Me.Column17.Name = "Column17"
+        Me.Column17.ReadOnly = True
+        '
+        'Column8
+        '
+        DataGridViewCellStyle173.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle173.Format = "N2"
+        DataGridViewCellStyle173.NullValue = Nothing
+        Me.Column8.DefaultCellStyle = DataGridViewCellStyle173
+        Me.Column8.HeaderText = "METERS"
+        Me.Column8.Name = "Column8"
+        Me.Column8.ReadOnly = True
+        Me.Column8.Width = 90
+        '
+        'Column29
+        '
+        DataGridViewCellStyle174.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column29.DefaultCellStyle = DataGridViewCellStyle174
+        Me.Column29.HeaderText = "TYPE"
+        Me.Column29.Name = "Column29"
+        Me.Column29.ReadOnly = True
+        Me.Column29.Width = 80
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.Blue
+        Me.Label30.Location = New System.Drawing.Point(13, 42)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(34, 13)
+        Me.Label30.TabIndex = 27
+        Me.Label30.Text = "Date"
+        '
+        'Column6
+        '
+        DataGridViewCellStyle175.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle175
+        Me.Column6.HeaderText = "BILL NO"
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        Me.Column6.Width = 80
+        '
+        'Timer1
+        '
+        '
+        'Column5
+        '
+        DataGridViewCellStyle176.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.Column5.DefaultCellStyle = DataGridViewCellStyle176
+        Me.Column5.HeaderText = "PARTY NAME"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        Me.Column5.Width = 200
+        '
+        'Label1
+        '
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(977, 30)
+        Me.Label1.TabIndex = 271
+        Me.Label1.Text = "CLOTH PURCHASE RETURN"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
+        'lbl_Company
+        '
+        Me.lbl_Company.AutoSize = True
+        Me.lbl_Company.BackColor = System.Drawing.Color.Red
+        Me.lbl_Company.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Company.Location = New System.Drawing.Point(-411, -255)
+        Me.lbl_Company.Name = "lbl_Company"
+        Me.lbl_Company.Size = New System.Drawing.Size(77, 15)
+        Me.lbl_Company.TabIndex = 272
+        Me.lbl_Company.Text = "lbl_Company"
+        Me.lbl_Company.Visible = False
+        '
+        'lbl_Heading_Selection
+        '
+        Me.lbl_Heading_Selection.BackColor = System.Drawing.Color.Purple
+        Me.lbl_Heading_Selection.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_Heading_Selection.Dock = System.Windows.Forms.DockStyle.Top
+        Me.lbl_Heading_Selection.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Heading_Selection.ForeColor = System.Drawing.Color.White
+        Me.lbl_Heading_Selection.Location = New System.Drawing.Point(0, 0)
+        Me.lbl_Heading_Selection.Name = "lbl_Heading_Selection"
+        Me.lbl_Heading_Selection.Size = New System.Drawing.Size(641, 25)
+        Me.lbl_Heading_Selection.TabIndex = 41
+        Me.lbl_Heading_Selection.Text = "CLOTH RECEIPT SELECTION"
+        Me.lbl_Heading_Selection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'pnl_Selection
+        '
+        Me.pnl_Selection.BackColor = System.Drawing.Color.White
+        Me.pnl_Selection.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Selection.Controls.Add(Me.btn_Close_Selection)
+        Me.pnl_Selection.Controls.Add(Me.Label35)
+        Me.pnl_Selection.Controls.Add(Me.dgv_Selection)
+        Me.pnl_Selection.Controls.Add(Me.lbl_Heading_Selection)
+        Me.pnl_Selection.Location = New System.Drawing.Point(16, 573)
+        Me.pnl_Selection.Margin = New System.Windows.Forms.Padding(0)
+        Me.pnl_Selection.Name = "pnl_Selection"
+        Me.pnl_Selection.Size = New System.Drawing.Size(643, 384)
+        Me.pnl_Selection.TabIndex = 274
+        Me.pnl_Selection.Visible = False
+        '
+        'btn_Close_Selection
+        '
+        Me.btn_Close_Selection.BackColor = System.Drawing.Color.White
+        Me.btn_Close_Selection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Close_Selection.FlatAppearance.BorderSize = 0
+        Me.btn_Close_Selection.Image = Global.Textile.My.Resources.Resources.Delete2
+        Me.btn_Close_Selection.Location = New System.Drawing.Point(615, 0)
+        Me.btn_Close_Selection.Name = "btn_Close_Selection"
+        Me.btn_Close_Selection.Size = New System.Drawing.Size(27, 25)
+        Me.btn_Close_Selection.TabIndex = 40
+        Me.btn_Close_Selection.TabStop = False
+        Me.btn_Close_Selection.UseVisualStyleBackColor = True
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.Color.Purple
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.ForeColor = System.Drawing.Color.White
+        Me.Label35.Location = New System.Drawing.Point(402, -36)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(71, 20)
+        Me.Label35.TabIndex = 37
+        Me.Label35.Text = "FILTER"
+        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'dgv_Selection
+        '
+        Me.dgv_Selection.AllowUserToAddRows = False
+        Me.dgv_Selection.AllowUserToDeleteRows = False
+        Me.dgv_Selection.AllowUserToResizeColumns = False
+        Me.dgv_Selection.AllowUserToResizeRows = False
+        Me.dgv_Selection.BackgroundColor = System.Drawing.Color.White
+        DataGridViewCellStyle177.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle177.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle177.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle177.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle177.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle177.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle177.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Selection.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle177
+        Me.dgv_Selection.ColumnHeadersHeight = 35
+        Me.dgv_Selection.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Selection.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn34, Me.Column25, Me.DataGridViewTextBoxColumn38, Me.DataGridViewTextBoxColumn40, Me.DataGridViewTextBoxColumn41, Me.DataGridViewTextBoxColumn42, Me.Column11, Me.Column18, Me.Column20, Me.Column4})
+        DataGridViewCellStyle183.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle183.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle183.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle183.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle183.SelectionBackColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle183.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle183.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Selection.DefaultCellStyle = DataGridViewCellStyle183
+        Me.dgv_Selection.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.dgv_Selection.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Selection.Location = New System.Drawing.Point(0, 31)
+        Me.dgv_Selection.MultiSelect = False
+        Me.dgv_Selection.Name = "dgv_Selection"
+        Me.dgv_Selection.ReadOnly = True
+        Me.dgv_Selection.RowHeadersVisible = False
+        Me.dgv_Selection.RowHeadersWidth = 15
+        Me.dgv_Selection.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Selection.RowTemplate.Height = 25
+        Me.dgv_Selection.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Selection.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_Selection.Size = New System.Drawing.Size(641, 351)
+        Me.dgv_Selection.TabIndex = 32
+        Me.dgv_Selection.TabStop = False
+        '
+        'DataGridViewTextBoxColumn34
+        '
+        DataGridViewCellStyle178.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle178
+        Me.DataGridViewTextBoxColumn34.Frozen = True
+        Me.DataGridViewTextBoxColumn34.HeaderText = "S.NO"
+        Me.DataGridViewTextBoxColumn34.Name = "DataGridViewTextBoxColumn34"
+        Me.DataGridViewTextBoxColumn34.ReadOnly = True
+        Me.DataGridViewTextBoxColumn34.Width = 35
+        '
+        'Column25
+        '
+        Me.Column25.HeaderText = "REC.NO"
+        Me.Column25.Name = "Column25"
+        Me.Column25.ReadOnly = True
+        Me.Column25.Width = 60
+        '
+        'DataGridViewTextBoxColumn38
+        '
+        DataGridViewCellStyle179.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn38.DefaultCellStyle = DataGridViewCellStyle179
+        Me.DataGridViewTextBoxColumn38.HeaderText = "CLOTH NAME"
+        Me.DataGridViewTextBoxColumn38.Name = "DataGridViewTextBoxColumn38"
+        Me.DataGridViewTextBoxColumn38.ReadOnly = True
+        Me.DataGridViewTextBoxColumn38.Width = 250
+        '
+        'DataGridViewTextBoxColumn40
+        '
+        DataGridViewCellStyle180.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle180.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn40.DefaultCellStyle = DataGridViewCellStyle180
+        Me.DataGridViewTextBoxColumn40.HeaderText = "PCS"
+        Me.DataGridViewTextBoxColumn40.Name = "DataGridViewTextBoxColumn40"
+        Me.DataGridViewTextBoxColumn40.ReadOnly = True
+        Me.DataGridViewTextBoxColumn40.Width = 110
+        '
+        'DataGridViewTextBoxColumn41
+        '
+        DataGridViewCellStyle181.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn41.DefaultCellStyle = DataGridViewCellStyle181
+        Me.DataGridViewTextBoxColumn41.HeaderText = "METERS"
+        Me.DataGridViewTextBoxColumn41.Name = "DataGridViewTextBoxColumn41"
+        Me.DataGridViewTextBoxColumn41.ReadOnly = True
+        Me.DataGridViewTextBoxColumn41.Width = 120
+        '
+        'DataGridViewTextBoxColumn42
+        '
+        DataGridViewCellStyle182.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn42.DefaultCellStyle = DataGridViewCellStyle182
+        Me.DataGridViewTextBoxColumn42.HeaderText = "STS"
+        Me.DataGridViewTextBoxColumn42.Name = "DataGridViewTextBoxColumn42"
+        Me.DataGridViewTextBoxColumn42.ReadOnly = True
+        Me.DataGridViewTextBoxColumn42.Width = 50
+        '
+        'Column11
+        '
+        Me.Column11.HeaderText = "Cloth_Purchase_Receipt_Code"
+        Me.Column11.Name = "Column11"
+        Me.Column11.ReadOnly = True
+        Me.Column11.Visible = False
+        '
+        'Column18
+        '
+        Me.Column18.HeaderText = "Bill_No"
+        Me.Column18.Name = "Column18"
+        Me.Column18.ReadOnly = True
+        Me.Column18.Visible = False
+        '
+        'Column20
+        '
+        Me.Column20.HeaderText = "Cloth_Purchase_Receipt_Date"
+        Me.Column20.Name = "Column20"
+        Me.Column20.ReadOnly = True
+        Me.Column20.Visible = False
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "folding %"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.Visible = False
+        '
+        'PrintDocument1
+        '
+        '
+        'cbo_Filter_ClothName
+        '
+        Me.cbo_Filter_ClothName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.cbo_Filter_ClothName.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_Filter_ClothName.FormattingEnabled = True
+        Me.cbo_Filter_ClothName.ImeMode = System.Windows.Forms.ImeMode.[On]
+        Me.cbo_Filter_ClothName.Location = New System.Drawing.Point(102, 104)
+        Me.cbo_Filter_ClothName.MaxDropDownItems = 15
+        Me.cbo_Filter_ClothName.Name = "cbo_Filter_ClothName"
+        Me.cbo_Filter_ClothName.Size = New System.Drawing.Size(646, 23)
+        Me.cbo_Filter_ClothName.Sorted = True
+        Me.cbo_Filter_ClothName.TabIndex = 20
+        Me.cbo_Filter_ClothName.Text = "cbo_Filter_ClothName"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(13, 109)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(72, 13)
+        Me.Label10.TabIndex = 43
+        Me.Label10.Text = "Cloth Name"
+        '
+        'btn_Filter_Close
+        '
+        Me.btn_Filter_Close.BackColor = System.Drawing.Color.White
+        Me.btn_Filter_Close.BackgroundImage = Global.Textile.My.Resources.Resources.Close1
+        Me.btn_Filter_Close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Filter_Close.FlatAppearance.BorderSize = 0
+        Me.btn_Filter_Close.Location = New System.Drawing.Point(835, -1)
+        Me.btn_Filter_Close.Name = "btn_Filter_Close"
+        Me.btn_Filter_Close.Size = New System.Drawing.Size(25, 25)
+        Me.btn_Filter_Close.TabIndex = 31
+        Me.btn_Filter_Close.TabStop = False
+        Me.btn_Filter_Close.UseVisualStyleBackColor = True
+        '
+        'pnl_Filter
+        '
+        Me.pnl_Filter.BackColor = System.Drawing.Color.White
+        Me.pnl_Filter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Filter.Controls.Add(Me.cbo_Filter_ClothName)
+        Me.pnl_Filter.Controls.Add(Me.Label10)
+        Me.pnl_Filter.Controls.Add(Me.btn_Filter_Close)
+        Me.pnl_Filter.Controls.Add(Me.Label29)
+        Me.pnl_Filter.Controls.Add(Me.btn_Filter_Show)
+        Me.pnl_Filter.Controls.Add(Me.dgv_Filter_Details)
+        Me.pnl_Filter.Controls.Add(Me.cbo_Filter_PartyName)
+        Me.pnl_Filter.Controls.Add(Me.Label32)
+        Me.pnl_Filter.Controls.Add(Me.dtp_Filter_ToDate)
+        Me.pnl_Filter.Controls.Add(Me.Label31)
+        Me.pnl_Filter.Controls.Add(Me.dtp_Filter_Fromdate)
+        Me.pnl_Filter.Controls.Add(Me.Label30)
+        Me.pnl_Filter.Controls.Add(Me.Label34)
+        Me.pnl_Filter.Location = New System.Drawing.Point(984, 501)
+        Me.pnl_Filter.Margin = New System.Windows.Forms.Padding(0)
+        Me.pnl_Filter.Name = "pnl_Filter"
+        Me.pnl_Filter.Size = New System.Drawing.Size(863, 384)
+        Me.pnl_Filter.TabIndex = 273
+        Me.pnl_Filter.Visible = False
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.BackColor = System.Drawing.Color.Purple
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.White
+        Me.Label29.Location = New System.Drawing.Point(402, -36)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(71, 20)
+        Me.Label29.TabIndex = 37
+        Me.Label29.Text = "FILTER"
+        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btn_Filter_Show
+        '
+        Me.btn_Filter_Show.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Filter_Show.ForeColor = System.Drawing.Color.Blue
+        Me.btn_Filter_Show.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btn_Filter_Show.Location = New System.Drawing.Point(761, 38)
+        Me.btn_Filter_Show.Name = "btn_Filter_Show"
+        Me.btn_Filter_Show.Size = New System.Drawing.Size(83, 84)
+        Me.btn_Filter_Show.TabIndex = 21
+        Me.btn_Filter_Show.Text = "&SHOW"
+        Me.btn_Filter_Show.UseVisualStyleBackColor = False
+        '
+        'dgv_Filter_Details
+        '
+        Me.dgv_Filter_Details.AllowUserToAddRows = False
+        Me.dgv_Filter_Details.AllowUserToDeleteRows = False
+        Me.dgv_Filter_Details.AllowUserToResizeColumns = False
+        Me.dgv_Filter_Details.AllowUserToResizeRows = False
+        Me.dgv_Filter_Details.BackgroundColor = System.Drawing.Color.White
+        DataGridViewCellStyle184.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle184.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle184.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle184.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle184.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle184.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle184.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Filter_Details.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle184
+        Me.dgv_Filter_Details.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Filter_Details.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.Column5, Me.Column6, Me.Column10, Me.Column29, Me.Column8, Me.Column17})
+        DataGridViewCellStyle188.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle188.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle188.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle188.ForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle188.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle188.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle188.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Filter_Details.DefaultCellStyle = DataGridViewCellStyle188
+        Me.dgv_Filter_Details.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.dgv_Filter_Details.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Filter_Details.Location = New System.Drawing.Point(0, 133)
+        Me.dgv_Filter_Details.MultiSelect = False
+        Me.dgv_Filter_Details.Name = "dgv_Filter_Details"
+        Me.dgv_Filter_Details.ReadOnly = True
+        Me.dgv_Filter_Details.RowHeadersVisible = False
+        Me.dgv_Filter_Details.RowHeadersWidth = 15
+        Me.dgv_Filter_Details.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Filter_Details.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Filter_Details.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_Filter_Details.Size = New System.Drawing.Size(861, 249)
+        Me.dgv_Filter_Details.TabIndex = 30
+        Me.dgv_Filter_Details.TabStop = False
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        DataGridViewCellStyle185.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle185.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle185
+        Me.DataGridViewTextBoxColumn1.Frozen = True
+        Me.DataGridViewTextBoxColumn1.HeaderText = "SNO"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        Me.DataGridViewTextBoxColumn1.Width = 40
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        DataGridViewCellStyle186.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn2.DefaultCellStyle = DataGridViewCellStyle186
+        Me.DataGridViewTextBoxColumn2.HeaderText = "REF NO"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
+        Me.DataGridViewTextBoxColumn2.Width = 60
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        DataGridViewCellStyle187.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle187
+        Me.DataGridViewTextBoxColumn3.HeaderText = "DATE"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.ReadOnly = True
+        Me.DataGridViewTextBoxColumn3.Width = 75
+        '
+        'pnl_Print
+        '
+        Me.pnl_Print.BackColor = System.Drawing.Color.SkyBlue
+        Me.pnl_Print.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Print.Controls.Add(Me.btn_Print_ReverseCharge)
+        Me.pnl_Print.Controls.Add(Me.PictureBox1)
+        Me.pnl_Print.Controls.Add(Me.btn_Print_Cancel)
+        Me.pnl_Print.Controls.Add(Me.btn_Print_Receipt)
+        Me.pnl_Print.Controls.Add(Me.Label103)
+        Me.pnl_Print.Controls.Add(Me.btn_Close_Print)
+        Me.pnl_Print.Controls.Add(Me.Label104)
+        Me.pnl_Print.Location = New System.Drawing.Point(677, 560)
+        Me.pnl_Print.Name = "pnl_Print"
+        Me.pnl_Print.Size = New System.Drawing.Size(346, 160)
+        Me.pnl_Print.TabIndex = 306
+        '
+        'btn_Print_ReverseCharge
+        '
+        Me.btn_Print_ReverseCharge.BackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.btn_Print_ReverseCharge.ForeColor = System.Drawing.Color.White
+        Me.btn_Print_ReverseCharge.Location = New System.Drawing.Point(111, 97)
+        Me.btn_Print_ReverseCharge.Name = "btn_Print_ReverseCharge"
+        Me.btn_Print_ReverseCharge.Size = New System.Drawing.Size(119, 30)
+        Me.btn_Print_ReverseCharge.TabIndex = 45
+        Me.btn_Print_ReverseCharge.Text = "&REVERSE CHARGE"
+        Me.btn_Print_ReverseCharge.UseVisualStyleBackColor = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Textile.My.Resources.Resources.Order2
+        Me.PictureBox1.Location = New System.Drawing.Point(15, 47)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(55, 44)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 50
+        Me.PictureBox1.TabStop = False
+        '
+        'btn_Print_Cancel
+        '
+        Me.btn_Print_Cancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.btn_Print_Cancel.ForeColor = System.Drawing.Color.White
+        Me.btn_Print_Cancel.Location = New System.Drawing.Point(246, 97)
+        Me.btn_Print_Cancel.Name = "btn_Print_Cancel"
+        Me.btn_Print_Cancel.Size = New System.Drawing.Size(83, 32)
+        Me.btn_Print_Cancel.TabIndex = 46
+        Me.btn_Print_Cancel.Text = "&CANCEL"
+        Me.btn_Print_Cancel.UseVisualStyleBackColor = False
+        '
+        'btn_Print_Receipt
+        '
+        Me.btn_Print_Receipt.BackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.btn_Print_Receipt.ForeColor = System.Drawing.Color.White
+        Me.btn_Print_Receipt.Location = New System.Drawing.Point(15, 97)
+        Me.btn_Print_Receipt.Name = "btn_Print_Receipt"
+        Me.btn_Print_Receipt.Size = New System.Drawing.Size(85, 32)
+        Me.btn_Print_Receipt.TabIndex = 44
+        Me.btn_Print_Receipt.Text = "&RECEIPT"
+        Me.btn_Print_Receipt.UseVisualStyleBackColor = False
+        '
+        'Label103
+        '
+        Me.Label103.AutoSize = True
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.ForeColor = System.Drawing.Color.Black
+        Me.Label103.Location = New System.Drawing.Point(85, 63)
+        Me.Label103.Name = "Label103"
+        Me.Label103.Size = New System.Drawing.Size(136, 13)
+        Me.Label103.TabIndex = 45
+        Me.Label103.Text = "Select the Print Option"
+        '
+        'btn_Close_Print
+        '
+        Me.btn_Close_Print.BackColor = System.Drawing.Color.White
+        Me.btn_Close_Print.BackgroundImage = Global.Textile.My.Resources.Resources.Close1
+        Me.btn_Close_Print.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Close_Print.FlatAppearance.BorderSize = 0
+        Me.btn_Close_Print.Location = New System.Drawing.Point(317, -1)
+        Me.btn_Close_Print.Name = "btn_Close_Print"
+        Me.btn_Close_Print.Size = New System.Drawing.Size(27, 25)
+        Me.btn_Close_Print.TabIndex = 47
+        Me.btn_Close_Print.TabStop = False
+        Me.btn_Close_Print.UseVisualStyleBackColor = True
+        '
+        'Label104
+        '
+        Me.Label104.BackColor = System.Drawing.Color.HotPink
+        Me.Label104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label104.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label104.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label104.ForeColor = System.Drawing.Color.White
+        Me.Label104.Location = New System.Drawing.Point(0, 0)
+        Me.Label104.Name = "Label104"
+        Me.Label104.Size = New System.Drawing.Size(344, 24)
+        Me.Label104.TabIndex = 43
+        Me.Label104.Text = "PRINT OPTION"
+        Me.Label104.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'pnl_Tax
+        '
+        Me.pnl_Tax.BackColor = System.Drawing.Color.White
+        Me.pnl_Tax.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_Tax.Controls.Add(Me.btn_Tax_Close)
+        Me.pnl_Tax.Controls.Add(Me.Label102)
+        Me.pnl_Tax.Controls.Add(Me.dgv_Tax_Details)
+        Me.pnl_Tax.Controls.Add(Me.dgv_Tax_Total_Details)
+        Me.pnl_Tax.Location = New System.Drawing.Point(1018, 221)
+        Me.pnl_Tax.Name = "pnl_Tax"
+        Me.pnl_Tax.Size = New System.Drawing.Size(781, 196)
+        Me.pnl_Tax.TabIndex = 307
+        '
+        'btn_Tax_Close
+        '
+        Me.btn_Tax_Close.BackColor = System.Drawing.Color.Red
+        Me.btn_Tax_Close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Tax_Close.FlatAppearance.BorderSize = 0
+        Me.btn_Tax_Close.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn_Tax_Close.Font = New System.Drawing.Font("Calibri", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.btn_Tax_Close.ForeColor = System.Drawing.Color.White
+        Me.btn_Tax_Close.Location = New System.Drawing.Point(753, -1)
+        Me.btn_Tax_Close.Name = "btn_Tax_Close"
+        Me.btn_Tax_Close.Size = New System.Drawing.Size(26, 24)
+        Me.btn_Tax_Close.TabIndex = 324
+        Me.btn_Tax_Close.TabStop = False
+        Me.btn_Tax_Close.Text = "X"
+        Me.btn_Tax_Close.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btn_Tax_Close.UseVisualStyleBackColor = False
+        '
+        'Label102
+        '
+        Me.Label102.BackColor = System.Drawing.Color.Purple
+        Me.Label102.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label102.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label102.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label102.ForeColor = System.Drawing.Color.White
+        Me.Label102.Location = New System.Drawing.Point(0, 0)
+        Me.Label102.Name = "Label102"
+        Me.Label102.Size = New System.Drawing.Size(779, 25)
+        Me.Label102.TabIndex = 323
+        Me.Label102.Text = "TAX DETAILS"
+        Me.Label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'dgv_Tax_Details
+        '
+        Me.dgv_Tax_Details.AllowUserToResizeColumns = False
+        Me.dgv_Tax_Details.AllowUserToResizeRows = False
+        Me.dgv_Tax_Details.BackgroundColor = System.Drawing.Color.White
+        DataGridViewCellStyle189.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle189.BackColor = System.Drawing.Color.Goldenrod
+        DataGridViewCellStyle189.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle189.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle189.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle189.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle189.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Tax_Details.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle189
+        Me.dgv_Tax_Details.ColumnHeadersHeight = 25
+        Me.dgv_Tax_Details.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Tax_Details.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn68, Me.DataGridViewTextBoxColumn69, Me.DataGridViewTextBoxColumn70, Me.DataGridViewTextBoxColumn71, Me.DataGridViewTextBoxColumn72, Me.DataGridViewTextBoxColumn73, Me.Column74, Me.Column75, Me.Column76})
+        DataGridViewCellStyle199.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle199.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle199.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle199.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle199.SelectionBackColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle199.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle199.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Tax_Details.DefaultCellStyle = DataGridViewCellStyle199
+        Me.dgv_Tax_Details.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Tax_Details.EnableHeadersVisualStyles = False
+        Me.dgv_Tax_Details.Location = New System.Drawing.Point(-1, 26)
+        Me.dgv_Tax_Details.MultiSelect = False
+        Me.dgv_Tax_Details.Name = "dgv_Tax_Details"
+        Me.dgv_Tax_Details.ReadOnly = True
+        Me.dgv_Tax_Details.RowHeadersVisible = False
+        Me.dgv_Tax_Details.RowHeadersWidth = 15
+        Me.dgv_Tax_Details.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Tax_Details.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgv_Tax_Details.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_Tax_Details.Size = New System.Drawing.Size(781, 144)
+        Me.dgv_Tax_Details.TabIndex = 321
+        Me.dgv_Tax_Details.TabStop = False
+        '
+        'DataGridViewTextBoxColumn68
+        '
+        DataGridViewCellStyle190.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle190.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle190.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn68.DefaultCellStyle = DataGridViewCellStyle190
+        Me.DataGridViewTextBoxColumn68.Frozen = True
+        Me.DataGridViewTextBoxColumn68.HeaderText = "NO"
+        Me.DataGridViewTextBoxColumn68.Name = "DataGridViewTextBoxColumn68"
+        Me.DataGridViewTextBoxColumn68.ReadOnly = True
+        Me.DataGridViewTextBoxColumn68.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.DataGridViewTextBoxColumn68.Width = 25
+        '
+        'DataGridViewTextBoxColumn69
+        '
+        DataGridViewCellStyle191.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewTextBoxColumn69.DefaultCellStyle = DataGridViewCellStyle191
+        Me.DataGridViewTextBoxColumn69.HeaderText = "HSN Code"
+        Me.DataGridViewTextBoxColumn69.MaxInputLength = 15
+        Me.DataGridViewTextBoxColumn69.Name = "DataGridViewTextBoxColumn69"
+        Me.DataGridViewTextBoxColumn69.ReadOnly = True
+        Me.DataGridViewTextBoxColumn69.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.DataGridViewTextBoxColumn69.Width = 150
+        '
+        'DataGridViewTextBoxColumn70
+        '
+        DataGridViewCellStyle192.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle192.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn70.DefaultCellStyle = DataGridViewCellStyle192
+        Me.DataGridViewTextBoxColumn70.HeaderText = "Taxable Value"
+        Me.DataGridViewTextBoxColumn70.MaxInputLength = 20
+        Me.DataGridViewTextBoxColumn70.Name = "DataGridViewTextBoxColumn70"
+        Me.DataGridViewTextBoxColumn70.ReadOnly = True
+        Me.DataGridViewTextBoxColumn70.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'DataGridViewTextBoxColumn71
+        '
+        DataGridViewCellStyle193.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle193.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.DataGridViewTextBoxColumn71.DefaultCellStyle = DataGridViewCellStyle193
+        Me.DataGridViewTextBoxColumn71.HeaderText = "CGST %"
+        Me.DataGridViewTextBoxColumn71.MaxInputLength = 15
+        Me.DataGridViewTextBoxColumn71.Name = "DataGridViewTextBoxColumn71"
+        Me.DataGridViewTextBoxColumn71.ReadOnly = True
+        Me.DataGridViewTextBoxColumn71.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.DataGridViewTextBoxColumn71.Width = 60
+        '
+        'DataGridViewTextBoxColumn72
+        '
+        DataGridViewCellStyle194.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle194.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn72.DefaultCellStyle = DataGridViewCellStyle194
+        Me.DataGridViewTextBoxColumn72.HeaderText = "CGST Amount"
+        Me.DataGridViewTextBoxColumn72.MaxInputLength = 12
+        Me.DataGridViewTextBoxColumn72.Name = "DataGridViewTextBoxColumn72"
+        Me.DataGridViewTextBoxColumn72.ReadOnly = True
+        Me.DataGridViewTextBoxColumn72.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'DataGridViewTextBoxColumn73
+        '
+        DataGridViewCellStyle195.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle195.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.DataGridViewTextBoxColumn73.DefaultCellStyle = DataGridViewCellStyle195
+        Me.DataGridViewTextBoxColumn73.HeaderText = "SGST %"
+        Me.DataGridViewTextBoxColumn73.MaxInputLength = 15
+        Me.DataGridViewTextBoxColumn73.Name = "DataGridViewTextBoxColumn73"
+        Me.DataGridViewTextBoxColumn73.ReadOnly = True
+        Me.DataGridViewTextBoxColumn73.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.DataGridViewTextBoxColumn73.Width = 60
+        '
+        'Column74
+        '
+        DataGridViewCellStyle196.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column74.DefaultCellStyle = DataGridViewCellStyle196
+        Me.Column74.HeaderText = "SGST Amount"
+        Me.Column74.Name = "Column74"
+        Me.Column74.ReadOnly = True
+        Me.Column74.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column75
+        '
+        DataGridViewCellStyle197.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle197.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Column75.DefaultCellStyle = DataGridViewCellStyle197
+        Me.Column75.HeaderText = "IGST %"
+        Me.Column75.Name = "Column75"
+        Me.Column75.ReadOnly = True
+        Me.Column75.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column75.Width = 60
+        '
+        'Column76
+        '
+        DataGridViewCellStyle198.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column76.DefaultCellStyle = DataGridViewCellStyle198
+        Me.Column76.HeaderText = "IGST Amount"
+        Me.Column76.Name = "Column76"
+        Me.Column76.ReadOnly = True
+        Me.Column76.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'dgv_Tax_Total_Details
+        '
+        Me.dgv_Tax_Total_Details.AllowUserToAddRows = False
+        Me.dgv_Tax_Total_Details.AllowUserToDeleteRows = False
+        Me.dgv_Tax_Total_Details.AllowUserToResizeColumns = False
+        Me.dgv_Tax_Total_Details.AllowUserToResizeRows = False
+        Me.dgv_Tax_Total_Details.BackgroundColor = System.Drawing.Color.White
+        DataGridViewCellStyle200.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle200.BackColor = System.Drawing.Color.SaddleBrown
+        DataGridViewCellStyle200.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle200.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle200.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle200.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle200.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_Tax_Total_Details.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle200
+        Me.dgv_Tax_Total_Details.ColumnHeadersHeight = 34
+        Me.dgv_Tax_Total_Details.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgv_Tax_Total_Details.ColumnHeadersVisible = False
+        Me.dgv_Tax_Total_Details.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn74, Me.DataGridViewTextBoxColumn75, Me.DataGridViewTextBoxColumn76, Me.DataGridViewTextBoxColumn77, Me.DataGridViewTextBoxColumn78, Me.DataGridViewTextBoxColumn79, Me.Column77, Me.Column78, Me.Column79})
+        DataGridViewCellStyle210.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle210.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle210.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle210.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle210.SelectionBackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle210.SelectionForeColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle210.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_Tax_Total_Details.DefaultCellStyle = DataGridViewCellStyle210
+        Me.dgv_Tax_Total_Details.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgv_Tax_Total_Details.Enabled = False
+        Me.dgv_Tax_Total_Details.EnableHeadersVisualStyles = False
+        Me.dgv_Tax_Total_Details.Location = New System.Drawing.Point(0, 169)
+        Me.dgv_Tax_Total_Details.MultiSelect = False
+        Me.dgv_Tax_Total_Details.Name = "dgv_Tax_Total_Details"
+        Me.dgv_Tax_Total_Details.ReadOnly = True
+        Me.dgv_Tax_Total_Details.RowHeadersVisible = False
+        Me.dgv_Tax_Total_Details.RowHeadersWidth = 15
+        Me.dgv_Tax_Total_Details.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgv_Tax_Total_Details.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.dgv_Tax_Total_Details.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
+        Me.dgv_Tax_Total_Details.Size = New System.Drawing.Size(780, 25)
+        Me.dgv_Tax_Total_Details.TabIndex = 322
+        Me.dgv_Tax_Total_Details.TabStop = False
+        '
+        'DataGridViewTextBoxColumn74
+        '
+        DataGridViewCellStyle201.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle201.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn74.DefaultCellStyle = DataGridViewCellStyle201
+        Me.DataGridViewTextBoxColumn74.Frozen = True
+        Me.DataGridViewTextBoxColumn74.HeaderText = "SNO"
+        Me.DataGridViewTextBoxColumn74.Name = "DataGridViewTextBoxColumn74"
+        Me.DataGridViewTextBoxColumn74.ReadOnly = True
+        Me.DataGridViewTextBoxColumn74.Width = 25
+        '
+        'DataGridViewTextBoxColumn75
+        '
+        DataGridViewCellStyle202.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn75.DefaultCellStyle = DataGridViewCellStyle202
+        Me.DataGridViewTextBoxColumn75.HeaderText = "HSN Code"
+        Me.DataGridViewTextBoxColumn75.Name = "DataGridViewTextBoxColumn75"
+        Me.DataGridViewTextBoxColumn75.ReadOnly = True
+        Me.DataGridViewTextBoxColumn75.Width = 150
+        '
+        'DataGridViewTextBoxColumn76
+        '
+        DataGridViewCellStyle203.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle203.Format = "N0"
+        DataGridViewCellStyle203.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn76.DefaultCellStyle = DataGridViewCellStyle203
+        Me.DataGridViewTextBoxColumn76.HeaderText = "Taxable Amount"
+        Me.DataGridViewTextBoxColumn76.MaxInputLength = 12
+        Me.DataGridViewTextBoxColumn76.Name = "DataGridViewTextBoxColumn76"
+        Me.DataGridViewTextBoxColumn76.ReadOnly = True
+        '
+        'DataGridViewTextBoxColumn77
+        '
+        DataGridViewCellStyle204.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn77.DefaultCellStyle = DataGridViewCellStyle204
+        Me.DataGridViewTextBoxColumn77.HeaderText = "CGST %"
+        Me.DataGridViewTextBoxColumn77.MaxInputLength = 12
+        Me.DataGridViewTextBoxColumn77.Name = "DataGridViewTextBoxColumn77"
+        Me.DataGridViewTextBoxColumn77.ReadOnly = True
+        Me.DataGridViewTextBoxColumn77.Width = 60
+        '
+        'DataGridViewTextBoxColumn78
+        '
+        DataGridViewCellStyle205.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle205.Format = "N0"
+        DataGridViewCellStyle205.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn78.DefaultCellStyle = DataGridViewCellStyle205
+        Me.DataGridViewTextBoxColumn78.HeaderText = "CGST Amount"
+        Me.DataGridViewTextBoxColumn78.Name = "DataGridViewTextBoxColumn78"
+        Me.DataGridViewTextBoxColumn78.ReadOnly = True
+        '
+        'DataGridViewTextBoxColumn79
+        '
+        DataGridViewCellStyle206.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn79.DefaultCellStyle = DataGridViewCellStyle206
+        Me.DataGridViewTextBoxColumn79.HeaderText = "SGST %"
+        Me.DataGridViewTextBoxColumn79.Name = "DataGridViewTextBoxColumn79"
+        Me.DataGridViewTextBoxColumn79.ReadOnly = True
+        Me.DataGridViewTextBoxColumn79.Width = 60
+        '
+        'Column77
+        '
+        DataGridViewCellStyle207.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column77.DefaultCellStyle = DataGridViewCellStyle207
+        Me.Column77.HeaderText = "SGST Amount"
+        Me.Column77.Name = "Column77"
+        Me.Column77.ReadOnly = True
+        '
+        'Column78
+        '
+        DataGridViewCellStyle208.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column78.DefaultCellStyle = DataGridViewCellStyle208
+        Me.Column78.HeaderText = "IGST % "
+        Me.Column78.Name = "Column78"
+        Me.Column78.ReadOnly = True
+        Me.Column78.Width = 60
+        '
+        'Column79
+        '
+        DataGridViewCellStyle209.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column79.DefaultCellStyle = DataGridViewCellStyle209
+        Me.Column79.HeaderText = "IGST Amount"
+        Me.Column79.Name = "Column79"
+        Me.Column79.ReadOnly = True
+        '
+        'btn_EDIT_TCS_TaxableValue
+        '
+        Me.btn_EDIT_TCS_TaxableValue.BackColor = System.Drawing.Color.White
+        Me.btn_EDIT_TCS_TaxableValue.BackgroundImage = Global.Textile.My.Resources.Resources.Edit1
+        Me.btn_EDIT_TCS_TaxableValue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_EDIT_TCS_TaxableValue.ForeColor = System.Drawing.Color.White
+        Me.btn_EDIT_TCS_TaxableValue.Location = New System.Drawing.Point(68, 398)
+        Me.btn_EDIT_TCS_TaxableValue.Name = "btn_EDIT_TCS_TaxableValue"
+        Me.btn_EDIT_TCS_TaxableValue.Size = New System.Drawing.Size(24, 21)
+        Me.btn_EDIT_TCS_TaxableValue.TabIndex = 1197
+        Me.btn_EDIT_TCS_TaxableValue.TabStop = False
+        Me.btn_EDIT_TCS_TaxableValue.Text = "..."
+        Me.btn_EDIT_TCS_TaxableValue.UseVisualStyleBackColor = False
+        '
+        'txt_TcsPerc
+        '
+        Me.txt_TcsPerc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_TcsPerc.Location = New System.Drawing.Point(192, 398)
+        Me.txt_TcsPerc.MaxLength = 5
+        Me.txt_TcsPerc.Name = "txt_TcsPerc"
+        Me.txt_TcsPerc.Size = New System.Drawing.Size(50, 23)
+        Me.txt_TcsPerc.TabIndex = 1193
+        Me.txt_TcsPerc.TabStop = False
+        '
+        'chk_TCSAmount_RoundOff_STS
+        '
+        Me.chk_TCSAmount_RoundOff_STS.BackColor = System.Drawing.Color.Gainsboro
+        Me.chk_TCSAmount_RoundOff_STS.Font = New System.Drawing.Font("Calibri", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chk_TCSAmount_RoundOff_STS.ForeColor = System.Drawing.Color.Blue
+        Me.chk_TCSAmount_RoundOff_STS.Location = New System.Drawing.Point(336, 399)
+        Me.chk_TCSAmount_RoundOff_STS.Name = "chk_TCSAmount_RoundOff_STS"
+        Me.chk_TCSAmount_RoundOff_STS.Size = New System.Drawing.Size(44, 21)
+        Me.chk_TCSAmount_RoundOff_STS.TabIndex = 1192
+        Me.chk_TCSAmount_RoundOff_STS.TabStop = False
+        Me.chk_TCSAmount_RoundOff_STS.Text = "RO"
+        Me.chk_TCSAmount_RoundOff_STS.UseVisualStyleBackColor = False
+        '
+        'txt_TCS_TaxableValue
+        '
+        Me.txt_TCS_TaxableValue.Enabled = False
+        Me.txt_TCS_TaxableValue.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_TCS_TaxableValue.Location = New System.Drawing.Point(70, 398)
+        Me.txt_TCS_TaxableValue.MaxLength = 20
+        Me.txt_TCS_TaxableValue.Name = "txt_TCS_TaxableValue"
+        Me.txt_TCS_TaxableValue.Size = New System.Drawing.Size(118, 23)
+        Me.txt_TCS_TaxableValue.TabIndex = 1191
+        Me.txt_TCS_TaxableValue.TabStop = False
+        Me.txt_TCS_TaxableValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'lbl_TcsAmount
+        '
+        Me.lbl_TcsAmount.BackColor = System.Drawing.Color.Gainsboro
+        Me.lbl_TcsAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_TcsAmount.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_TcsAmount.Location = New System.Drawing.Point(268, 398)
+        Me.lbl_TcsAmount.Name = "lbl_TcsAmount"
+        Me.lbl_TcsAmount.Size = New System.Drawing.Size(116, 23)
+        Me.lbl_TcsAmount.TabIndex = 1196
+        Me.lbl_TcsAmount.Text = "123456"
+        Me.lbl_TcsAmount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.ForeColor = System.Drawing.Color.Blue
+        Me.Label46.Location = New System.Drawing.Point(249, 403)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(16, 15)
+        Me.Label46.TabIndex = 1195
+        Me.Label46.Text = "%"
+        '
+        'txt_Tcs_Name
+        '
+        Me.txt_Tcs_Name.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.txt_Tcs_Name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_Tcs_Name.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Tcs_Name.ForeColor = System.Drawing.Color.Blue
+        Me.txt_Tcs_Name.Location = New System.Drawing.Point(5, 402)
+        Me.txt_Tcs_Name.MaxLength = 20
+        Me.txt_Tcs_Name.Name = "txt_Tcs_Name"
+        Me.txt_Tcs_Name.Size = New System.Drawing.Size(25, 16)
+        Me.txt_Tcs_Name.TabIndex = 1194
+        Me.txt_Tcs_Name.TabStop = False
+        Me.txt_Tcs_Name.Text = "TCS"
+        '
+        'chk_TCS_Tax
+        '
+        Me.chk_TCS_Tax.AutoSize = True
+        Me.chk_TCS_Tax.BackColor = System.Drawing.Color.OrangeRed
+        Me.chk_TCS_Tax.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.chk_TCS_Tax.Checked = True
+        Me.chk_TCS_Tax.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chk_TCS_Tax.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chk_TCS_Tax.ForeColor = System.Drawing.Color.White
+        Me.chk_TCS_Tax.Location = New System.Drawing.Point(45, 7)
+        Me.chk_TCS_Tax.Name = "chk_TCS_Tax"
+        Me.chk_TCS_Tax.Size = New System.Drawing.Size(68, 19)
+        Me.chk_TCS_Tax.TabIndex = 1195
+        Me.chk_TCS_Tax.TabStop = False
+        Me.chk_TCS_Tax.Text = "TCS TAX"
+        Me.chk_TCS_Tax.UseVisualStyleBackColor = False
+        '
+        'Cloth_Purchase_Return_GST
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.ClientSize = New System.Drawing.Size(977, 542)
+        Me.Controls.Add(Me.chk_TCS_Tax)
+        Me.Controls.Add(Me.lbl_ReceiptCode)
+        Me.Controls.Add(Me.pnl_Order_Selection)
+        Me.Controls.Add(Me.pnl_Selection)
+        Me.Controls.Add(Me.pnl_Tax)
+        Me.Controls.Add(Me.pnl_Print)
+        Me.Controls.Add(Me.pnl_Back)
+        Me.Controls.Add(Me.lbl_UserName)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lbl_Company)
+        Me.Controls.Add(Me.pnl_Filter)
+        Me.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.KeyPreview = True
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "Cloth_Purchase_Return_GST"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "CLOTH PURCASE"
+        Me.pnl_Back.ResumeLayout(False)
+        Me.pnl_Back.PerformLayout()
+        CType(Me.dgv_Details, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_Details_Total, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnl_Order_Selection.ResumeLayout(False)
+        Me.pnl_Order_Selection.PerformLayout()
+        CType(Me.dgv_Order_Selection, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnl_Selection.ResumeLayout(False)
+        Me.pnl_Selection.PerformLayout()
+        CType(Me.dgv_Selection, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnl_Filter.ResumeLayout(False)
+        Me.pnl_Filter.PerformLayout()
+        CType(Me.dgv_Filter_Details, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnl_Print.ResumeLayout(False)
+        Me.pnl_Print.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnl_Tax.ResumeLayout(False)
+        CType(Me.dgv_Tax_Details, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_Tax_Total_Details, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents btn_SaveAll As System.Windows.Forms.Button
+    Friend WithEvents msk_date As System.Windows.Forms.MaskedTextBox
+    Friend WithEvents pnl_Back As System.Windows.Forms.Panel
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents btn_ReceiptSelection As System.Windows.Forms.Button
+    Friend WithEvents lbl_TotalMeters As System.Windows.Forms.Label
+    Friend WithEvents lbl_ReceiptCode As System.Windows.Forms.Label
+    Friend WithEvents txt_Note As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents chk_No_Folding As System.Windows.Forms.CheckBox
+    Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents lbl_Net_Amt As System.Windows.Forms.Label
+    Friend WithEvents lbl_Cash_Disc_Perc As System.Windows.Forms.Label
+    Friend WithEvents lbl_Trade_Disc_Perc As System.Windows.Forms.Label
+    Friend WithEvents txt_ReturnMeters As System.Windows.Forms.TextBox
+    Friend WithEvents Label26 As System.Windows.Forms.Label
+    Friend WithEvents txt_Packing_Name As System.Windows.Forms.TextBox
+    Friend WithEvents txt_CashDic_Name As System.Windows.Forms.TextBox
+    Friend WithEvents txt_CommAmt As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents txt_Packing As System.Windows.Forms.TextBox
+    Friend WithEvents txt_Cash_Disc As System.Windows.Forms.TextBox
+    Friend WithEvents txt_Trade_Disc As System.Windows.Forms.TextBox
+    Friend WithEvents txt_Freight_Name As System.Windows.Forms.TextBox
+    Friend WithEvents txt_Insurance_Name As System.Windows.Forms.TextBox
+    Friend WithEvents txt_TradeDic_Name As System.Windows.Forms.TextBox
+    Friend WithEvents txt_Vechile As System.Windows.Forms.TextBox
+    Friend WithEvents Label24 As System.Windows.Forms.Label
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents cbo_PurchaseAc As System.Windows.Forms.ComboBox
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents txt_ReceiptMeters As System.Windows.Forms.TextBox
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents txt_RecDate As System.Windows.Forms.TextBox
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents txt_RecNo As System.Windows.Forms.TextBox
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents cbo_Com_Type As System.Windows.Forms.ComboBox
+    Friend WithEvents txt_com_per As System.Windows.Forms.TextBox
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents txt_Freight As System.Windows.Forms.TextBox
+    Friend WithEvents cbo_Type As System.Windows.Forms.ComboBox
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents txt_Pcs As System.Windows.Forms.TextBox
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents txt_Bundles As System.Windows.Forms.TextBox
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents btn_Print As System.Windows.Forms.Button
+    Friend WithEvents btn_close As System.Windows.Forms.Button
+    Friend WithEvents btn_save As System.Windows.Forms.Button
+    Friend WithEvents txt_Insurance As System.Windows.Forms.TextBox
+    Friend WithEvents cbo_Grid_Clothtype As System.Windows.Forms.ComboBox
+    Friend WithEvents cbo_Grid_ClothName As System.Windows.Forms.ComboBox
+    Friend WithEvents dgv_Details As System.Windows.Forms.DataGridView
+    Friend WithEvents dgv_Details_Total As System.Windows.Forms.DataGridView
+    Friend WithEvents txt_ExcShtMeters As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents txt_BillNo As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents cbo_Transport As System.Windows.Forms.ComboBox
+    Friend WithEvents cbo_Agent As System.Windows.Forms.ComboBox
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents lbl_RefNo As System.Windows.Forms.Label
+    Friend WithEvents cbo_PartyName As System.Windows.Forms.ComboBox
+    Friend WithEvents dtp_Date As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents cbo_Filter_PartyName As System.Windows.Forms.ComboBox
+    Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents dtp_Filter_ToDate As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label31 As System.Windows.Forms.Label
+    Friend WithEvents lbl_UserName As System.Windows.Forms.Label
+    Friend WithEvents dtp_Filter_Fromdate As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label34 As System.Windows.Forms.Label
+    Friend WithEvents Column10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column17 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column29 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents Column6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents PrintDocument2 As System.Drawing.Printing.PrintDocument
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents Column5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
+    Friend WithEvents lbl_Company As System.Windows.Forms.Label
+    Friend WithEvents lbl_Heading_Selection As System.Windows.Forms.Label
+    Friend WithEvents pnl_Selection As System.Windows.Forms.Panel
+    Friend WithEvents btn_Close_Selection As System.Windows.Forms.Button
+    Friend WithEvents Label35 As System.Windows.Forms.Label
+    Friend WithEvents dgv_Selection As System.Windows.Forms.DataGridView
+    Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
+    Friend WithEvents cbo_Filter_ClothName As System.Windows.Forms.ComboBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents btn_Filter_Close As System.Windows.Forms.Button
+    Friend WithEvents pnl_Filter As System.Windows.Forms.Panel
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents btn_Filter_Show As System.Windows.Forms.Button
+    Friend WithEvents dgv_Filter_Details As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents pnl_Print As System.Windows.Forms.Panel
+    Friend WithEvents btn_Print_ReverseCharge As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents btn_Print_Cancel As System.Windows.Forms.Button
+    Friend WithEvents btn_Print_Receipt As System.Windows.Forms.Button
+    Friend WithEvents Label103 As System.Windows.Forms.Label
+    Friend WithEvents btn_Close_Print As System.Windows.Forms.Button
+    Friend WithEvents Label104 As System.Windows.Forms.Label
+    Friend WithEvents pnl_Tax As System.Windows.Forms.Panel
+    Friend WithEvents btn_Tax_Close As System.Windows.Forms.Button
+    Friend WithEvents Label102 As System.Windows.Forms.Label
+    Friend WithEvents dgv_Tax_Details As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn68 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn69 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn70 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn71 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn72 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn73 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column74 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column75 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column76 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgv_Tax_Total_Details As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn74 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn75 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn76 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn77 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn78 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn79 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column77 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column78 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column79 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents cbo_TaxType As System.Windows.Forms.ComboBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents btn_Tax As System.Windows.Forms.Button
+    Friend WithEvents txt_AssessableValue As System.Windows.Forms.TextBox
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents lbl_CGST_Amount As System.Windows.Forms.Label
+    Friend WithEvents Label98 As System.Windows.Forms.Label
+    Friend WithEvents Label96 As System.Windows.Forms.Label
+    Friend WithEvents Label97 As System.Windows.Forms.Label
+    Friend WithEvents lbl_SGST_Amount As System.Windows.Forms.Label
+    Friend WithEvents lbl_IGST_Amount As System.Windows.Forms.Label
+    Friend WithEvents lbl_RoundOff As System.Windows.Forms.Label
+    Friend WithEvents Label37 As System.Windows.Forms.Label
+    Friend WithEvents DataGridViewTextBoxColumn34 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column25 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn38 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn40 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn41 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn42 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column18 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column20 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Cbo_BillMeter As System.Windows.Forms.ComboBox
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column14 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column15 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column30 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column31 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column32 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column33 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column34 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column35 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column36 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents pnl_Order_Selection As System.Windows.Forms.Panel
+    Friend WithEvents btn_Close_order_Selection As System.Windows.Forms.Button
+    Friend WithEvents Label36 As System.Windows.Forms.Label
+    Friend WithEvents dgv_Order_Selection As System.Windows.Forms.DataGridView
+    Friend WithEvents Label38 As System.Windows.Forms.Label
+    Friend WithEvents DataGridViewTextBoxColumn8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn13 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column42 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column43 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column44 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column45 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column46 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn15 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn16 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn17 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn18 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column47 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column48 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column49 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column50 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column51 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Label39 As System.Windows.Forms.Label
+    Friend WithEvents Label40 As System.Windows.Forms.Label
+    Friend WithEvents Label41 As System.Windows.Forms.Label
+    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column19 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column21 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column13 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column16 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column22 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column23 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column24 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column26 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column27 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column28 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column37 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column38 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column39 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column40 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column41 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column52 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column53 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents btn_UserModification As System.Windows.Forms.Button
+    Friend WithEvents btn_EDIT_TCS_TaxableValue As Button
+    Friend WithEvents txt_TcsPerc As TextBox
+    Friend WithEvents chk_TCSAmount_RoundOff_STS As CheckBox
+    Friend WithEvents txt_TCS_TaxableValue As TextBox
+    Friend WithEvents lbl_TcsAmount As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents txt_Tcs_Name As TextBox
+    Friend WithEvents chk_TCS_Tax As CheckBox
+End Class

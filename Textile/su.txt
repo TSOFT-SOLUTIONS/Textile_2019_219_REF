@@ -1,0 +1,4 @@
+05/03/2025 5:55:50 PM
+D:\TSOFT\Textile_2019_217\Textile\bin\Debug\Textile.exe
+d:\tsoft\textile_2019_217\textile\Reports
+TSoft_Textile_CompanyGroup_Details

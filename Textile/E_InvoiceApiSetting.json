@@ -1,0 +1,11 @@
+{
+  "GSPName": "TaxPro_Production",
+  "AspUserId": "1612689919",
+  "AspPassword": "Ruth@2009",
+  "client_id": "",
+  "client_secret": "",
+  "AuthUrl": "http://einvapi.charteredinfo.com/eivital/v1.04",
+  "BaseUrl": "http://einvapi.charteredinfo.com/eicore/v1.03",
+  "EwbByIRN": "http://einvapi.charteredinfo.com/eiewb/v1.03",
+  "CancelEwbUrl": "http://einvapi.charteredinfo.com/v1.03"
+}
