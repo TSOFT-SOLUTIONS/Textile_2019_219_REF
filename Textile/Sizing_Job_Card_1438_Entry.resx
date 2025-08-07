@@ -1,0 +1,161 @@
+or_OrderBy] [numeric](18, 2) NOT NULL, [Sizing_JobCard_Date] [smalldatetime] NOT NULL, [Ledger_IdNo] [int] NULL, [ends_name] [numeric](18, 2) NOT NULL, [Beam_Length] [numeric](18, 2) NULL, [Wrap_Length] [numeric](18, 2) NULL, [Sizing_Length] [numeric](18, 2) NULL, [Fabric_Weave] [varchar](50) NULL, [creel] [varchar](20) NULL, [Fabric_Width] [varchar](35) NULL, [DBF] [varchar](35) NULL, [Loom_Type_Idno] [int] NULL, [No_Of_Beams] [numeric](18, 2) NULL, [Pick_Up] [numeric](18, 2) NULL, [Elongation] [numeric](18, 2) NULL, [Beam_Requirement_Date] [smalldatetime] NOT NULL, [Remarks] [varchar](500) NULL, CONSTRAINT [PK_Sizing_JobCard_Head] PRIMARY KEY CLUSTERED ( [Sizing_JobCard_Code] ASC )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY] ) ON [PRIMARY]"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "CREATE TABLE [Sizing_JobCard_Details]( [Sizing_JobCard_Code] [varchar](30) NOT NULL, [Company_IdNo] [smallint] NOT NULL, [Sizing_JobCard_No] [varchar](20) NOT NULL, [for_OrderBy] [numeric](18, 2) NOT NULL, [Sizing_JobCard_Date] [smalldatetime] NOT NULL, [Ledger_IdNo] [int] NULL, [Sl_No] [smallint] NOT NULL, [Count_IdNo] [smallint] NOT NULL, [Yarn_Type] [varchar](50) NULL, [Mill_IdNo] [smallint] NULL, [Weight_Per_Cone] [numeric](18, 2) NULL, [No_Of_Cones] [int] NULL, [Weight] [numeric](18, 3) NOT NULL, [LOT_NO] [varchar](50) NULL, CONSTRAINT [PK_Sizing_JobCard_Details] PRIMARY KEY CLUSTERED ( [Sizing_JobCard_Code] ASC, [Sl_No] ASC )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY] ) ON [PRIMARY]"
+        cmd.ExecuteNonQuery()
+
+
+        '-----subha 172
+
+
+        '---subha
+        cmd.CommandText = "Alter table Stores_item_head add Catelog_pageno Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stores_item_head set Catelog_pageno = '' Where Catelog_pageno is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "CREATE TABLE [dbo].[Motion_Type_Head]( [Motion_Type_IdNo] [int] NOT NULL, [Motion_Type_Name] [varchar](50) NOT NULL, [Sur_Name] [varchar](50) NOT NULL, ) ON [PRIMARY] "
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Stores_item_head add Motion_Type_IdNo Int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stores_item_head set Motion_Type_IdNo = 0 Where Motion_Type_IdNo is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Stores_Item_Purchase_Details add Catelog_pageno Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stores_Item_Purchase_Details set Catelog_pageno = '' Where Catelog_pageno is Null"
+        cmd.ExecuteNonQuery()
+
+
+
+        cmd.CommandText = "Alter table Stores_Item_Purchase_Details add Motion_Type_IdNo Int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stores_Item_Purchase_Details set Motion_Type_IdNo = 0 Where Motion_Type_IdNo is Null"
+        cmd.ExecuteNonQuery()
+
+
+        cmd.CommandText = "Alter table Weaver_Wages_Head add Chk_Freight_Print_Status smallint default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Wages_Head set Chk_Freight_Print_Status = 0 Where Chk_Freight_Print_Status is Null"
+        cmd.ExecuteNonQuery()
+
+
+        '-----subha
+
+
+        '-------------------------START THANGES Textile_2019_171
+
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add created_useridno int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set created_useridno  = user_idno Where created_useridno  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add created_DateTime datetime"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add created_DateTime_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set created_DateTime_Text = '' Where created_DateTime_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add Last_modified_useridno int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set Last_modified_useridno = 0 Where Last_modified_useridno  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add Last_modified_DateTime datetime"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add Last_modified_DateTime_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set Last_modified_DateTime_Text = '' Where Last_modified_DateTime_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add approvedby_useridno int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set approvedby_useridno = 0 Where approvedby_useridno  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add approvedby_DateTime datetime"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_Piece_Checking_Head add approvedby_DateTime_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_Piece_Checking_Head set approvedby_DateTime_Text = '' Where approvedby_DateTime_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_ClothReceipt_App_PieceChecking_Details add Defect_Remarks varchar(2000) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_ClothReceipt_App_PieceChecking_Details set Defect_Remarks = b.Remarks from Weaver_ClothReceipt_App_PieceChecking_Details  a, Weaver_ClothReceipt_Piece_Details b Where a.Defect_Remarks Is Null and b.Remarks <> '' and a.Lot_Code = b.Lot_Code and a.piece_No = b.piece_No"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_ClothReceipt_App_PieceChecking_Details set Defect_Remarks = '' Where Defect_Remarks Is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "CREATE TABLE [ClothType_App_Head] ( [ClothType_App_IdNo] [int] Not NULL, [ClothType_App_Name] [nvarchar](50) Not NULL, CONSTRAINT [PK_ClothType_App_Head] PRIMARY KEY NONCLUSTERED ( [ClothType_App_IdNo]  ) ON [PRIMARY], CONSTRAINT [Duplicate_ClothTypeAppHead_Name] UNIQUE NONCLUSTERED ( [ClothType_App_Name] ) ON [PRIMARY] ) ON [PRIMARY]"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add user_idno int default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set user_idno = 0 Where user_idno is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add Year_Code Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set Year_Code = '' Where Year_Code  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add PackingSlip_Date_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set PackingSlip_Date_Text = '' Where PackingSlip_Date_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add PackingSlip_DateTime datetime"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add PackingSlip_DateTime_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set PackingSlip_DateTime_Text = '' Where PackingSlip_DateTime_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Packing_Slip_Head add PackingSlip_Time_Text Varchar(50) default ''"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set PackingSlip_Time_Text = '' Where PackingSlip_Time_Text  is Null"
+        cmd.ExecuteNonQuery()
+
+        If Trim(UCase(Common_Procedures.settings.CustomerCode)) = "1420" Then '---- CYBER TEX (PALLADAM)
+            cmd.CommandText = "Update JobWork_Piece_Delivery_Details set Lot_No = b.lot_no from JobWork_Piece_Delivery_Details a, Weaver_ClothReceipt_Piece_Details b Where a.Lot_No = '' and a.lot_code = b.lot_code and a.pcs_no = b.piece_no"
+            cmd.ExecuteNonQuery()
+            cmd.CommandText = "Update JobWork_Piece_Delivery_Head set Yarn_Stock_Posting_for_Warp_Status = 1 Where (Yarn_Stock_Posting_for_Warp_Status is Null OR Yarn_Stock_Posting_for_Warp_Status = 0) and JobWork_Piece_Delivery_Code like '%/22-23'"
+            cmd.ExecuteNonQuery()
+        End If
+        cmd.CommandText = "Alter table Packing_Slip_Head add Weight_PER_Meter NUMERIC(18,3) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Packing_Slip_Head set Weight_PER_Meter = 0 Where Weight_PER_Meter is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Weaver_ClothReceipt_Piece_Details add REED NUMERIC(18,2) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Weaver_ClothReceipt_Piece_Details set REED = 0 Where REED is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Sizing_Pavu_Receipt_Details add SizedBeam_Meters NUMERIC(18,2) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Sizing_Pavu_Receipt_Details set SizedBeam_Meters = Meters Where SizedBeam_Meters is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Sizing_Pavu_Receipt_Details add Fabric_Meters NUMERIC(18,2) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Sizing_Pavu_Receipt_Details set Fabric_Meters = Meters Where Fabric_Meters is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Stock_SizedPavu_Processing_Details add SizedBeam_Meters NUMERIC(18,2) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stock_SizedPavu_Processing_Details set SizedBeam_Meters = Meters Where SizedBeam_Meters is Null"
+        cmd.ExecuteNonQuery()
+
+        cmd.CommandText = "Alter table Stock_SizedPavu_Processing_Details add Fabric_Meters NUMERIC(18,2) default 0"
+        cmd.ExecuteNonQuery()
+        cmd.CommandText = "Update Stock_SizedPavu_Processing_Details set Fabric_Meters = Meters Where Fabric_Meters is Null"
+  

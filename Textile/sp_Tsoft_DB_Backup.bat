@@ -1,0 +1,1 @@
+sqlcmd -U sa -P tsoftsql -S thanges\tsoft2014 -Q "EXEC sp_BackupDatabases @databaseName='', @backupLocation='D:\TSOFT_AUTOBACKUP\'"

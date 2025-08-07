@@ -1,0 +1,80 @@
+{
+  "Version": "1.1",
+  "TranDtls": {
+    "TaxSch": "GST",
+    "SupTyp": "B2B",
+    "RegRev": "N",
+    "EcmGstin": null,
+    "IgstOnIntra": "N"
+  },
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "SP169",
+    "Dt": "19/03/2025"
+  },
+  "SellerDtls": {
+    "Gstin": "33AADFJ7689P1ZJ",
+    "LglNm": "JPR TEXTILES",
+    "TrdNm": "JPR TEXTILES",
+    "Addr1": "1/223,POLLACHI ROAD, CHINNA VADUGAPALAYAM,",
+    "Addr2": "P.VADUGAPALAYAM POST,PALLADAM-641664. TIRUPUR-DT,TAMILNADU.",
+    "Loc": "PALLADAM",
+    "Pin": 641664,
+    "Stcd": "33"
+  },
+  "BuyerDtls": {
+    "Gstin": "33ACMFS6678L1ZA",
+    "LglNm": "SHANTHI EGS & AIRCOOLER SALES & SERVICE",
+    "TrdNm": "SHANTHI EGS & AIRCOOLER SALES & SERVICE",
+    "Addr1": " ",
+    "Addr2": " ",
+    "Loc": "",
+    "Pin": 0,
+    "Stcd": "33"
+  },
+  "ItemList": [
+    {
+      "SlNo": "1",
+      "PrdDesc": "PVC DUCT",
+      "IsServc": "N",
+      "HsnCd": "8446",
+      "Qty": 5,
+      "Unit": "N0",
+      "UnitPrice": 5000.00,
+      "TotAmt": 25000.00,
+      "Discount": 0.00,
+      "PreTaxVal": 25000.00,
+      "AssAmt": 25000.00,
+      "GstRt": 18.00,
+      "IgstAmt": 0.0,
+      "CgstAmt": 2250.00,
+      "SgstAmt": 2250.00,
+      "TotItemVal": 29500.00
+    },
+    {
+      "SlNo": "2",
+      "PrdDesc": "COOLER CLEANING",
+      "IsServc": "N",
+      "HsnCd": "8446",
+      "Qty": 3,
+      "Unit": "N0",
+      "UnitPrice": 750.00,
+      "TotAmt": 2250.00,
+      "Discount": 0.00,
+      "PreTaxVal": 2250.00,
+      "AssAmt": 2250.00,
+      "GstRt": 18.00,
+      "IgstAmt": 0.0,
+      "CgstAmt": 202.50,
+      "SgstAmt": 202.50,
+      "TotItemVal": 2655.00
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 27250.0,
+    "CgstVal": 2452.5,
+    "SgstVal": 2452.5,
+    "IgstVal": 0.0,
+    "TotInvVal": 32155.0
+  }
+}

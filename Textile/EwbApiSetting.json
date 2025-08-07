@@ -1,0 +1,12 @@
+{
+  "ID": 0,
+  "GSPName": "TaxPro_Production",
+  "AspUserId": "1612689919",
+  "AspPassword": "Ruth@2009",
+  "EWBClientId": "",
+  "EWBClientSecret": "",
+  "EWBGSPUserID": "",
+  "AuthUrl": null,
+  "BaseUrl": "https://einvapi.charteredinfo.com/v1.03",
+  "AspUrl": null
+}

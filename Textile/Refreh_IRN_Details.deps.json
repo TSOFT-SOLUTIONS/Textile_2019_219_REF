@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Refreh_IRN_Details/1.0.0": {
+        "runtime": {
+          "Refreh_IRN_Details.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Refreh_IRN_Details/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

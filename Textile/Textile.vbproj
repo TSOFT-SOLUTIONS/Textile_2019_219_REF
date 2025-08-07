@@ -1,0 +1,4490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F807020-FF71-49CA-946F-60E4B7F9D76A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Textile.My.MyApplication</StartupObject>
+    <RootNamespace>Textile</RootNamespace>
+    <AssemblyName>Textile</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\TSOFT\Textile\PUBLISH\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Textile.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Textile.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\tsoft1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D6F49C7C27DA0B11CE8B065C913A39406A9689B2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Textile_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Images\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Images\AWSSDK.S3.dll</HintPath>
+    </Reference>
+    <Reference Include="jose-jwt, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\jose-jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\10.0.0.0__b03f5f7f11d50a3a\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TaxProEInvoice.API, Version=1.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TaxProEInvoice.API.dll</HintPath>
+    </Reference>
+    <Reference Include="TaxProEWB.API, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TaxProEWB.API.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.5.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.5.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts_Group_Creation.designer.vb">
+      <DependentUpon>Accounts_Group_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts_Group_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Password.designer.vb">
+      <DependentUpon>Admin_Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Advance_Bill_Adjustment.Designer.vb">
+      <DependentUpon>Advance_Bill_Adjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Advance_Bill_Adjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agent_Creation.Designer.vb">
+      <DependentUpon>Agent_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agent_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amount_Payment_Entry.designer.vb">
+      <DependentUpon>Amount_Payment_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Amount_Payment_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amount_Receipt_Entry.designer.vb">
+      <DependentUpon>Amount_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Amount_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AppUser_Creation.Designer.vb">
+      <DependentUpon>AppUser_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppUser_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_Creation.designer.vb">
+      <DependentUpon>Area_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_Creation.Designer.vb">
+      <DependentUpon>Article_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Article_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bag_Type_Creation.Designer.vb">
+      <DependentUpon>Bag_Type_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bag_Type_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balance_Sheet.Designer.vb">
+      <DependentUpon>Balance_Sheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Balance_Sheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bale_Opening.Designer.vb">
+      <DependentUpon>Bale_Opening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bale_Opening.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bale_Transfer.Designer.vb">
+      <DependentUpon>Bale_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bale_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bank_Creation.Designer.vb">
+      <DependentUpon>Bank_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bank_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeamNo_Creation.designer.vb">
+      <DependentUpon>BeamNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeamNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beam_Card_Entry.Designer.vb">
+      <DependentUpon>Beam_Card_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beam_Card_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beam_Close.designer.vb">
+      <DependentUpon>Beam_Close.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beam_Close.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beam_Knotting_Entry.designer.vb">
+      <DependentUpon>Beam_Knotting_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beam_Knotting_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beam_Run_Out_Entry.Designer.vb">
+      <DependentUpon>Beam_Run_Out_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beam_Run_Out_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beam_Width_Creation.designer.vb">
+      <DependentUpon>Beam_Width_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beam_Width_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_Item_Creation.Designer.vb">
+      <DependentUpon>Billing_Item_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_Item_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_Purchase_Entry_Simple_Gst.Designer.vb">
+      <DependentUpon>Billing_Purchase_Entry_Simple_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_Purchase_Entry_Simple_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_Purchase_Return_Gst.Designer.vb">
+      <DependentUpon>Billing_Purchase_Return_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_Purchase_Return_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_SalesEntry_Simple2_GST.designer.vb">
+      <DependentUpon>Billing_SalesEntry_Simple2_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_SalesEntry_Simple2_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_SalesReturn_Entry_GST.designer.vb">
+      <DependentUpon>Billing_SalesReturn_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_SalesReturn_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Delivery_Entry.designer.vb">
+      <DependentUpon>Bobin_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Delivery_Entry_GST.designer.vb">
+      <DependentUpon>Bobin_Delivery_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Delivery_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Production.designer.vb">
+      <DependentUpon>Bobin_Production.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Production.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Purchase_GST.designer.vb">
+      <DependentUpon>Bobin_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Purchase_Order_Entry.designer.vb">
+      <DependentUpon>Bobin_Purchase_Order_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Purchase_Order_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Purchase_Return_GST.designer.vb">
+      <DependentUpon>Bobin_Purchase_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Purchase_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Receipt_Entry.designer.vb">
+      <DependentUpon>Bobin_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales.Designer.vb">
+      <DependentUpon>Bobin_Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Entry.designer.vb">
+      <DependentUpon>Bobin_Sales_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Entry_GST.Designer.vb">
+      <DependentUpon>Bobin_Sales_Delivery_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Return.designer.vb">
+      <DependentUpon>Bobin_Sales_Delivery_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales_Delivery_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales_Invoice_Entry_GST.Designer.vb">
+      <DependentUpon>Bobin_Sales_Invoice_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales_Invoice_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Sales_Order_Entry.Designer.vb">
+      <DependentUpon>Bobin_Sales_Order_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Sales_Order_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bobin_Size_Creation.designer.vb">
+      <DependentUpon>Bobin_Size_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bobin_Size_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorderSize_Creation.designer.vb">
+      <DependentUpon>BorderSize_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorderSize_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bundle_Packing_Entry.designer.vb">
+      <DependentUpon>Bundle_Packing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bundle_Packing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bundle_Packing_Entry_Single.designer.vb">
+      <DependentUpon>Bundle_Packing_Entry_Single.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bundle_Packing_Entry_Single.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buyer_Offer_PcsWise_Entry.Designer.vb">
+      <DependentUpon>Buyer_Offer_PcsWise_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buyer_Offer_PcsWise_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category_Creation.Designer.vb">
+      <DependentUpon>Category_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Category_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_Update.Designer.vb">
+      <DependentUpon>CC_Update.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_Update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checking_Section_Creation.designer.vb">
+      <DependentUpon>Checking_Section_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Checking_Section_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checking_Table_Creation.designer.vb">
+      <DependentUpon>Checking_Table_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Checking_Table_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_GST_EInvoice_Connectivity.Designer.vb">
+      <DependentUpon>Check_GST_EInvoice_Connectivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Check_GST_EInvoice_Connectivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque_Entry_Print_Positioning.Designer.vb">
+      <DependentUpon>Cheque_Entry_Print_Positioning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque_Entry_Print_Positioning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque_Return_Entry.Designer.vb">
+      <DependentUpon>Cheque_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Invoice_GST.designer.vb">
+      <DependentUpon>ClothSales_Cloth_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Invoice_VAT.designer.vb">
+      <DependentUpon>ClothSales_Cloth_Invoice_VAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Invoice_VAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Proforma_Invoice_GST.designer.vb">
+      <DependentUpon>ClothSales_Proforma_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Proforma_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Return_GST.designer.vb">
+      <DependentUpon>ClothSales_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSet_Creation.designer.vb">
+      <DependentUpon>ClothSet_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSet_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Creation_Rate_Details.designer.vb">
+      <DependentUpon>Cloth_Creation_Rate_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Creation_Rate_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Purchase_GST.designer.vb">
+      <DependentUpon>Cloth_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Order_Indent.designer.vb">
+      <DependentUpon>Cloth_Purchase_Order_Indent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Order_Indent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Return_GST.Designer.vb">
+      <DependentUpon>Cloth_Purchase_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company_Selection.designer.vb">
+      <DependentUpon>Company_Selection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Company_Selection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConeType_Creation.designer.vb">
+      <DependentUpon>ConeType_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConeType_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cone_Type_Creation.Designer.vb">
+      <DependentUpon>Cone_Type_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cone_Type_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact_Designation_Creation.designer.vb">
+      <DependentUpon>Contact_Designation_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_Designation_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Costing_Entry.designer.vb">
+      <DependentUpon>Costing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Costing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_opening.designer.vb">
+      <DependentUpon>Cotton_opening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_opening.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_Purchase_Entry_GST.designer.vb">
+      <DependentUpon>Cotton_Purchase_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_Purchase_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_Purchase_Gst.Designer.vb">
+      <DependentUpon>Cotton_Purchase_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_Purchase_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_Sales_Entry_GST.Designer.vb">
+      <DependentUpon>Cotton_Sales_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_Sales_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_Waste_Purchase_Entry.designer.vb">
+      <DependentUpon>Cotton_Waste_Purchase_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_Waste_Purchase_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotton_Waste_Sales_GST.designer.vb">
+      <DependentUpon>Cotton_Waste_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotton_Waste_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crimp_Entry.designer.vb">
+      <DependentUpon>Crimp_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crimp_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daytime.vb" />
+    <Compile Include="Delivery_Party_Creation.designer.vb">
+      <DependentUpon>Delivery_Party_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery_Party_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Department_Creation.designer.vb">
+      <DependentUpon>Department_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Department_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doffing_Piece_Checking_Entry.Designer.vb">
+      <DependentUpon>Doffing_Piece_Checking_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doffing_Piece_Checking_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoublingYarn_BillMaking.designer.vb">
+      <DependentUpon>DoublingYarn_BillMaking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoublingYarn_BillMaking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoublingYarn_Delivery.designer.vb">
+      <DependentUpon>DoublingYarn_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoublingYarn_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoublingYarn_Receipt.designer.vb">
+      <DependentUpon>DoublingYarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoublingYarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EB_Diesel_Consumption_Entry_Simple.designer.vb">
+      <DependentUpon>EB_Diesel_Consumption_Entry_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EB_Diesel_Consumption_Entry_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eInvoice.vb" />
+    <Compile Include="eInvoice_json_Generation_Module.vb" />
+    <Compile Include="Employee_Payment_Entry.designer.vb">
+      <DependentUpon>Employee_Payment_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Payment_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmptyBeam_Excess_Short.Designer.vb">
+      <DependentUpon>EmptyBeam_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmptyBeam_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_Bobin_Delivery_Entry.designer.vb">
+      <DependentUpon>Empty_Bobin_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_Bobin_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_Bobin_Receipt_Entry.designer.vb">
+      <DependentUpon>Empty_Bobin_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_Bobin_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enlarge_Image.designer.vb">
+      <DependentUpon>Enlarge_Image.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enlarge_Image.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWB.vb" />
+    <Compile Include="FabricLot_Creation.designer.vb">
+      <DependentUpon>FabricLot_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FabricLot_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fabric_Category_Creation.designer.vb">
+      <DependentUpon>Fabric_Category_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fabric_Category_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fabric_Sales_Name_Creation.designer.vb">
+      <DependentUpon>Fabric_Sales_Name_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fabric_Sales_Name_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Creation.designer.vb">
+      <DependentUpon>Fibre_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Excess_Short.Designer.vb">
+      <DependentUpon>Fibre_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Purchase_GST.designer.vb">
+      <DependentUpon>Fibre_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Purchase_Order_GST.Designer.vb">
+      <DependentUpon>Fibre_Purchase_Order_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Purchase_Order_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Sales_Delivery.Designer.vb">
+      <DependentUpon>Fibre_Sales_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Sales_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Sales_GST.designer.vb">
+      <DependentUpon>Fibre_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibre_Sales_Order_GST.Designer.vb">
+      <DependentUpon>Fibre_Sales_Order_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fibre_Sales_Order_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields_Check.vb" />
+    <Compile Include="FinishedProduct_CashSales_GST.Designer.vb">
+      <DependentUpon>FinishedProduct_CashSales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_CashSales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_CashSales_GST_Simple.Designer.vb">
+      <DependentUpon>FinishedProduct_CashSales_GST_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_CashSales_GST_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Invoice_Entry_GST.Designer.vb">
+      <DependentUpon>FinishedProduct_Invoice_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Invoice_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Proforma_Invoice.Designer.vb">
+      <DependentUpon>FinishedProduct_Proforma_Invoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Proforma_Invoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FireWood_Cutting_Entry.Designer.vb">
+      <DependentUpon>FireWood_Cutting_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FireWood_Cutting_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FireWood_Purchase.Designer.vb">
+      <DependentUpon>FireWood_Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FireWood_Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FireWood_Sales_Entry.designer.vb">
+      <DependentUpon>FireWood_Sales_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FireWood_Sales_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garments_PackingSlip_Entry.designer.vb">
+      <DependentUpon>Garments_PackingSlip_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Garments_PackingSlip_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garments_Packing_Inward.designer.vb">
+      <DependentUpon>Garments_Packing_Inward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Garments_Packing_Inward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garments_Price_List_Entry.designer.vb">
+      <DependentUpon>Garments_Price_List_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Garments_Price_List_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Delivery.Designer.vb">
+      <DependentUpon>General_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="General_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSTIN_Search.vb" />
+    <Compile Include="GST_Account_Settings.designer.vb">
+      <DependentUpon>GST_Account_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GST_Account_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GST_EWB_API_SETTINGS.designer.vb">
+      <DependentUpon>GST_EWB_API_SETTINGS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GST_EWB_API_SETTINGS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GST_Settings.designer.vb">
+      <DependentUpon>GST_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GST_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardware_Creation.Designer.vb">
+      <DependentUpon>Hardware_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ic_Invoice_GST.designer.vb">
+      <DependentUpon>Ic_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ic_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IC_Sales_Return_GST.Designer.vb">
+      <DependentUpon>IC_Sales_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IC_Sales_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inhouse_Pavu_Delivery.Designer.vb">
+      <DependentUpon>Inhouse_Pavu_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inhouse_Pavu_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inhouse_Pavu_Receipt.Designer.vb">
+      <DependentUpon>Inhouse_Pavu_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inhouse_Pavu_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InHouse_Yarn_Delivery.Designer.vb">
+      <DependentUpon>InHouse_Yarn_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InHouse_Yarn_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InHouse_Yarn_Receipt.Designer.vb">
+      <DependentUpon>InHouse_Yarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InHouse_Yarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice_Garments5_GST.designer.vb">
+      <DependentUpon>Invoice_Garments5_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice_Garments5_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice_GST_Format_2.designer.vb">
+      <DependentUpon>Invoice_GST_Format_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice_GST_Format_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_ConversionBill_Multi_Entry.designer.vb">
+      <DependentUpon>JobWork_ConversionBill_Multi_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_ConversionBill_Multi_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lot_Checking_Plan_Entry.Designer.vb">
+      <DependentUpon>Lot_Checking_Plan_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lot_Checking_Plan_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryForm.designer.vb">
+      <DependentUpon>QueryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\SizingSoft_Invoice_VAT.designer.vb">
+      <DependentUpon>SizingSoft_Invoice_VAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SizingSoft_Invoice_VAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesEntry_Export_Format_GST.designer.vb">
+      <DependentUpon>SalesEntry_Export_Format_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesEntry_Export_Format_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_JobCard_Entry.Designer.vb">
+      <DependentUpon>Sizing_JobCard_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_JobCard_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ledger_Creation_AdditionalCharges.designer.vb">
+      <DependentUpon>Ledger_Creation_AdditionalCharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ledger_Creation_AdditionalCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_unloading_rate_Creation.Designer.vb">
+      <DependentUpon>Loading_unloading_rate_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_unloading_rate_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoomNo_Production_Entry.designer.vb">
+      <DependentUpon>LoomNo_Production_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoomNo_Production_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lot_Allotment_Details.Designer.vb">
+      <DependentUpon>Lot_Allotment_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lot_Allotment_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lot_Approval_Entry.Designer.vb">
+      <DependentUpon>Lot_Approval_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lot_Approval_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lot_Creation.designer.vb">
+      <DependentUpon>Lot_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lot_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_List.Designer.vb">
+      <DependentUpon>Menu_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Cotton_Purchase_Return.Designer.vb">
+      <DependentUpon>OE_Cotton_Purchase_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Cotton_Purchase_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Cotton_Waste_Sales_GST.designer.vb">
+      <DependentUpon>OE_Cotton_Waste_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Cotton_Waste_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Count_Creation.designer.vb">
+      <DependentUpon>OE_Count_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Count_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Count_Details.designer.vb">
+      <DependentUpon>OE_Count_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Count_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Machine_Creation.designer.vb">
+      <DependentUpon>OE_Machine_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Machine_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Machine_Details.designer.vb">
+      <DependentUpon>OE_Machine_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Machine_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Manufacture_Creation.designer.vb">
+      <DependentUpon>OE_Manufacture_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Manufacture_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Mixing_Entry.Designer.vb">
+      <DependentUpon>OE_Mixing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Mixing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Packing_Entry.designer.vb">
+      <DependentUpon>OE_Packing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Packing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Production_Entry.Designer.vb">
+      <DependentUpon>OE_Production_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Production_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Purchase_Entry_GST.Designer.vb">
+      <DependentUpon>OE_Purchase_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Purchase_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Stock_Transfer_Entry.designer.vb">
+      <DependentUpon>OE_Stock_Transfer_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Stock_Transfer_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Vortex_Production_Entry.designer.vb">
+      <DependentUpon>OE_Vortex_Production_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Vortex_Production_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Delivery.Designer.vb">
+      <DependentUpon>OE_Yarn_Sales_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Delivery_Return.designer.vb">
+      <DependentUpon>OE_Yarn_Sales_Delivery_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Delivery_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Invoice_GST.designer.vb">
+      <DependentUpon>OE_Yarn_Sales_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Order.designer.vb">
+      <DependentUpon>OE_Yarn_Sales_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Balance_Stock.designer.vb">
+      <DependentUpon>Opening_Balance_Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Balance_Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Chemical_Stock.designer.vb">
+      <DependentUpon>Opening_Chemical_Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Chemical_Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Stock_Fibre.designer.vb">
+      <DependentUpon>Opening_Stock_Fibre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Stock_Fibre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Stock_Sizing.designer.vb">
+      <DependentUpon>Opening_Stock_Sizing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Stock_Sizing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackingSlip_Direct.Designer.vb">
+      <DependentUpon>PackingSlip_Direct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PackingSlip_Direct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Party_Category_Creation.designer.vb">
+      <DependentUpon>Party_Category_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Party_Category_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payroll_Deduction_On_Salary_CategoryWise.Designer.vb">
+      <DependentUpon>Payroll_Deduction_On_Salary_CategoryWise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll_Deduction_On_Salary_CategoryWise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PreparingBackup.Designer.vb">
+      <DependentUpon>frm_PreparingBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PreparingBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Checking_Defect_Creation.designer.vb">
+      <DependentUpon>Piece_Checking_Defect_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Checking_Defect_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Joining.designer.vb">
+      <DependentUpon>Piece_Joining.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Joining.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Cotton_Waste_Sales_GST_Entry.designer.vb">
+      <DependentUpon>Rewinding_Cotton_Waste_Sales_GST_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Cotton_Waste_Sales_GST_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewinding_Delivery_Entry.Designer.vb">
+      <DependentUpon>Rewinding_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewinding_Invoice_Entry_GST.Designer.vb">
+      <DependentUpon>Rewinding_Invoice_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Invoice_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewinding_Receipt_Entry.designer.vb">
+      <DependentUpon>Rewinding_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roll_Packing_1352.designer.vb">
+      <DependentUpon>Roll_Packing_1352.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Roll_Packing_1352.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roll_Packing_Entry.Designer.vb">
+      <DependentUpon>Roll_Packing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Roll_Packing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selvedge_Cone_Invoice_Gst.Designer.vb">
+      <DependentUpon>Selvedge_Cone_Invoice_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Selvedge_Cone_Invoice_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shift_Creation.designer.vb">
+      <DependentUpon>Shift_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shift_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shift_Creation2.Designer.vb">
+      <DependentUpon>Shift_Creation.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Sizing_CashDiscount.Designer.vb">
+      <DependentUpon>Sizing_CashDiscount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_CashDiscount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Chemical_ExcessShort.Designer.vb">
+      <DependentUpon>Sizing_Chemical_ExcessShort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Chemical_ExcessShort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Chemical_PO_Entry.Designer.vb">
+      <DependentUpon>Sizing_Chemical_PO_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Chemical_PO_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Chemical_Purchase_Gst.Designer.vb">
+      <DependentUpon>Sizing_Chemical_Purchase_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Chemical_Purchase_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Chemical_Purchase_Return_Gst.Designer.vb">
+      <DependentUpon>Sizing_Chemical_Purchase_Return_Gst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Chemical_Purchase_Return_Gst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Count_Creation.designer.vb">
+      <DependentUpon>Sizing_Count_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Count_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Delivery_Entry.Designer.vb">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Excess_Short.Designer.vb">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Receipt_Entry.Designer.vb">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Empty_BeamBagCone_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_FireWood_Consumption.Designer.vb">
+      <DependentUpon>Sizing_FireWood_Consumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_FireWood_Consumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemGroup_Creation.designer.vb">
+      <DependentUpon>ItemGroup_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemGroup_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jari_Purchase_Entry.designer.vb">
+      <DependentUpon>Jari_Purchase_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jari_Purchase_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jari_Sales_Delivery_Entry.designer.vb">
+      <DependentUpon>Jari_Sales_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jari_Sales_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jari_Sales_Delivery_Entry_GST.Designer.vb">
+      <DependentUpon>Jari_Sales_Delivery_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jari_Sales_Delivery_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jari_Sales_Return_Entry.Designer.vb">
+      <DependentUpon>Jari_Sales_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jari_Sales_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Knotting_Bill_Entry.designer.vb">
+      <DependentUpon>Knotting_Bill_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Knotting_Bill_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail_Settings.designer.vb">
+      <DependentUpon>Mail_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Shirting_Bit_Entry.designer.vb">
+      <DependentUpon>Processed_Shirting_Bit_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Shirting_Bit_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production_Entry.designer.vb">
+      <DependentUpon>Production_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Production_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proforma_Bobin_Sales_Invoice_Entry_GST.designer.vb">
+      <DependentUpon>Proforma_Bobin_Sales_Invoice_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proforma_Bobin_Sales_Invoice_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_FireWood_Purchase.Designer.vb">
+      <DependentUpon>Sizing_FireWood_Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_FireWood_Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Hardware_Purchase_GST.Designer.vb">
+      <DependentUpon>Sizing_Hardware_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Hardware_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Invoice_GST.designer.vb">
+      <DependentUpon>Sizing_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Invoice_GST_Format_2.designer.vb">
+      <DependentUpon>Sizing_Invoice_GST_Format_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Invoice_GST_Format_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Item_Creation.designer.vb">
+      <DependentUpon>Sizing_Item_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Item_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Kurai_Pavu_Receipt.designer.vb">
+      <DependentUpon>Sizing_Kurai_Pavu_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Kurai_Pavu_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Ledger_Rate_Details.designer.vb">
+      <DependentUpon>Sizing_Ledger_Rate_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Ledger_Rate_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_MachineNo_Creation.Designer.vb">
+      <DependentUpon>Sizing_MachineNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_MachineNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_PavuDelivery_Entry.Designer.vb">
+      <DependentUpon>Sizing_PavuDelivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_PavuDelivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Pavu_Receipt.Designer.vb">
+      <DependentUpon>Sizing_Pavu_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Pavu_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Statement.Designer.vb">
+      <DependentUpon>Sizing_Statement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Statement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Waste_Sales_GST.designer.vb">
+      <DependentUpon>Sizing_Waste_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Waste_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_YarnDelivery_Entry.Designer.vb">
+      <DependentUpon>Sizing_YarnDelivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_YarnDelivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_YarnReceipt_Entry.Designer.vb">
+      <DependentUpon>Sizing_YarnReceipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_YarnReceipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Delivery.designer.vb">
+      <DependentUpon>Sizing_Yarn_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Excess_Short.Designer.vb">
+      <DependentUpon>Sizing_Yarn_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Receipt.designer.vb">
+      <DependentUpon>Sizing_Yarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Transfer.Designer.vb">
+      <DependentUpon>Sizing_Yarn_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Yarn_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizSoft_Empty_BeamBagCone_Receipt_Entry_by_Sizing.designer.vb">
+      <DependentUpon>SizSoft_Empty_BeamBagCone_Receipt_Entry_by_Sizing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizSoft_Empty_BeamBagCone_Receipt_Entry_by_Sizing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizSoft_PavuDelivery_Entry.Designer.vb">
+      <DependentUpon>SizSoft_PavuDelivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizSoft_PavuDelivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizSoft_YarnDelivery_Entry.Designer.vb">
+      <DependentUpon>SizSoft_YarnDelivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizSoft_YarnDelivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizSoft_YarnReceipt_Entry.Designer.vb">
+      <DependentUpon>SizSoft_YarnReceipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizSoft_YarnReceipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Slevedge_Creation.Designer.vb">
+      <DependentUpon>Slevedge_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Slevedge_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software_Module_Selection.designer.vb">
+      <DependentUpon>Software_Module_Selection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software_Module_Selection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software_Options.designer.vb">
+      <DependentUpon>Software_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other_GST_Entry.designer.vb">
+      <DependentUpon>Other_GST_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Other_GST_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Packing_Entry.designer.vb">
+      <DependentUpon>Packing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Packing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.vb">
+      <DependentUpon>Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Purchase_GST.Designer.vb">
+      <DependentUpon>Pavu_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Sales_GST.Designer.vb">
+      <DependentUpon>Pavu_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Transfer_BeamWise.Designer.vb">
+      <DependentUpon>Pavu_Transfer_BeamWise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Transfer_BeamWise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayRoll_Category_Creation.designer.vb">
+      <DependentUpon>PayRoll_Category_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PayRoll_Category_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Attendance_Simple.designer.vb">
+      <DependentUpon>PayRoll_Employee_Attendance_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Attendance_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payroll_Employee_Creation.designer.vb">
+      <DependentUpon>Payroll_Employee_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll_Employee_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Salary_Advance_Payment.designer.vb">
+      <DependentUpon>PayRoll_Employee_Salary_Advance_Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Salary_Advance_Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Salary_Entry_Simple.designer.vb">
+      <DependentUpon>PayRoll_Employee_Salary_Entry_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PayRoll_Employee_Salary_Entry_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Excess_Short.designer.vb">
+      <DependentUpon>Piece_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Excess_Short.designer.vb">
+      <DependentUpon>Processed_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Fabric_Sales_Invoice_GST.designer.vb">
+      <DependentUpon>Processed_Fabric_Sales_Invoice_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Fabric_Sales_Invoice_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Fabric_Waste_Delivery.Designer.vb">
+      <DependentUpon>Processed_Fabric_Waste_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Fabric_Waste_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Entry_GST.designer.vb">
+      <DependentUpon>Purchase_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roll_Packing.Designer.vb">
+      <DependentUpon>Roll_Packing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Roll_Packing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sizing_Speciication_GST.Designer.vb">
+      <DependentUpon>Sizing_Speciication_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sizing_Speciication_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sort_Change_Entry.designer.vb">
+      <DependentUpon>Sort_Change_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sort_Change_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sort_Change_Entry_Multi.designer.vb">
+      <DependentUpon>Sort_Change_Entry_Multi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sort_Change_Entry_Multi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stamping_Creation.designer.vb">
+      <DependentUpon>Stamping_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stamping_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Brand_Creation.designer.vb">
+      <DependentUpon>Stores_Brand_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Brand_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_Period.Designer.vb">
+      <DependentUpon>Change_Period.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Period.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque_Print_Positioning.Designer.vb">
+      <DependentUpon>Cheque_Print_Positioning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque_Print_Positioning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Closing_Stock_value.Designer.vb">
+      <DependentUpon>Closing_Stock_value.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Closing_Stock_value.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Delivery.designer.vb">
+      <DependentUpon>ClothSales_Cloth_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Cloth_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Delivery_Return.designer.vb">
+      <DependentUpon>ClothSales_Delivery_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Delivery_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothSales_Order_Indent_Entry.Designer.vb">
+      <DependentUpon>ClothSales_Order_Indent_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothSales_Order_Indent_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Creation.designer.vb">
+      <DependentUpon>Cloth_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Excess_Short.designer.vb">
+      <DependentUpon>Cloth_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_PcsDelivery.Designer.vb">
+      <DependentUpon>Cloth_PcsDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_PcsDelivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Receipt.designer.vb">
+      <DependentUpon>Cloth_Purchase_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Purchase_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cloth_Transfer.designer.vb">
+      <DependentUpon>Cloth_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cloth_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Color_Creation.designer.vb">
+      <DependentUpon>Color_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Color_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common_Procedures.vb" />
+    <Compile Include="CompanyGroup_Creation.designer.vb">
+      <DependentUpon>CompanyGroup_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyGroup_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company_Creation.designer.vb">
+      <DependentUpon>Company_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Company_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Costing_Entry_AutoLoom.designer.vb">
+      <DependentUpon>Costing_Entry_AutoLoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Costing_Entry_AutoLoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Count_Creation.designer.vb">
+      <DependentUpon>Count_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Count_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currency_Creation.Designer.vb">
+      <DependentUpon>Currency_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Currency_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryTo_Rack.designer.vb">
+      <DependentUpon>DeliveryTo_Rack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryTo_Rack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Department_Creation.designer.vb">
+      <DependentUpon>Stores_Department_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Department_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doffing_Entry_Format1.designer.vb">
+      <DependentUpon>Doffing_Entry_Format1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doffing_Entry_Format1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMAIL_Entry.designer.vb">
+      <DependentUpon>EMAIL_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMAIL_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeCreation_Simple.designer.vb">
+      <DependentUpon>EmployeeCreation_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeCreation_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_Bag_Receipt.Designer.vb">
+      <DependentUpon>Empty_Bag_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_Bag_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Delivery_Entry.designer.vb">
+      <DependentUpon>Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Delivery_WidthWise_Entry.designer.vb">
+      <DependentUpon>Empty_BeamBagCone_Delivery_WidthWise_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Delivery_WidthWise_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Receipt_Entry.designer.vb">
+      <DependentUpon>Empty_BeamBagCone_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Receipt_WidthWise_Entry.designer.vb">
+      <DependentUpon>Empty_BeamBagCone_Receipt_WidthWise_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_BeamBagCone_Receipt_WidthWise_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_Beam_Purchase_Entry.designer.vb">
+      <DependentUpon>Empty_Beam_Purchase_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_Beam_Purchase_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empty_Beam_Sales.Designer.vb">
+      <DependentUpon>Empty_Beam_Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empty_Beam_Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndsCount_Creation.designer.vb">
+      <DependentUpon>EndsCount_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EndsCount_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnlargePicture.designer.vb">
+      <DependentUpon>EnlargePicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnlargePicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrance.designer.vb">
+      <DependentUpon>Entrance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entrance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fabric_Delivery_ToSewing.designer.vb">
+      <DependentUpon>Fabric_Delivery_ToSewing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fabric_Delivery_ToSewing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Creation.designer.vb">
+      <DependentUpon>FinishedProduct_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Creation_Simple.designer.vb">
+      <DependentUpon>FinishedProduct_Creation_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Creation_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_PackingSlip_Entry.designer.vb">
+      <DependentUpon>FinishedProduct_PackingSlip_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_PackingSlip_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Receipt_FromSewing.designer.vb">
+      <DependentUpon>FinishedProduct_Receipt_FromSewing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Receipt_FromSewing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedProduct_Sales_Return_Entry.Designer.vb">
+      <DependentUpon>FinishedProduct_Sales_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedProduct_Sales_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finished_Product_Order_Entry.Designer.vb">
+      <DependentUpon>Finished_Product_Order_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Finished_Product_Order_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gate_Pass_Entry.Designer.vb">
+      <DependentUpon>Gate_Pass_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gate_Pass_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grey_Item_Creation.designer.vb">
+      <DependentUpon>Grey_Item_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grey_Item_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ic_Delivery.Designer.vb">
+      <DependentUpon>Ic_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ic_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface1.vb" />
+    <Compile Include="ItemIssue_Entry.designer.vb">
+      <DependentUpon>ItemIssue_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemIssue_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemIssue_Return.designer.vb">
+      <DependentUpon>ItemIssue_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemIssue_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Creation.designer.vb">
+      <DependentUpon>Stores_Item_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Delivery_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Dispose_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Dispose_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Dispose_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Excess_Short_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Excess_Short_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Excess_Short_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Issue_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Issue_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Issue_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_OpeningStock.designer.vb">
+      <DependentUpon>Stores_Item_OpeningStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_OpeningStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_PO_Entry.designer.vb">
+      <DependentUpon>Stores_Item_PO_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_PO_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_PurchaseReturn_Entry_GST.designer.vb">
+      <DependentUpon>Stores_Item_PurchaseReturn_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_PurchaseReturn_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Purchase_Entry_Bill_Making_GST.designer.vb">
+      <DependentUpon>Stores_Item_Purchase_Entry_Bill_Making_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Purchase_Entry_Bill_Making_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Purchase_Entry_GST.designer.vb">
+      <DependentUpon>Stores_Item_Purchase_Entry_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Purchase_Entry_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Receipt_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Item_Return_Entry.designer.vb">
+      <DependentUpon>Stores_Item_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Item_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jari_Production.designer.vb">
+      <DependentUpon>Jari_Production.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jari_Production.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobCard_Sewing_Entry.designer.vb">
+      <DependentUpon>JobCard_Sewing_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobCard_Sewing_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_ConversionBill_Entry.designer.vb">
+      <DependentUpon>JobWork_ConversionBill_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_ConversionBill_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_Empty_BeamBagCone_Delivery_Entry.designer.vb">
+      <DependentUpon>JobWork_Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_Empty_BeamBagCone_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_Order_Entry.designer.vb">
+      <DependentUpon>JobWork_Order_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_Order_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_PavuYarn_Receipt.designer.vb">
+      <DependentUpon>JobWork_PavuYarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_PavuYarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_PavuYarn_Return_Entry.designer.vb">
+      <DependentUpon>JobWork_PavuYarn_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_PavuYarn_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_PieceDelivery_Entry.designer.vb">
+      <DependentUpon>JobWork_PieceDelivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_PieceDelivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_PieceInspection_Entry.designer.vb">
+      <DependentUpon>JobWork_PieceInspection_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_PieceInspection_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobWork_Production_Entry.designer.vb">
+      <DependentUpon>JobWork_Production_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobWork_Production_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LedgerCreation_Processing.designer.vb">
+      <DependentUpon>LedgerCreation_Processing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerCreation_Processing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ledger_Creation.designer.vb">
+      <DependentUpon>Ledger_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ledger_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoomNo_Creation.designer.vb">
+      <DependentUpon>LoomNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoomNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoomType_Creation.Designer.vb">
+      <DependentUpon>LoomType_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoomType_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotNo_creation.designer.vb">
+      <DependentUpon>LotNo_creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LotNo_creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Machine_Creation.designer.vb">
+      <DependentUpon>Stores_Machine_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Machine_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mill_Creation.designer.vb">
+      <DependentUpon>Mill_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mill_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Stores_Oil_Service_Entry.designer.vb">
+      <DependentUpon>Stores_Oil_Service_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Oil_Service_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Balance.designer.vb">
+      <DependentUpon>Opening_Balance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Balance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening_Stock_Textile.designer.vb">
+      <DependentUpon>Opening_Stock_Textile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opening_Stock_Textile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Packing_Slip.Designer.vb">
+      <DependentUpon>Packing_Slip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Packing_Slip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Packing_Type_Creation.Designer.vb">
+      <DependentUpon>Packing_Type_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Packing_Type_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Party_Amount_Receipt_Entry.designer.vb">
+      <DependentUpon>Party_Amount_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Party_Amount_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Excess_Short.designer.vb">
+      <DependentUpon>Pavu_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Transfer.designer.vb">
+      <DependentUpon>Pavu_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Yarn_Delivery.designer.vb">
+      <DependentUpon>Pavu_Yarn_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Yarn_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavu_Yarn_Receipt.designer.vb">
+      <DependentUpon>Pavu_Yarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pavu_Yarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Checking_InHouse_Format1.designer.vb">
+      <DependentUpon>Piece_Checking_InHouse_Format1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Checking_InHouse_Format1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Opening.Designer.vb">
+      <DependentUpon>Piece_Opening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Opening.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piece_Transfer.Designer.vb">
+      <DependentUpon>Piece_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Fabric_Inspection.Designer.vb">
+      <DependentUpon>Processed_Fabric_Inspection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Fabric_Inspection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Fabric_OpeningStock.Designer.vb">
+      <DependentUpon>Processed_Fabric_OpeningStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Fabric_OpeningStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Item_SalesName.Designer.vb">
+      <DependentUpon>Processed_Item_SalesName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Item_SalesName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Item_Set_Entry.designer.vb">
+      <DependentUpon>Processed_Item_Set_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Item_Set_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Item_Transfer.designer.vb">
+      <DependentUpon>Processed_Item_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Item_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processed_Item_UnSet_Entry.designer.vb">
+      <DependentUpon>Processed_Item_UnSet_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processed_Item_UnSet_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing_Bill_Making_Textile.designer.vb">
+      <DependentUpon>Processing_Bill_Making_Textile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing_Bill_Making_Textile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing_Delivery_Textile.designer.vb">
+      <DependentUpon>Processing_Delivery_Textile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing_Delivery_Textile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing_JobOrder_Entry.designer.vb">
+      <DependentUpon>Processing_JobOrder_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing_JobOrder_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing_Receipt_Textile.designer.vb">
+      <DependentUpon>Processing_Receipt_Textile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing_Receipt_Textile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing_Return_Textile.designer.vb">
+      <DependentUpon>Processing_Return_Textile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing_Return_Textile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process_Creation.Designer.vb">
+      <DependentUpon>Process_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Process_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profit_And_Loss.Designer.vb">
+      <DependentUpon>Profit_And_Loss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profit_And_Loss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RackNo_Creation.designer.vb">
+      <DependentUpon>RackNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RackNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_Details.designer.vb">
+      <DependentUpon>Report_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnToFloor.Designer.vb">
+      <DependentUpon>ReturnToFloor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnToFloor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewinding_Delivery.designer.vb">
+      <DependentUpon>Rewinding_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewinding_Receipt.designer.vb">
+      <DependentUpon>Rewinding_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rewinding_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Service_Item_Delivery_Entry.designer.vb">
+      <DependentUpon>Stores_Service_Item_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Service_Item_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Size_Creation.designer.vb">
+      <DependentUpon>Size_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Size_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sms_Entry.designer.vb">
+      <DependentUpon>Sms_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sms_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDisplay_ProcessedItem.Designer.vb">
+      <DependentUpon>StockDisplay_ProcessedItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockDisplay_ProcessedItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Service_Item_Receipt_Entry.designer.vb">
+      <DependentUpon>Stores_Service_Item_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Service_Item_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores_Unit_Creation.designer.vb">
+      <DependentUpon>Stores_Unit_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores_Unit_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Style_Creation.designer.vb">
+      <DependentUpon>Style_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Style_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System_Name_Details.designer.vb">
+      <DependentUpon>System_Name_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System_Name_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tally_Export.Designer.vb">
+      <DependentUpon>Tally_Export.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tally_Export.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tax_Creation.designer.vb">
+      <DependentUpon>Tax_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tax_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDS_Amount_Receipt_Entry.Designer.vb">
+      <DependentUpon>TDS_Amount_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDS_Amount_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipType_Creation.designer.vb">
+      <DependentUpon>TipType_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipType_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer_Master_Ledgers_From_CompanyGroup.Designer.vb">
+      <DependentUpon>Transfer_Master_Ledgers_From_CompanyGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer_Master_Ledgers_From_CompanyGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="baamini.ttf" />
+    <None Include="Images\amutha.TTF" />
+    <None Include="Images\Bagavan_Logo_2.pdf" />
+    <None Include="Images\Tam_ss2.ttf" />
+    <None Include="Images\Thumbs.db" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Report_DataSet.xsc">
+      <DependentUpon>Report_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Report_DataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report_DataSet.xss">
+      <DependentUpon>Report_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Americana Std Roman.otf" />
+    <None Include="SaiIndira.ttf" />
+    <None Include="Tam_ss2.ttf" />
+    <None Include="Textile_TemporaryKey.pfx" />
+    <Compile Include="Transport_Creation.Designer.vb">
+      <DependentUpon>Transport_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transport_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tsoft_MessageBox.designer.vb">
+      <DependentUpon>Tsoft_MessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tsoft_MessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tsoft_textile_1DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tsoft_textile_1DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tsoft_textile_1DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tsoft_textile_1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tsoft_textile_1_DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tsoft_textile_1_DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Unit_Creation.designer.vb">
+      <DependentUpon>Unit_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unit_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Creation.designer.vb">
+      <DependentUpon>User_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Modifications.designer.vb">
+      <DependentUpon>User_Modifications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User_Modifications.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Van_Trip_Entry.Designer.vb">
+      <DependentUpon>Van_Trip_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Van_Trip_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Variety_Creation.designer.vb">
+      <DependentUpon>Variety_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Variety_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VehicleNo_Creation.designer.vb">
+      <DependentUpon>VehicleNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VehicleNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor_Cloth_Receipt_Entry.Designer.vb">
+      <DependentUpon>Vendor_Cloth_Receipt_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor_Cloth_Receipt_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor_Creation.designer.vb">
+      <DependentUpon>Vendor_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor_Pavu_Bobin_Yarn_Jari_Faric_PriceList_Entry.Designer.vb">
+      <DependentUpon>Vendor_Pavu_Bobin_Yarn_Jari_Faric_PriceList_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor_Pavu_Bobin_Yarn_Jari_Faric_PriceList_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voucher_Entry.designer.vb">
+      <DependentUpon>Voucher_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Voucher_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warping_MachineNo_Creation.Designer.vb">
+      <DependentUpon>Warping_MachineNo_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Warping_MachineNo_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Waste_Creation.Designer.vb">
+      <DependentUpon>Waste_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Waste_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Waste_Fabric_Sales.Designer.vb">
+      <DependentUpon>Waste_Fabric_Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Waste_Fabric_Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Waste_opening.designer.vb">
+      <DependentUpon>Waste_opening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Waste_opening.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Advance_Payment_Entry.designer.vb">
+      <DependentUpon>Weaver_Advance_Payment_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Advance_Payment_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Bobin_Delivery_Entry.Designer.vb">
+      <DependentUpon>Weaver_Bobin_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Bobin_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Bobin_Return_Entry.designer.vb">
+      <DependentUpon>Weaver_Bobin_Return_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Bobin_Return_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_ClothReceipt_cum_PieceChecking_Entry.Designer.vb">
+      <DependentUpon>Weaver_ClothReceipt_cum_PieceChecking_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_ClothReceipt_cum_PieceChecking_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Cloth_Receipt.Designer.vb">
+      <DependentUpon>Weaver_Cloth_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Cloth_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Cloth_Return_Delivery.Designer.vb">
+      <DependentUpon>Weaver_Cloth_Return_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Cloth_Return_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_ExcessShort_Consumption.Designer.vb">
+      <DependentUpon>Weaver_ExcessShort_Consumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_ExcessShort_Consumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_KuraiPavu_Receipt.designer.vb">
+      <DependentUpon>Weaver_KuraiPavu_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_KuraiPavu_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Bobin_Yarn_Jari_Delivery_Entry.Designer.vb">
+      <DependentUpon>Weaver_Pavu_Bobin_Yarn_Jari_Delivery_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Bobin_Yarn_Jari_Delivery_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Delivery.Designer.vb">
+      <DependentUpon>Weaver_Pavu_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Receipt.designer.vb">
+      <DependentUpon>Weaver_Pavu_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Pavu_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Payment_Entry.designer.vb">
+      <DependentUpon>Weaver_Payment_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Payment_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_PieceChecking_AutoLoom.designer.vb">
+      <DependentUpon>Weaver_PieceChecking_AutoLoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_PieceChecking_AutoLoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Piece_Approval_Entry.designer.vb">
+      <DependentUpon>Weaver_Piece_Approval_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Piece_Approval_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Piece_Checking.designer.vb">
+      <DependentUpon>Weaver_Piece_Checking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Piece_Checking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Piece_Checking_Simple.Designer.vb">
+      <DependentUpon>Weaver_Piece_Checking_Simple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Piece_Checking_Simple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Running_Fabrics_Details.Designer.vb">
+      <DependentUpon>Weaver_Running_Fabrics_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Running_Fabrics_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Selection.Designer.vb">
+      <DependentUpon>Weaver_Selection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Selection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Wages_ClothReceipt.Designer.vb">
+      <DependentUpon>Weaver_Wages_ClothReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Wages_ClothReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Wages_Format2_GST.designer.vb">
+      <DependentUpon>Weaver_Wages_Format2_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Wages_Format2_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Wages_VAT.designer.vb">
+      <DependentUpon>Weaver_Wages_VAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Wages_VAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Wages_GST.designer.vb">
+      <DependentUpon>Weaver_Wages_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Wages_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Wages_Format_2.Designer.vb">
+      <DependentUpon>Weaver_Wages_Format_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Wages_Format_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Yarn_Delivery.designer.vb">
+      <DependentUpon>Weaver_Yarn_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Yarn_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaver_Yarn_Receipt.designer.vb">
+      <DependentUpon>Weaver_Yarn_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaver_Yarn_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeavingUnit_Production_Wages_Entry.designer.vb">
+      <DependentUpon>WeavingUnit_Production_Wages_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeavingUnit_Production_Wages_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaving_Job_Card_Entry.designer.vb">
+      <DependentUpon>Weaving_Job_Card_Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaving_Job_Card_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weaving_Yarn_Excess_Short.designer.vb">
+      <DependentUpon>Weaving_Yarn_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Weaving_Yarn_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YarnProcessing_BillMaking.Designer.vb">
+      <DependentUpon>YarnProcessing_BillMaking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YarnProcessing_BillMaking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YarnProcessing_Delivery.Designer.vb">
+      <DependentUpon>YarnProcessing_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YarnProcessing_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YarnProcessing_Receipt.Designer.vb">
+      <DependentUpon>YarnProcessing_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YarnProcessing_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Excess_Short.designer.vb">
+      <DependentUpon>Yarn_Excess_Short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Excess_Short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Lot_Creation.Designer.vb">
+      <DependentUpon>Yarn_Lot_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Lot_Creation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Bill_Making_GST.designer.vb">
+      <DependentUpon>Yarn_Purchase_Bill_Making_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Bill_Making_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_GST.designer.vb">
+      <DependentUpon>Yarn_Purchase_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Order_GST.Designer.vb">
+      <DependentUpon>Yarn_Purchase_Order_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Order_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Return.Designer.vb">
+      <DependentUpon>Yarn_Purchase_Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Receipt.designer.vb">
+      <DependentUpon>Yarn_Purchase_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Return_GST.Designer.vb">
+      <DependentUpon>Yarn_Purchase_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Purchase_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_GST.designer.vb">
+      <DependentUpon>Yarn_Sales_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_Delivery.Designer.vb">
+      <DependentUpon>Yarn_Sales_Delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_Delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Invoice_Return_GST.designer.vb">
+      <DependentUpon>OE_Yarn_Sales_Invoice_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OE_Yarn_Sales_Invoice_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_Multi_GST.designer.vb">
+      <DependentUpon>Yarn_Sales_Multi_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_Multi_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_Order_GST.designer.vb">
+      <DependentUpon>Yarn_Sales_Order_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_Order_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_Proforma_GST.designer.vb">
+      <DependentUpon>Yarn_Sales_Proforma_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_Proforma_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Sales_Return_GST.designer.vb">
+      <DependentUpon>Yarn_Sales_Return_GST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Sales_Return_GST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yarn_Transfer.designer.vb">
+      <DependentUpon>Yarn_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yarn_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="tsoft_textile_1DataSet11.xsc">
+      <DependentUpon>tsoft_textile_1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tsoft_textile_1DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tsoft_textile_1DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tsoft_textile_1DataSet11.xss">
+      <DependentUpon>tsoft_textile_1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tsoft_textile_1DataSet2.xsc">
+      <DependentUpon>tsoft_textile_1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tsoft_textile_1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tsoft_textile_1DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tsoft_textile_1DataSet2.xss">
+      <DependentUpon>tsoft_textile_1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tsoft_textile_1_DataSet2.xsc">
+      <DependentUpon>tsoft_textile_1_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tsoft_textile_1_DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tsoft_textile_1_DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tsoft_textile_1_DataSet2.xss">
+      <DependentUpon>tsoft_textile_1_DataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accounts_Group_Creation.resx">
+      <DependentUpon>Accounts_Group_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Password.resx">
+      <DependentUpon>Admin_Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Advance_Bill_Adjustment.resx">
+      <DependentUpon>Advance_Bill_Adjustment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agent_Creation.resx">
+      <DependentUpon>Agent_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amount_Payment_Entry.resx">
+      <DependentUpon>Amount_Payment_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amount_Receipt_Entry.resx">
+      <DependentUpon>Amount_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppUser_Creation.resx">
+      <DependentUpon>AppUser_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area_Creation.resx">
+      <DependentUpon>Area_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_Creation.resx">
+      <DependentUpon>Article_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bag_Type_Creation.resx">
+      <DependentUpon>Bag_Type_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balance_Sheet.resx">
+      <DependentUpon>Balance_Sheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bale_Opening.resx">
+      <DependentUpon>Bale_Opening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bale_Transfer.resx">
+      <DependentUpon>Bale_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bank_Creation.resx">
+      <DependentUpon>Bank_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeamNo_Creation.resx">
+      <DependentUpon>BeamNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beam_Card_Entry.resx">
+      <DependentUpon>Beam_Card_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beam_Close.resx">
+      <DependentUpon>Beam_Close.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beam_Knotting_Entry.resx">
+      <DependentUpon>Beam_Knotting_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beam_Run_Out_Entry.resx">
+      <DependentUpon>Beam_Run_Out_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beam_Width_Creation.resx">
+      <DependentUpon>Beam_Width_Creation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_Item_Creation.resx">
+      <DependentUpon>Billing_Item_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_Purchase_Entry_Simple_Gst.resx">
+      <DependentUpon>Billing_Purchase_Entry_Simple_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_Purchase_Return_Gst.resx">
+      <DependentUpon>Billing_Purchase_Return_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_SalesEntry_Simple2_GST.resx">
+      <DependentUpon>Billing_SalesEntry_Simple2_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_SalesReturn_Entry_GST.resx">
+      <DependentUpon>Billing_SalesReturn_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Delivery_Entry.resx">
+      <DependentUpon>Bobin_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Delivery_Entry_GST.resx">
+      <DependentUpon>Bobin_Delivery_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Production.resx">
+      <DependentUpon>Bobin_Production.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Purchase_GST.resx">
+      <DependentUpon>Bobin_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Purchase_Order_Entry.resx">
+      <DependentUpon>Bobin_Purchase_Order_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Purchase_Return_GST.resx">
+      <DependentUpon>Bobin_Purchase_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Receipt_Entry.resx">
+      <DependentUpon>Bobin_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales.resx">
+      <DependentUpon>Bobin_Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales_Delivery_Entry.resx">
+      <DependentUpon>Bobin_Sales_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales_Delivery_Entry_GST.resx">
+      <DependentUpon>Bobin_Sales_Delivery_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales_Delivery_Return.resx">
+      <DependentUpon>Bobin_Sales_Delivery_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales_Invoice_Entry_GST.resx">
+      <DependentUpon>Bobin_Sales_Invoice_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Sales_Order_Entry.resx">
+      <DependentUpon>Bobin_Sales_Order_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bobin_Size_Creation.resx">
+      <DependentUpon>Bobin_Size_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorderSize_Creation.resx">
+      <DependentUpon>BorderSize_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bundle_Packing_Entry.resx">
+      <DependentUpon>Bundle_Packing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bundle_Packing_Entry_Single.resx">
+      <DependentUpon>Bundle_Packing_Entry_Single.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buyer_Offer_PcsWise_Entry.resx">
+      <DependentUpon>Buyer_Offer_PcsWise_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Category_Creation.resx">
+      <DependentUpon>Category_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_Update.resx">
+      <DependentUpon>CC_Update.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checking_Section_Creation.resx">
+      <DependentUpon>Checking_Section_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checking_Table_Creation.resx">
+      <DependentUpon>Checking_Table_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_GST_EInvoice_Connectivity.resx">
+      <DependentUpon>Check_GST_EInvoice_Connectivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque_Entry_Print_Positioning.resx">
+      <DependentUpon>Cheque_Entry_Print_Positioning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque_Return_Entry.resx">
+      <DependentUpon>Cheque_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Cloth_Invoice_GST.resx">
+      <DependentUpon>ClothSales_Cloth_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Cloth_Invoice_VAT.resx">
+      <DependentUpon>ClothSales_Cloth_Invoice_VAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Proforma_Invoice_GST.resx">
+      <DependentUpon>ClothSales_Proforma_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Return_GST.resx">
+      <DependentUpon>ClothSales_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSet_Creation.resx">
+      <DependentUpon>ClothSet_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Creation_Rate_Details.resx">
+      <DependentUpon>Cloth_Creation_Rate_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Purchase_GST.resx">
+      <DependentUpon>Cloth_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Purchase_Order_Indent.resx">
+      <DependentUpon>Cloth_Purchase_Order_Indent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Purchase_Return_GST.resx">
+      <DependentUpon>Cloth_Purchase_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company_Selection.resx">
+      <DependentUpon>Company_Selection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConeType_Creation.resx">
+      <DependentUpon>ConeType_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cone_Type_Creation.resx">
+      <DependentUpon>Cone_Type_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact_Designation_Creation.resx">
+      <DependentUpon>Contact_Designation_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing_Entry.resx">
+      <DependentUpon>Costing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_opening.resx">
+      <DependentUpon>Cotton_opening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_Purchase_Entry_GST.resx">
+      <DependentUpon>Cotton_Purchase_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_Purchase_Gst.resx">
+      <DependentUpon>Cotton_Purchase_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_Sales_Entry_GST.resx">
+      <DependentUpon>Cotton_Sales_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_Waste_Purchase_Entry.resx">
+      <DependentUpon>Cotton_Waste_Purchase_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotton_Waste_Sales_GST.resx">
+      <DependentUpon>Cotton_Waste_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crimp_Entry.resx">
+      <DependentUpon>Crimp_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery_Party_Creation.resx">
+      <DependentUpon>Delivery_Party_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Department_Creation.resx">
+      <DependentUpon>Department_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doffing_Piece_Checking_Entry.resx">
+      <DependentUpon>Doffing_Piece_Checking_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoublingYarn_BillMaking.resx">
+      <DependentUpon>DoublingYarn_BillMaking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoublingYarn_Delivery.resx">
+      <DependentUpon>DoublingYarn_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoublingYarn_Receipt.resx">
+      <DependentUpon>DoublingYarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EB_Diesel_Consumption_Entry_Simple.resx">
+      <DependentUpon>EB_Diesel_Consumption_Entry_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Payment_Entry.resx">
+      <DependentUpon>Employee_Payment_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmptyBeam_Excess_Short.resx">
+      <DependentUpon>EmptyBeam_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_Bobin_Delivery_Entry.resx">
+      <DependentUpon>Empty_Bobin_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_Bobin_Receipt_Entry.resx">
+      <DependentUpon>Empty_Bobin_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enlarge_Image.resx">
+      <DependentUpon>Enlarge_Image.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FabricLot_Creation.resx">
+      <DependentUpon>FabricLot_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fabric_Category_Creation.resx">
+      <DependentUpon>Fabric_Category_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fabric_Sales_Name_Creation.resx">
+      <DependentUpon>Fabric_Sales_Name_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Creation.resx">
+      <DependentUpon>Fibre_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Excess_Short.resx">
+      <DependentUpon>Fibre_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Purchase_GST.resx">
+      <DependentUpon>Fibre_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Purchase_Order_GST.resx">
+      <DependentUpon>Fibre_Purchase_Order_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Sales_Delivery.resx">
+      <DependentUpon>Fibre_Sales_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Sales_GST.resx">
+      <DependentUpon>Fibre_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibre_Sales_Order_GST.resx">
+      <DependentUpon>Fibre_Sales_Order_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_CashSales_GST.resx">
+      <DependentUpon>FinishedProduct_CashSales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_CashSales_GST_Simple.resx">
+      <DependentUpon>FinishedProduct_CashSales_GST_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Invoice_Entry_GST.resx">
+      <DependentUpon>FinishedProduct_Invoice_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Proforma_Invoice.resx">
+      <DependentUpon>FinishedProduct_Proforma_Invoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FireWood_Cutting_Entry.resx">
+      <DependentUpon>FireWood_Cutting_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FireWood_Purchase.resx">
+      <DependentUpon>FireWood_Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FireWood_Sales_Entry.resx">
+      <DependentUpon>FireWood_Sales_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garments_PackingSlip_Entry.resx">
+      <DependentUpon>Garments_PackingSlip_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garments_Packing_Inward.resx">
+      <DependentUpon>Garments_Packing_Inward.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garments_Price_List_Entry.resx">
+      <DependentUpon>Garments_Price_List_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Delivery.resx">
+      <DependentUpon>General_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GST_Account_Settings.resx">
+      <DependentUpon>GST_Account_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GST_EWB_API_SETTINGS.resx">
+      <DependentUpon>GST_EWB_API_SETTINGS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GST_Settings.resx">
+      <DependentUpon>GST_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardware_Creation.resx">
+      <DependentUpon>Hardware_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ic_Invoice_GST.resx">
+      <DependentUpon>Ic_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IC_Sales_Return_GST.resx">
+      <DependentUpon>IC_Sales_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inhouse_Pavu_Delivery.resx">
+      <DependentUpon>Inhouse_Pavu_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inhouse_Pavu_Receipt.resx">
+      <DependentUpon>Inhouse_Pavu_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHouse_Yarn_Delivery.resx">
+      <DependentUpon>InHouse_Yarn_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHouse_Yarn_Receipt.resx">
+      <DependentUpon>InHouse_Yarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Garments5_GST.resx">
+      <DependentUpon>Invoice_Garments5_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_GST_Format_2.resx">
+      <DependentUpon>Invoice_GST_Format_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_ConversionBill_Multi_Entry.resx">
+      <DependentUpon>JobWork_ConversionBill_Multi_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lot_Checking_Plan_Entry.resx">
+      <DependentUpon>Lot_Checking_Plan_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryForm.resx">
+      <DependentUpon>QueryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Report_Sales_Details_Customer_And_Quality_Wise_1414.rdlc" />
+    <EmbeddedResource Include="Resources\SizingSoft_Invoice_VAT.resx">
+      <DependentUpon>SizingSoft_Invoice_VAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesEntry_Export_Format_GST.resx">
+      <DependentUpon>SalesEntry_Export_Format_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_JobCard_Entry.resx">
+      <DependentUpon>Sizing_JobCard_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ledger_Creation_AdditionalCharges.resx">
+      <DependentUpon>Ledger_Creation_AdditionalCharges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_unloading_rate_Creation.resx">
+      <DependentUpon>Loading_unloading_rate_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoomNo_Production_Entry.resx">
+      <DependentUpon>LoomNo_Production_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lot_Allotment_Details.resx">
+      <DependentUpon>Lot_Allotment_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lot_Approval_Entry.resx">
+      <DependentUpon>Lot_Approval_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lot_Creation.resx">
+      <DependentUpon>Lot_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_List.resx">
+      <DependentUpon>Menu_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Cotton_Purchase_Return.resx">
+      <DependentUpon>OE_Cotton_Purchase_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Cotton_Waste_Sales_GST.resx">
+      <DependentUpon>OE_Cotton_Waste_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Count_Creation.resx">
+      <DependentUpon>OE_Count_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Count_Details.resx">
+      <DependentUpon>OE_Count_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Machine_Creation.resx">
+      <DependentUpon>OE_Machine_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Machine_Details.resx">
+      <DependentUpon>OE_Machine_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Manufacture_Creation.resx">
+      <DependentUpon>OE_Manufacture_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Mixing_Entry.resx">
+      <DependentUpon>OE_Mixing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Packing_Entry.resx">
+      <DependentUpon>OE_Packing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Production_Entry.resx">
+      <DependentUpon>OE_Production_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Purchase_Entry_GST.resx">
+      <DependentUpon>OE_Purchase_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Stock_Transfer_Entry.resx">
+      <DependentUpon>OE_Stock_Transfer_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Vortex_Production_Entry.resx">
+      <DependentUpon>OE_Vortex_Production_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Yarn_Sales_Delivery.resx">
+      <DependentUpon>OE_Yarn_Sales_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Yarn_Sales_Delivery_Return.resx">
+      <DependentUpon>OE_Yarn_Sales_Delivery_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Yarn_Sales_Invoice_GST.resx">
+      <DependentUpon>OE_Yarn_Sales_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Yarn_Sales_Order.resx">
+      <DependentUpon>OE_Yarn_Sales_Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Balance_Stock.resx">
+      <DependentUpon>Opening_Balance_Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Chemical_Stock.resx">
+      <DependentUpon>Opening_Chemical_Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Stock_Fibre.resx">
+      <DependentUpon>Opening_Stock_Fibre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Stock_Sizing.resx">
+      <DependentUpon>Opening_Stock_Sizing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackingSlip_Direct.resx">
+      <DependentUpon>PackingSlip_Direct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Party_Category_Creation.resx">
+      <DependentUpon>Party_Category_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payroll_Deduction_On_Salary_CategoryWise.resx">
+      <DependentUpon>Payroll_Deduction_On_Salary_CategoryWise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PreparingBackup.resx">
+      <DependentUpon>frm_PreparingBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Checking_Defect_Creation.resx">
+      <DependentUpon>Piece_Checking_Defect_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Joining.resx">
+      <DependentUpon>Piece_Joining.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Cotton_Waste_Sales_GST_Entry.resx">
+      <DependentUpon>Rewinding_Cotton_Waste_Sales_GST_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Delivery_Entry.resx">
+      <DependentUpon>Rewinding_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Invoice_Entry_GST.resx">
+      <DependentUpon>Rewinding_Invoice_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Receipt_Entry.resx">
+      <DependentUpon>Rewinding_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roll_Packing_1352.resx">
+      <DependentUpon>Roll_Packing_1352.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roll_Packing_Entry.resx">
+      <DependentUpon>Roll_Packing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selvedge_Cone_Invoice_Gst.resx">
+      <DependentUpon>Selvedge_Cone_Invoice_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shift_Creation.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Shift_Creation2.Designer.vb</LastGenOutput>
+      <DependentUpon>Shift_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_CashDiscount.resx">
+      <DependentUpon>Sizing_CashDiscount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Chemical_ExcessShort.resx">
+      <DependentUpon>Sizing_Chemical_ExcessShort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Chemical_PO_Entry.resx">
+      <DependentUpon>Sizing_Chemical_PO_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Chemical_Purchase_Gst.resx">
+      <DependentUpon>Sizing_Chemical_Purchase_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Chemical_Purchase_Return_Gst.resx">
+      <DependentUpon>Sizing_Chemical_Purchase_Return_Gst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Count_Creation.resx">
+      <DependentUpon>Sizing_Count_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Empty_BeamBagCone_Delivery_Entry.resx">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Empty_BeamBagCone_Excess_Short.resx">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Empty_BeamBagCone_Receipt_Entry.resx">
+      <DependentUpon>Sizing_Empty_BeamBagCone_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_FireWood_Consumption.resx">
+      <DependentUpon>Sizing_FireWood_Consumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemGroup_Creation.resx">
+      <DependentUpon>ItemGroup_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jari_Purchase_Entry.resx">
+      <DependentUpon>Jari_Purchase_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jari_Sales_Delivery_Entry.resx">
+      <DependentUpon>Jari_Sales_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jari_Sales_Delivery_Entry_GST.resx">
+      <DependentUpon>Jari_Sales_Delivery_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jari_Sales_Return_Entry.resx">
+      <DependentUpon>Jari_Sales_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Knotting_Bill_Entry.resx">
+      <DependentUpon>Knotting_Bill_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail_Settings.resx">
+      <DependentUpon>Mail_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Shirting_Bit_Entry.resx">
+      <DependentUpon>Processed_Shirting_Bit_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production_Entry.resx">
+      <DependentUpon>Production_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proforma_Bobin_Sales_Invoice_Entry_GST.resx">
+      <DependentUpon>Proforma_Bobin_Sales_Invoice_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_FireWood_Purchase.resx">
+      <DependentUpon>Sizing_FireWood_Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Hardware_Purchase_GST.resx">
+      <DependentUpon>Sizing_Hardware_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Invoice_GST.resx">
+      <DependentUpon>Sizing_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Invoice_GST_Format_2.resx">
+      <DependentUpon>Sizing_Invoice_GST_Format_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Item_Creation.resx">
+      <DependentUpon>Sizing_Item_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Kurai_Pavu_Receipt.resx">
+      <DependentUpon>Sizing_Kurai_Pavu_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Ledger_Rate_Details.resx">
+      <DependentUpon>Sizing_Ledger_Rate_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_MachineNo_Creation.resx">
+      <DependentUpon>Sizing_MachineNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_PavuDelivery_Entry.resx">
+      <DependentUpon>Sizing_PavuDelivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Pavu_Receipt.resx">
+      <DependentUpon>Sizing_Pavu_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Statement.resx">
+      <DependentUpon>Sizing_Statement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Waste_Sales_GST.resx">
+      <DependentUpon>Sizing_Waste_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_YarnDelivery_Entry.resx">
+      <DependentUpon>Sizing_YarnDelivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_YarnReceipt_Entry.resx">
+      <DependentUpon>Sizing_YarnReceipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Yarn_Delivery.resx">
+      <DependentUpon>Sizing_Yarn_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Yarn_Excess_Short.resx">
+      <DependentUpon>Sizing_Yarn_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Yarn_Receipt.resx">
+      <DependentUpon>Sizing_Yarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Yarn_Transfer.resx">
+      <DependentUpon>Sizing_Yarn_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizSoft_Empty_BeamBagCone_Receipt_Entry_by_Sizing.resx">
+      <DependentUpon>SizSoft_Empty_BeamBagCone_Receipt_Entry_by_Sizing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizSoft_PavuDelivery_Entry.resx">
+      <DependentUpon>SizSoft_PavuDelivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizSoft_YarnDelivery_Entry.resx">
+      <DependentUpon>SizSoft_YarnDelivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizSoft_YarnReceipt_Entry.resx">
+      <DependentUpon>SizSoft_YarnReceipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Slevedge_Creation.resx">
+      <DependentUpon>Slevedge_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software_Module_Selection.resx">
+      <DependentUpon>Software_Module_Selection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software_Options.resx">
+      <DependentUpon>Software_Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other_GST_Entry.resx">
+      <DependentUpon>Other_GST_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Packing_Entry.resx">
+      <DependentUpon>Packing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Purchase_GST.resx">
+      <DependentUpon>Pavu_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Sales_GST.resx">
+      <DependentUpon>Pavu_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Transfer_BeamWise.resx">
+      <DependentUpon>Pavu_Transfer_BeamWise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayRoll_Category_Creation.resx">
+      <DependentUpon>PayRoll_Category_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayRoll_Employee_Attendance_Simple.resx">
+      <DependentUpon>PayRoll_Employee_Attendance_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payroll_Employee_Creation.resx">
+      <DependentUpon>Payroll_Employee_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayRoll_Employee_Salary_Advance_Payment.resx">
+      <DependentUpon>PayRoll_Employee_Salary_Advance_Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayRoll_Employee_Salary_Entry_Simple.resx">
+      <DependentUpon>PayRoll_Employee_Salary_Entry_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Excess_Short.resx">
+      <DependentUpon>Piece_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Excess_Short.resx">
+      <DependentUpon>Processed_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Fabric_Sales_Invoice_GST.resx">
+      <DependentUpon>Processed_Fabric_Sales_Invoice_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Fabric_Waste_Delivery.resx">
+      <DependentUpon>Processed_Fabric_Waste_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_Entry_GST.resx">
+      <DependentUpon>Purchase_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roll_Packing.resx">
+      <DependentUpon>Roll_Packing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sizing_Speciication_GST.resx">
+      <DependentUpon>Sizing_Speciication_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sort_Change_Entry.resx">
+      <DependentUpon>Sort_Change_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sort_Change_Entry_Multi.resx">
+      <DependentUpon>Sort_Change_Entry_Multi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stamping_Creation.resx">
+      <DependentUpon>Stamping_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Brand_Creation.resx">
+      <DependentUpon>Stores_Brand_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_Period.resx">
+      <DependentUpon>Change_Period.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque_Print_Positioning.resx">
+      <DependentUpon>Cheque_Print_Positioning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Closing_Stock_value.resx">
+      <DependentUpon>Closing_Stock_value.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Cloth_Delivery.resx">
+      <DependentUpon>ClothSales_Cloth_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Delivery_Return.resx">
+      <DependentUpon>ClothSales_Delivery_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothSales_Order_Indent_Entry.resx">
+      <DependentUpon>ClothSales_Order_Indent_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Creation.resx">
+      <DependentUpon>Cloth_Creation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Excess_Short.resx">
+      <DependentUpon>Cloth_Excess_Short.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_PcsDelivery.resx">
+      <DependentUpon>Cloth_PcsDelivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Purchase_Receipt.resx">
+      <DependentUpon>Cloth_Purchase_Receipt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cloth_Transfer.resx">
+      <DependentUpon>Cloth_Transfer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Color_Creation.resx">
+      <DependentUpon>Color_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyGroup_Creation.resx">
+      <DependentUpon>CompanyGroup_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company_Creation.resx">
+      <DependentUpon>Company_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing_Entry_AutoLoom.resx">
+      <DependentUpon>Costing_Entry_AutoLoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Count_Creation.resx">
+      <DependentUpon>Count_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currency_Creation.resx">
+      <DependentUpon>Currency_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryTo_Rack.resx">
+      <DependentUpon>DeliveryTo_Rack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Department_Creation.resx">
+      <DependentUpon>Stores_Department_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doffing_Entry_Format1.resx">
+      <DependentUpon>Doffing_Entry_Format1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMAIL_Entry.resx">
+      <DependentUpon>EMAIL_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeCreation_Simple.resx">
+      <DependentUpon>EmployeeCreation_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_Bag_Receipt.resx">
+      <DependentUpon>Empty_Bag_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_BeamBagCone_Delivery_Entry.resx">
+      <DependentUpon>Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_BeamBagCone_Delivery_WidthWise_Entry.resx">
+      <DependentUpon>Empty_BeamBagCone_Delivery_WidthWise_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_BeamBagCone_Receipt_Entry.resx">
+      <DependentUpon>Empty_BeamBagCone_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_BeamBagCone_Receipt_WidthWise_Entry.resx">
+      <DependentUpon>Empty_BeamBagCone_Receipt_WidthWise_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_Beam_Purchase_Entry.resx">
+      <DependentUpon>Empty_Beam_Purchase_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empty_Beam_Sales.resx">
+      <DependentUpon>Empty_Beam_Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndsCount_Creation.resx">
+      <DependentUpon>EndsCount_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnlargePicture.resx">
+      <DependentUpon>EnlargePicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrance.resx">
+      <DependentUpon>Entrance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fabric_Delivery_ToSewing.resx">
+      <DependentUpon>Fabric_Delivery_ToSewing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Creation.resx">
+      <DependentUpon>FinishedProduct_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Creation_Simple.resx">
+      <DependentUpon>FinishedProduct_Creation_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_PackingSlip_Entry.resx">
+      <DependentUpon>FinishedProduct_PackingSlip_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Receipt_FromSewing.resx">
+      <DependentUpon>FinishedProduct_Receipt_FromSewing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedProduct_Sales_Return_Entry.resx">
+      <DependentUpon>FinishedProduct_Sales_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finished_Product_Order_Entry.resx">
+      <DependentUpon>Finished_Product_Order_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gate_Pass_Entry.resx">
+      <DependentUpon>Gate_Pass_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grey_Item_Creation.resx">
+      <DependentUpon>Grey_Item_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ic_Delivery.resx">
+      <DependentUpon>Ic_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemIssue_Entry.resx">
+      <DependentUpon>ItemIssue_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemIssue_Return.resx">
+      <DependentUpon>ItemIssue_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Creation.resx">
+      <DependentUpon>Stores_Item_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Delivery_Entry.resx">
+      <DependentUpon>Stores_Item_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Dispose_Entry.resx">
+      <DependentUpon>Stores_Item_Dispose_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Excess_Short_Entry.resx">
+      <DependentUpon>Stores_Item_Excess_Short_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Issue_Entry.resx">
+      <DependentUpon>Stores_Item_Issue_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_OpeningStock.resx">
+      <DependentUpon>Stores_Item_OpeningStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_PO_Entry.resx">
+      <DependentUpon>Stores_Item_PO_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_PurchaseReturn_Entry_GST.resx">
+      <DependentUpon>Stores_Item_PurchaseReturn_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Purchase_Entry_Bill_Making_GST.resx">
+      <DependentUpon>Stores_Item_Purchase_Entry_Bill_Making_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Purchase_Entry_GST.resx">
+      <DependentUpon>Stores_Item_Purchase_Entry_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Receipt_Entry.resx">
+      <DependentUpon>Stores_Item_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Item_Return_Entry.resx">
+      <DependentUpon>Stores_Item_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jari_Production.resx">
+      <DependentUpon>Jari_Production.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobCard_Sewing_Entry.resx">
+      <DependentUpon>JobCard_Sewing_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_ConversionBill_Entry.resx">
+      <DependentUpon>JobWork_ConversionBill_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_Empty_BeamBagCone_Delivery_Entry.resx">
+      <DependentUpon>JobWork_Empty_BeamBagCone_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_Order_Entry.resx">
+      <DependentUpon>JobWork_Order_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_PavuYarn_Receipt.resx">
+      <DependentUpon>JobWork_PavuYarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_PavuYarn_Return_Entry.resx">
+      <DependentUpon>JobWork_PavuYarn_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_PieceDelivery_Entry.resx">
+      <DependentUpon>JobWork_PieceDelivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_PieceInspection_Entry.resx">
+      <DependentUpon>JobWork_PieceInspection_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobWork_Production_Entry.resx">
+      <DependentUpon>JobWork_Production_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LedgerCreation_Processing.resx">
+      <DependentUpon>LedgerCreation_Processing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ledger_Creation.resx">
+      <DependentUpon>Ledger_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoomNo_Creation.resx">
+      <DependentUpon>LoomNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoomType_Creation.resx">
+      <DependentUpon>LoomType_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LotNo_creation.resx">
+      <DependentUpon>LotNo_creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Machine_Creation.resx">
+      <DependentUpon>Stores_Machine_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mill_Creation.resx">
+      <DependentUpon>Mill_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Oil_Service_Entry.resx">
+      <DependentUpon>Stores_Oil_Service_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Balance.resx">
+      <DependentUpon>Opening_Balance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening_Stock_Textile.resx">
+      <DependentUpon>Opening_Stock_Textile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Packing_Slip.resx">
+      <DependentUpon>Packing_Slip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Packing_Type_Creation.resx">
+      <DependentUpon>Packing_Type_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Party_Amount_Receipt_Entry.resx">
+      <DependentUpon>Party_Amount_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Excess_Short.resx">
+      <DependentUpon>Pavu_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Transfer.resx">
+      <DependentUpon>Pavu_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Yarn_Delivery.resx">
+      <DependentUpon>Pavu_Yarn_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavu_Yarn_Receipt.resx">
+      <DependentUpon>Pavu_Yarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Checking_InHouse_Format1.resx">
+      <DependentUpon>Piece_Checking_InHouse_Format1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Opening.resx">
+      <DependentUpon>Piece_Opening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piece_Transfer.resx">
+      <DependentUpon>Piece_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Fabric_Inspection.resx">
+      <DependentUpon>Processed_Fabric_Inspection.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Fabric_OpeningStock.resx">
+      <DependentUpon>Processed_Fabric_OpeningStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Item_SalesName.resx">
+      <DependentUpon>Processed_Item_SalesName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Item_Set_Entry.resx">
+      <DependentUpon>Processed_Item_Set_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Item_Transfer.resx">
+      <DependentUpon>Processed_Item_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processed_Item_UnSet_Entry.resx">
+      <DependentUpon>Processed_Item_UnSet_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing_Bill_Making_Textile.resx">
+      <DependentUpon>Processing_Bill_Making_Textile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing_Delivery_Textile.resx">
+      <DependentUpon>Processing_Delivery_Textile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing_JobOrder_Entry.resx">
+      <DependentUpon>Processing_JobOrder_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing_Receipt_Textile.resx">
+      <DependentUpon>Processing_Receipt_Textile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing_Return_Textile.resx">
+      <DependentUpon>Processing_Return_Textile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process_Creation.resx">
+      <DependentUpon>Process_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profit_And_Loss.resx">
+      <DependentUpon>Profit_And_Loss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RackNo_Creation.resx">
+      <DependentUpon>RackNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Details.resx">
+      <DependentUpon>Report_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnToFloor.resx">
+      <DependentUpon>ReturnToFloor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Delivery.resx">
+      <DependentUpon>Rewinding_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewinding_Receipt.resx">
+      <DependentUpon>Rewinding_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Service_Item_Delivery_Entry.resx">
+      <DependentUpon>Stores_Service_Item_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Size_Creation.resx">
+      <DependentUpon>Size_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sms_Entry.resx">
+      <DependentUpon>Sms_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDisplay_ProcessedItem.resx">
+      <DependentUpon>StockDisplay_ProcessedItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Service_Item_Receipt_Entry.resx">
+      <DependentUpon>Stores_Service_Item_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores_Unit_Creation.resx">
+      <DependentUpon>Stores_Unit_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Style_Creation.resx">
+      <DependentUpon>Style_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Name_Details.resx">
+      <DependentUpon>System_Name_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tally_Export.resx">
+      <DependentUpon>Tally_Export.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tax_Creation.resx">
+      <DependentUpon>Tax_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDS_Amount_Receipt_Entry.resx">
+      <DependentUpon>TDS_Amount_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipType_Creation.resx">
+      <DependentUpon>TipType_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer_Master_Ledgers_From_CompanyGroup.resx">
+      <DependentUpon>Transfer_Master_Ledgers_From_CompanyGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transport_Creation.resx">
+      <DependentUpon>Transport_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tsoft_MessageBox.resx">
+      <DependentUpon>Tsoft_MessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unit_Creation.resx">
+      <DependentUpon>Unit_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Creation.resx">
+      <DependentUpon>User_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Modifications.resx">
+      <DependentUpon>User_Modifications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Van_Trip_Entry.resx">
+      <DependentUpon>Van_Trip_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Variety_Creation.resx">
+      <DependentUpon>Variety_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VehicleNo_Creation.resx">
+      <DependentUpon>VehicleNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor_Cloth_Receipt_Entry.resx">
+      <DependentUpon>Vendor_Cloth_Receipt_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor_Creation.resx">
+      <DependentUpon>Vendor_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor_Pavu_Bobin_Yarn_Jari_Faric_PriceList_Entry.resx">
+      <DependentUpon>Vendor_Pavu_Bobin_Yarn_Jari_Faric_PriceList_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voucher_Entry.resx">
+      <DependentUpon>Voucher_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warping_MachineNo_Creation.resx">
+      <DependentUpon>Warping_MachineNo_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Waste_Creation.resx">
+      <DependentUpon>Waste_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Waste_Fabric_Sales.resx">
+      <DependentUpon>Waste_Fabric_Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Waste_opening.resx">
+      <DependentUpon>Waste_opening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Advance_Payment_Entry.resx">
+      <DependentUpon>Weaver_Advance_Payment_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Bobin_Delivery_Entry.resx">
+      <DependentUpon>Weaver_Bobin_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Bobin_Return_Entry.resx">
+      <DependentUpon>Weaver_Bobin_Return_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_ClothReceipt_cum_PieceChecking_Entry.resx">
+      <DependentUpon>Weaver_ClothReceipt_cum_PieceChecking_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Cloth_Receipt.resx">
+      <DependentUpon>Weaver_Cloth_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Cloth_Return_Delivery.resx">
+      <DependentUpon>Weaver_Cloth_Return_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_ExcessShort_Consumption.resx">
+      <DependentUpon>Weaver_ExcessShort_Consumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_KuraiPavu_Receipt.resx">
+      <DependentUpon>Weaver_KuraiPavu_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Pavu_Bobin_Yarn_Jari_Delivery_Entry.resx">
+      <DependentUpon>Weaver_Pavu_Bobin_Yarn_Jari_Delivery_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Pavu_Delivery.resx">
+      <DependentUpon>Weaver_Pavu_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Pavu_Receipt.resx">
+      <DependentUpon>Weaver_Pavu_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Payment_Entry.resx">
+      <DependentUpon>Weaver_Payment_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_PieceChecking_AutoLoom.resx">
+      <DependentUpon>Weaver_PieceChecking_AutoLoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Piece_Approval_Entry.resx">
+      <DependentUpon>Weaver_Piece_Approval_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Piece_Checking.resx">
+      <DependentUpon>Weaver_Piece_Checking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Piece_Checking_Simple.resx">
+      <DependentUpon>Weaver_Piece_Checking_Simple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Running_Fabrics_Details.resx">
+      <DependentUpon>Weaver_Running_Fabrics_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Selection.resx">
+      <DependentUpon>Weaver_Selection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Wages_ClothReceipt.resx">
+      <DependentUpon>Weaver_Wages_ClothReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Wages_Format2_GST.resx">
+      <DependentUpon>Weaver_Wages_Format2_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Wages_VAT.resx">
+      <DependentUpon>Weaver_Wages_VAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Wages_GST.resx">
+      <DependentUpon>Weaver_Wages_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Wages_Format_2.resx">
+      <DependentUpon>Weaver_Wages_Format_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Yarn_Delivery.resx">
+      <DependentUpon>Weaver_Yarn_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaver_Yarn_Receipt.resx">
+      <DependentUpon>Weaver_Yarn_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeavingUnit_Production_Wages_Entry.resx">
+      <DependentUpon>WeavingUnit_Production_Wages_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaving_Job_Card_Entry.resx">
+      <DependentUpon>Weaving_Job_Card_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weaving_Yarn_Excess_Short.resx">
+      <DependentUpon>Weaving_Yarn_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YarnProcessing_BillMaking.resx">
+      <DependentUpon>YarnProcessing_BillMaking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YarnProcessing_Delivery.resx">
+      <DependentUpon>YarnProcessing_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YarnProcessing_Receipt.resx">
+      <DependentUpon>YarnProcessing_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Excess_Short.resx">
+      <DependentUpon>Yarn_Excess_Short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Lot_Creation.resx">
+      <DependentUpon>Yarn_Lot_Creation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_Bill_Making_GST.resx">
+      <DependentUpon>Yarn_Purchase_Bill_Making_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_GST.resx">
+      <DependentUpon>Yarn_Purchase_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_Order_GST.resx">
+      <DependentUpon>Yarn_Purchase_Order_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_Return.resx">
+      <DependentUpon>Yarn_Purchase_Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_Receipt.resx">
+      <DependentUpon>Yarn_Purchase_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Purchase_Return_GST.resx">
+      <DependentUpon>Yarn_Purchase_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_GST.resx">
+      <DependentUpon>Yarn_Sales_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_Delivery.resx">
+      <DependentUpon>Yarn_Sales_Delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE_Yarn_Sales_Invoice_Return_GST.resx">
+      <DependentUpon>OE_Yarn_Sales_Invoice_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_Multi_GST.resx">
+      <DependentUpon>Yarn_Sales_Multi_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_Order_GST.resx">
+      <DependentUpon>Yarn_Sales_Order_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_Proforma_GST.resx">
+      <DependentUpon>Yarn_Sales_Proforma_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Sales_Return_GST.resx">
+      <DependentUpon>Yarn_Sales_Return_GST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yarn_Transfer.resx">
+      <DependentUpon>Yarn_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Add1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Add2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Add3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\AddAll.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BackGround1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Background4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Background5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\backnew1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\backnew2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\backnew3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BPV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BRV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Calc.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CALENDAR.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CASCADE.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CDROM.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Clock.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\close3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\close4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Close5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CURSOR.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Customer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CUT1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Delete1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Delete3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\DESAVE.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\DIALOG.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\DRIVE.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ERROR.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\EXIT2.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\FIRST.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\HELP.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\INF.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\INSERT.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\INVALID.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ITEM.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Key1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Keys1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Keys2.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Keys3.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\kghostview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Last1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Last2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Mdi_Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\New1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Next1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Next2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NextUp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\OPEN.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Order1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Order2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PHONE.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Preview1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Previous1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Previous2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Print1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Print2.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Print3.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\QUES.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\REFRESH.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\REMALL.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SAVE1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save3.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Setting1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Setting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User4.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User5.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\UserInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\WAIT.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Key2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\watermark KG.jpg" />
+    <None Include="Images\watermark  Thangam.jpg" />
+    <None Include="Resources\Test_Back_Img.jpg" />
+    <None Include="Resources\nidhie_weaving_logo.jpeg" />
+    <None Include="Images\Whatsapp_Logo1.png" />
+    <None Include="Script.sql" />
+    <None Include="Resources\Balaji_textile_venkatachalapathy.png" />
+    <None Include="Resources\parameshwari_Amman_logo.jpg" />
+    <None Include="Resources\BCI_Logo.png" />
+    <None Include="Resources\BCI IMAGE_Logo.jpg" />
+    <None Include="Resources\mahendra_mills.bmp" />
+    <None Include="Resources\sri_Guru_Fabrics_logo.jpg" />
+    <None Include="Resources\Sri_Guru_Fabrics_Company.jpg" />
+    <None Include="Resources\sri_guru_Company.jpg" />
+    <None Include="Resources\Sri_guru_Logo.jpg" />
+    <None Include="Images\Vinayakar_Mahendratx.jpg" />
+    <None Include="Images\Company_Logo_Star_1229.jpg" />
+    <None Include="Images\Company_Logo_AmmanTex.jpeg" />
+    <None Include="Images\Background6.jpg" />
+    <None Include="Images\Company_Logo_Vaipav.jpg" />
+    <None Include="Images\Company_Logo_Arjuna_Tex.jpg" />
+    <None Include="Images\sarveswara_logo.jpg" />
+    <None Include="Images\Show_PassWord.png" />
+    <None Include="Images\vijay_tex_Sign2.jpg" />
+    <None Include="Images\KR_Company_Logo.jpg" />
+    <None Include="Images\KR_Logo.jpg" />
+    <None Include="Images\Company_Logo_MerLineRoseTex.jpg" />
+    <None Include="Images\Company_Logo_GS_ELECTRONICS.jpg" />
+    <None Include="Images\Company_Logo_SugunaTex.png" />
+    <None Include="Images\Company_Logo_KarthikTex.JPG" />
+    <None Include="Images\Company_Logo_SubaSri_Textile.jpg" />
+    <None Include="Images\Coral_Weaver_Sign.jpeg" />
+    <None Include="Images\Rajeswari_Weaving_Logo.png" />
+    <None Include="Images\Rajeswari_Wovens_Logo.png" />
+    <None Include="Images\Prakash_logo.bmp" />
+    <None Include="Images\Company_Logo_Mukunth_Fabrics.bmp" />
+    <None Include="Images\exclamation2.png" />
+    <None Include="Images\information1.jpg" />
+    <None Include="Images\information2.jpg" />
+    <None Include="Images\question1.jpg" />
+    <None Include="Images\question2.jpg" />
+    <None Include="Images\question3.jpg" />
+    <None Include="Images\error1.jpg" />
+    <None Include="Images\exclamation1.png" />
+    <None Include="Images\Lourdu_matha_tex_logo.jpg" />
+    <None Include="Images\hari_ram_textile_komabakadu_logo.jpg" />
+    <None Include="Images\coral_weavers.jpeg" />
+    <None Include="Images\BCI_Logo_BW.png" />
+    <None Include="Images\Edit1.png" />
+    <None Include="Images\KRS_Logo.jpg" />
+    <None Include="Images\Bagavathi_Textile_logo_1387.jpeg" />
+    <None Include="Images\jobwork_logo_new.png" />
+    <None Include="Images\Accounts_logo_new.png" />
+    <None Include="Images\accounts-logo.png" />
+    <None Include="Images\Jobwork.png" />
+    <None Include="Images\EesanLogo.jpg" />
+    <None Include="Images\AWSSDK.Core.dll" />
+    <None Include="Images\AWSSDK.S3.dll" />
+    <None Include="Images\Krs_Sign.jpeg" />
+    <None Include="Images\Eesan_mills_sign.png" />
+    <None Include="Images\Backup_Preparing.png" />
+    <None Include="Images\Amirtham_1408_Description_footer.png" />
+    <None Include="Images\Accounts.jpeg" />
+    <None Include="Images\JobWorkUW.jpeg" />
+    <None Include="Images\AnandhaJothi_Logo.jpeg" />
+    <None Include="Images\KRG_Logo.jpeg" />
+    <None Include="Images\Gounder_Traders_Logo.jpg" />
+    <None Include="Images\Digitally_Verified.jpg" />
+    <None Include="Images\GowthamTex_Logo.jpeg" />
+    <None Include="Images\Ganga_group_logo.jpg" />
+    <None Include="Images\Ashvika Weaing_Logo.png" />
+    <None Include="Images\AKil impex.jpg" />
+    <None Include="Images\Ar_Traders_Sign.jpg" />
+    <None Include="Images\Company_Logo_1237.png" />
+    <None Include="Images\attachment4.png" />
+    <None Include="Images\ASPIRE ENTERPRISES.jpg" />
+    <None Include="Images\Bagavan_Logo_2.jpeg" />
+    <None Include="Images\Bagvan_Logo_3.jpeg" />
+    <Content Include="Images\Company_Logo_Jeno_Garments.jpg" />
+    <None Include="Images\Company_Logo_VEERATEX.png" />
+    <None Include="Images\Krg_Authorised_Sign.jpeg" />
+    <None Include="Images\Krg_Checked_By_Sign.jpeg" />
+    <None Include="Images\Krg_Prepared_By_Sign.jpeg" />
+    <None Include="Images\email_logo.png" />
+    <None Include="Images\IDBI_BANK_LOGO.jpeg" />
+    <None Include="Images\GUNASUNDARI_FIREWOODS_SIGN.jpg" />
+    <None Include="Images\KalaiMagal_Textile_Logo.jpg" />
+    <Content Include="Images\mahendra_Mills.jpg" />
+    <None Include="Images\MasterUW.jpeg" />
+    <None Include="Images\Master_new_logo.jpg" />
+    <None Include="Images\Mariya_International_logo.jpg" />
+    <Content Include="Images\ms_logo_2.gif" />
+    <None Include="Images\Nkitha_logo Logo.jpg" />
+    <None Include="Images\Shanthi_Logo.jpg" />
+    <None Include="Images\RCM_LOGO.png" />
+    <None Include="Images\payroll_logo_new.png" />
+    <None Include="Images\ownSort_logo_new.png" />
+    <None Include="Images\Reports_logo_new.png" />
+    <None Include="Images\Opening_logo_new.png" />
+    <None Include="Images\payroll-logo.png" />
+    <None Include="Images\Raay_San mills.jpg" />
+    <None Include="Images\PS_Textile_Logo_perumaal.jpeg" />
+    <None Include="Images\Santha_Exports.jpeg" />
+    <None Include="Images\periyanayakiamman_logo.jpg" />
+    <None Include="Images\Opening.jpeg" />
+    <None Include="Images\OwnSortUw.jpeg" />
+    <None Include="Images\PayrollUw.jpeg" />
+    <None Include="Images\ReportsUw.jpeg" />
+    <None Include="Images\Nidhie_weaving.jpg" />
+    <None Include="Images\prakash cottex_Logo.jpg" />
+    <None Include="Images\SriRam_AnupsharmaSign.jpg" />
+    <None Include="Images\Murugan123.png" />
+    <None Include="Images\nidhie_weaving_logo.jpeg" />
+    <None Include="Images\mulberry_synthetics_logo.jpeg" />
+    <Content Include="Images\OwnSort_Weaving_Logo.jpg" />
+    <None Include="Images\Sastika_Logo.png" />
+    <None Include="Images\sashwiga_Left.png" />
+    <None Include="Images\sashwiga_right.png" />
+    <None Include="Images\SRI_BHAGAVAN_TEX_LOGO.jpeg" />
+    <Content Include="Images\Sugam_logo_2.png" />
+    <None Include="Images\sugam_logo_watermark.png" />
+    <None Include="Images\SVT_LOGO.png" />
+    <None Include="Images\united_weaves_logo_png.png" />
+    <None Include="Images\Trading_logo_new.png" />
+    <None Include="Images\TradingUw.jpeg" />
+    <None Include="Images\VINAYAKAA.jpeg" />
+    <None Include="Images\Vendor_Logo.jpg" />
+    <None Include="Images\UNITED_WEAVES_SIGN.jpeg" />
+    <Content Include="Images\Vinayakar_cholatx.jpg" />
+    <None Include="Images\REVISED LOGO[7] %282%29.jpg" />
+    <None Include="Images\KmtOe.png" />
+    <None Include="Images\vsm_logo.jpg" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Images\Companylogo_Rajeswari_Weaving_Mills.jpg" />
+    <None Include="Images\Company_Logo_AnnaiTex.jpg" />
+    <None Include="Images\Company_Logo_JenoTex.jpg" />
+    <None Include="Images\Company_Logo_ArulKumaran.jpg" />
+    <Content Include="Images\ammanswami.jpg" />
+    <Content Include="Images\ammanswami1.jpg" />
+    <Content Include="Images\Company_Logo_LogaTex.jpg" />
+    <Content Include="Images\Company_Logo_MK.jpg" />
+    <None Include="Images\Company_Logo_Selvanayaki_Kpati.jpg" />
+    <Content Include="Images\Ganesha_Tex.jpg" />
+    <None Include="Images\GANESH_TEX.png" />
+    <Content Include="Images\GSM_LOGO.jpg" />
+    <None Include="Images\KeasavLogu.jpg" />
+    <None Include="Images\JPR_LOGO.jpg" />
+    <None Include="Images\JPR_LOGO2.jpg" />
+    <None Include="Images\Shakthi_Vinayaka.jpg" />
+    <None Include="Images\SPT.jpg" />
+    <None Include="Images\Murugan.png" />
+    <Content Include="Images\MURUGAN1.jpg" />
+    <Content Include="Images\tsoft1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
